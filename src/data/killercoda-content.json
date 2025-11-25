@@ -1,0 +1,30 @@
+{
+  "labs": [
+    {
+      "id": "extending_k8s",
+      "title": "Extending Kubernetes API with CRDs",
+      "description": "Learn to extend Kubernetes by creating Custom Resource Definitions and building operators with Kubebuilder.",
+      "difficulty": "Advanced",
+      "tags": ["kubernetes", "crd", "kubebuilder", "operators"],
+      "link": "https://killercoda.com/aghilish/scenario/extending_k8s"
+    },
+    {
+      "id": "webhooks",
+      "title": "Kubernetes Admission Webhooks",
+      "description": "Build and deploy mutating and validating admission webhooks to enforce custom policies in your cluster.",
+      "difficulty": "Advanced",
+      "tags": ["kubernetes", "webhooks", "kubebuilder"],
+      "link": "https://killercoda.com/aghilish/scenario/webhooks"
+    },
+    {
+      "id": "k8sgpt",
+      "title": "K8SGPT - AI-Powered Cluster Analysis",
+      "description": "Use K8SGPT to diagnose and troubleshoot Kubernetes cluster issues with AI assistance.",
+      "difficulty": "Intermediate",
+      "tags": ["kubernetes", "ai", "troubleshooting", "k8sgpt"],
+      "link": "https://killercoda.com/aghilish/scenario/k8sgpt"
+    }
+  ],
+  "profileUrl": "https://killercoda.com/aghilish",
+  "lastUpdated": "2025-11-25T12:00:00.000Z"
+}

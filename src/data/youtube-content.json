@@ -1,0 +1,241 @@
+{
+  "channel": {
+    "id": "UCYLdtJWGJbcXI2uMkSzUMpg",
+    "title": "Shahrooz Aghili",
+    "description": "This is where I share my cloud native learnings ;) stay tuned!\n",
+    "url": "https://youtube.com/channel/UCYLdtJWGJbcXI2uMkSzUMpg"
+  },
+  "videos": [
+    {
+      "id": "Oh1Hb13BXfA",
+      "title": "MCP Server for Kubernetes",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/Oh1Hb13BXfA/hqdefault.jpg",
+      "publishedAt": "2025-10-12T09:57:57Z",
+      "link": "https://www.youtube.com/watch?v=Oh1Hb13BXfA"
+    },
+    {
+      "id": "ZvcwY5Y4ouk",
+      "title": "Build Your OWN MCP Server for Kubernetes | AI Integration Crash Course",
+      "description": "Model Context Protocol (MCP) is revolutionizing how AI applications integrate with external systems and data sources. In this comprehensive tutorial, you'll learn how to build\n  production-ready MCP servers and create a Kubernetes operator to manage them at scale.\n\n  MCP provides a standardized way for LLMs to access context from your systems - think of it as \"USB for AI integrations\". Instead of building M×N integrations between AI apps and\n  tools, MCP transforms it into an M+N problem with a unified protocol.\n\n  #kubernetes #mcp #operator #ai #llm #cloudnative #platformengineering #kubebuilder #programming\n\n  ➡ GitHub: https://github.com/aghilish/k8s-mcp\n  ➡ Follow me on GitHub: https://github.com/aghilish\n  ➡ Follow me on LinkedIn: https://linkedin.com/in/aghilish/\n  ➡ Kubebuilder Crash Course: https://youtu.be/azJsyLjvHsI\n\n  (0:00) Intro\n  (01:31) What is Model Context Protocol?\n  (04:04) MCP Architecture & Core Primitives\n  (04:40) Resources, Tools, and Prompts\n  (09:03) Building Your First MCP Server\n  (14:40) Stdio vs HTTP Transport\n  (19:45) Kubernetes Integration\n  (57:10) MCP Server Operator Design\n  (58:40) Creating the Operator with Kubebuilder\n  (01:01:40) Custom Resource Definition\n  (01:05:16) Reconcile Loop Implementation\n  (01:13:18) Deploy and Test the Operatorx\n  (01:17:23) Outro\n\n  By the end of this tutorial, you'll have:\n  ✅ Built MCP servers that integrate LLMs with Kubernetes\n  ✅ Created a complete operator for managing MCP server deployments\n  ✅ Understood production considerations for AI infrastructure\n\n  This tutorial bridges the gap between AI tooling and cloud-native infrastructure!",
+      "thumbnail": "https://i.ytimg.com/vi/ZvcwY5Y4ouk/hqdefault.jpg",
+      "publishedAt": "2025-10-06T16:41:00Z",
+      "link": "https://www.youtube.com/watch?v=ZvcwY5Y4ouk"
+    },
+    {
+      "id": "J7DkI3DLbi8",
+      "title": "Extending Kubernetes API with CRDs - Part 2 - Hands on Lab",
+      "description": "Welcome to Part 2 of our Kubernetes API Deep Dive series! In this hands-on lab, we dive into extending Kubernetes APIs using Custom Resource Definitions (CRDs). Follow along as we set up a development environment, initialize a Kubebuilder project, create and validate a CRD, and deploy a sample custom resource. This tutorial is perfect for those looking to customize Kubernetes for their specific needs.\n\n#Kubernetes #KubernetesAPI #CRD #Kubebuilder #CloudNative #DevOps #KubernetesTutorial #TechTutorial\n\n➡ Presentation: https://aghilish.github.io/k8s-api/  \n➡ Killercoda Lab: https://killercoda.com/aghilish/scenario/extending_k8s  \n➡ Part 1 - Introduction to Kubernetes API: https://youtu.be/qKrIizrEjUs\n➡ Kubebuilder Crash Course: https://youtu.be/azJsyLjvHsI\n\n**Timeline:**  \n(0:00) Intro  \n(0:51) Environment Setup  \n(1:41) Initialize a Kubebuilder Project  \n(02:51) Create a Custom Resource Definition  \n(04:51) Define Spec and Status  \n(06:18) Add Validation Markers  \n(07:54) Generate and Install the CRD  \n(11:04) Create a Sample Custom Resource  \n(11:37) Run the Controller Locally  \n(13:09) Cleanup  \n(13:59) Further Resources  \n(14:33) Outro  \n\n➡ Follow me on GitHub: https://github.com/aghilish  \n➡ Follow me on LinkedIn: https://linkedin.com/in/aghilish/  \n➡ Follow me on X: https://x.com/aghilish  \n➡ Follow me on LinkTree: https://linktr.ee/aghilish",
+      "thumbnail": "https://i.ytimg.com/vi/J7DkI3DLbi8/hqdefault.jpg",
+      "publishedAt": "2025-05-06T07:20:06Z",
+      "link": "https://www.youtube.com/watch?v=J7DkI3DLbi8"
+    },
+    {
+      "id": "DMbRFItRPig",
+      "title": "Extending Kubernetes API with CRDs - Part 2 - Theory",
+      "description": "Welcome to Part 2 of our Kubernetes API Deep Dive series! In this theory-focused session, we explore the concepts behind extending Kubernetes APIs using Custom Resource Definitions (CRDs). Join us as we break down API aggregation, Kubebuilder fundamentals, and the process of creating and validating CRDs. Learn about defining Spec and Status, using Marker Comments, leveraging Common Expression Language (CEL) for validation, and configuring Additional Printer Columns. This tutorial is ideal for anyone looking to understand the theoretical foundations of customizing Kubernetes.\n\n#Kubernetes #KubernetesAPI #CRD #Kubebuilder #CloudNative #DevOps #KubernetesTutorial #TechTutorial\n\n➡ Presentation: https://aghilish.github.io/k8s-api/  \n➡ Hands-On Lab: https://killercoda.com/aghilish/scenario/crds_kubebuilder\n➡ Part 1 - Introduction to Kubernetes API: https://youtu.be/qKrIizrEjUs  \n➡ Kubebuilder Crash Course: https://youtu.be/azJsyLjvHsI  \n\n**Timeline:**  \n(0:00) Intro  \n(1:15) Extending the Kubernetes API  \n(2:05) API Aggregation  \n(3:43) Kubebuilder Overview  \n(4:24) Creating Your API  \n(4:50) Marker Comments  \n(6:20) Defining Spec and Status in a CRD  \n(11:44) Installing the CRD  \n(12:54) Common Expression Language (CEL)  \n(15:16) Additional Printer Columns  \n(15:34) Final Remarks  \n(16:25) Outro  \n\n➡ Follow me on GitHub: https://github.com/aghilish  \n➡ Follow me on LinkedIn: https://linkedin.com/in/aghilish  \n➡ Follow me on X: https://x.com/aghilish  \n➡ Follow me on LinkTree: https://linktr.ee/aghilish",
+      "thumbnail": "https://i.ytimg.com/vi/DMbRFItRPig/hqdefault.jpg",
+      "publishedAt": "2025-05-06T07:00:06Z",
+      "link": "https://www.youtube.com/watch?v=DMbRFItRPig"
+    },
+    {
+      "id": "qKrIizrEjUs",
+      "title": "Introduction to Kubernetes API: Architecture, Interaction, and Object Model - Part 1",
+      "description": "Welcome to the Kubernetes API Deep Dive presentation! In this video, we will explore the architecture of the Kubernetes API, how to interact with it, and the Kubernetes object model. This presentation is designed to help you understand the core mechanisms of the Kubernetes API and how to effectively manage and interact with a Kubernetes cluster.\n\n\n#Kubernetes #KubernetesAPI #CloudNative #DevOps #KubernetesTutorial  #KubernetesControllers #KubernetesLearning  #TechTutorial \n\n\n➡  Presentation: https://aghilish.github.io/k8s-api/\n➡  Killercoda Lab: https://killercoda.com/aghilish/scenario/extending_k8s\n➡  Extending Kubernetes with Kubebuilder: https://www.youtube.com/watch?v=azJsyLjvHsI\n\n\n\n\n\n\n(0:00) Intro\n(0:12) Agenda\n(0:28) Kubernetes API Architecture \n(02:32) Interacting with the Kubernetes API\n(03:43) API Groups and Versions\n(05:55) Kubernetes Object Model\n(07:38) Outro\n\n\n\n➡  Follow me on GitHub: https://github.com/aghilish \n➡  Follow me on LinkedIn: https://linkedin.com/in/aghilish/\n➡  Follow me on X: https://x.com/aghilish\n➡  Follow me on LinkTree: https://linktr.ee/aghilish",
+      "thumbnail": "https://i.ytimg.com/vi/qKrIizrEjUs/hqdefault.jpg",
+      "publishedAt": "2025-02-12T16:40:41Z",
+      "link": "https://www.youtube.com/watch?v=qKrIizrEjUs"
+    },
+    {
+      "id": "_OUXPOaE-Ss",
+      "title": "K8SGPT Operator detecting issues #ai #cloudnative #kubernetes #chatgpt",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/_OUXPOaE-Ss/hqdefault.jpg",
+      "publishedAt": "2025-01-11T14:29:46Z",
+      "link": "https://www.youtube.com/watch?v=_OUXPOaE-Ss"
+    },
+    {
+      "id": "mMWeSEoztlM",
+      "title": "From K8SGPT to Schednex –  Introducing AI-Powered 🤖 Kubernetes Control Planes! 🚀",
+      "description": "Discover how K8SGPT uses AI to diagnose Kubernetes cluster issues, and how Schednex takes it further by making smart pod placement decisions. Schednex leverages K8SGPT insights to optimize scheduling, ensuring efficient workload distribution – and defaults to the standard scheduler when needed.\n\n\n\n#kubernetes  #crashcourse #llm #ai #languagemodels #controlplane\n#cloudnative #programming #CloudNative #Tutorial #sre #openai #openaichatgpt \n\n➡  Killercoda Lab: https://killercoda.com/aghilish/scenario/k8sgpt\n➡  K8SGPT: https://github.com/k8sgpt-ai/k8sgpt\n➡  K8SGPT Operator: https://github.com/k8sgpt-ai/k8sgpt-operator\n➡  Schednex: https://github.com/schednex-ai/schednex\n➡  Schednex Demo from Alex Jones @CloudNativeSkunkworks : https://youtu.be/IiM_n-JwgaI?\n\n\n\n(0:00) Intro\n(1:18) K8SGPT CLI\n(6:46) K8sGPT Operator \n(14:34) Schednex\n(18:00) Outro\n\n\n\n➡  Follow me on GitHub: https://github.com/aghilish \n➡  Follow me on LinkedIn: https://linkedin.com/in/aghilish/\n➡  Follow me on X: https://x.com/aghilish\n➡  Follow me on LinkTree: https://linktr.ee/aghilish",
+      "thumbnail": "https://i.ytimg.com/vi/mMWeSEoztlM/hqdefault.jpg",
+      "publishedAt": "2025-01-06T08:00:06Z",
+      "link": "https://www.youtube.com/watch?v=mMWeSEoztlM"
+    },
+    {
+      "id": "yX7A-5LO9to",
+      "title": "etcd encryption at rest #kubernetes #cybersecurity #encryption #cloudnative",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/yX7A-5LO9to/hqdefault.jpg",
+      "publishedAt": "2024-12-28T15:40:21Z",
+      "link": "https://www.youtube.com/watch?v=yX7A-5LO9to"
+    },
+    {
+      "id": "_VT2LSLbuNQ",
+      "title": "Kubernetes Public Key Infrastructure #kubernetes #cybersecurity #cloudnative",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/_VT2LSLbuNQ/hqdefault.jpg",
+      "publishedAt": "2024-12-28T15:33:24Z",
+      "link": "https://www.youtube.com/watch?v=_VT2LSLbuNQ"
+    },
+    {
+      "id": "hSzvmQ_8hbA",
+      "title": "Kubernetes The Hard Way by Kelsey Hightower | Build Your Own Cluster From Scratch!",
+      "description": "\"Kubernetes the Hard Way\" by Kelsey Hightower is one of the best tutorials available for gaining a comprehensive, bird’s-eye view of Kubernetes architecture. By following this guide, you’ll gain a deep understanding of how Kubernetes components are seamlessly integrated. To further enhance the learning experience, I’ve added additional documentation covering Public Key Infrastructure (PKI) and container networking, offering more insight into these crucial topics.\n\n\n\n\n#kubernetes  #crashcourse #platformengineering \n#cloudnative #programming ##DevOps #CloudNative #Tutorial\n\n➡  GitHub: https://github.com/aghilish/kubernetes-the-hard-way/tree/youtube-tutorial\n\n\n(0:00) Intro\n(1:14) Prerequisites\n(4:44) Setting up Jumpbox\n(8:10) Setting up SSH\n(14:09) Setting up DNS\n(16:02) Public Key Infrastructure\n(22:30) Creating Kubeconfigs\n(25:06) Setting up ETCD Encryption Key\n(26:20) Bootstrapping ETCD Cluster\n(28:26) Bootstrapping Control Plane\n(32:58) Bootstrapping Worker Nodes\n(39:42) Setting up Kubectl\n(40:54) Setting up Pod Network Routes\n(42:58) Smoke Testing\n(47:48) Cleanup\n(48:22) Outro\n\n\n\n➡  Follow me on GitHub: https://github.com/aghilish \n➡  Follow me on LinkedIn: https://linkedin.com/in/aghilish/\n➡  Follow me on X: https://x.com/aghilish\n➡  Follow me on LinkTree: https://linktr.ee/aghilish",
+      "thumbnail": "https://i.ytimg.com/vi/hSzvmQ_8hbA/hqdefault.jpg",
+      "publishedAt": "2024-09-15T09:44:07Z",
+      "link": "https://www.youtube.com/watch?v=hSzvmQ_8hbA"
+    },
+    {
+      "id": "7d8uoZnxZJY",
+      "title": "Where is my webhook running? Kubebuilder crash course #cloudnative #kubebuilder #kubernetes",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/7d8uoZnxZJY/hqdefault.jpg",
+      "publishedAt": "2024-07-23T11:38:57Z",
+      "link": "https://www.youtube.com/watch?v=7d8uoZnxZJY"
+    },
+    {
+      "id": "UcOlUebZ7yY",
+      "title": "Testing Validating Webhooks - Kubebuilder Crash Course #kubebuilder #cloudnative #kubernetes",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/UcOlUebZ7yY/hqdefault.jpg",
+      "publishedAt": "2024-07-23T11:21:56Z",
+      "link": "https://www.youtube.com/watch?v=UcOlUebZ7yY"
+    },
+    {
+      "id": "bOalXo21fF4",
+      "title": "Kubernetes Admission Webhooks - Kubebuilder Tutorial",
+      "description": "Admission webhooks are powerful tools in Kubernetes that allow you to intercept and modify requests to the Kubernetes API server. They enable dynamic admission control, allowing you to enforce custom policies and ensure compliance with organizational standards. In this video, we will cover everything you need to know to create, deploy, and test your own admission webhooks.\n\n\n#kubernetes  #crashcourse #kubebuilder #platformengineering \n#cloudnative #programming #AdmissionWebhooks #Kubebuilder #K8s #DevOps #CloudNative #Tutorial\n\n➡  Hands-on Lab:  https://killercoda.com/aghilish/scenario/webhooks\n➡  Playbook: https://roozy-io.github.io/idp/tutorials/k8s-webhooks.html\n➡  GitHub: https://github.com/aghilish/operator-tutorial/tree/feat/webhook\n➡  Kubebuilder Tutorial:  https://killercoda.com/aghilish/scenario/webhooks\n\n\n(0:00) Intro\n(0:44) Agenda\n(1:15) Admission Controllers \n(2:01) Admission Webhooks\n(5:36) Our First Admission Webhook\n(9:35) Update Our Ghost Controller\n(11:03) Implement Webhook Logic\n(13:06) Deploy Webhook\n(18:14) Test Mutating Webhook\n(19:16) Test Validating Webhook\n(20:04) Learning Resources\n(20:16) Outro\n\n➡  Follow me on GitHub: https://github.com/aghilish \n➡  Follow me on LinkedIn: https://linkedin.com/in/aghilish/\n➡  Follow me on X: https://x.com/aghilish\n➡  Follow me on LinkTree: https://linktr.ee/aghilish",
+      "thumbnail": "https://i.ytimg.com/vi/bOalXo21fF4/hqdefault.jpg",
+      "publishedAt": "2024-07-12T12:00:06Z",
+      "link": "https://www.youtube.com/watch?v=bOalXo21fF4"
+    },
+    {
+      "id": "AT0Y5f4UVnU",
+      "title": "Kube-Controller-Manager vs. Operator Manager",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/AT0Y5f4UVnU/hqdefault.jpg",
+      "publishedAt": "2024-06-06T18:11:14Z",
+      "link": "https://www.youtube.com/watch?v=AT0Y5f4UVnU"
+    },
+    {
+      "id": "ErRhBOQQDr8",
+      "title": "What is a Crossplane Pipeline Composition ?",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/ErRhBOQQDr8/hqdefault.jpg",
+      "publishedAt": "2024-05-31T08:27:52Z",
+      "link": "https://www.youtube.com/watch?v=ErRhBOQQDr8"
+    },
+    {
+      "id": "K35_k6HEnDE",
+      "title": "What is an Operator ?",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/K35_k6HEnDE/hqdefault.jpg",
+      "publishedAt": "2024-05-30T15:35:07Z",
+      "link": "https://www.youtube.com/watch?v=K35_k6HEnDE"
+    },
+    {
+      "id": "KXV5WnCh9F4",
+      "title": "CR update and Reconciliation",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/KXV5WnCh9F4/hqdefault.jpg",
+      "publishedAt": "2024-05-30T13:40:23Z",
+      "link": "https://www.youtube.com/watch?v=KXV5WnCh9F4"
+    },
+    {
+      "id": "TpihmCIHFd8",
+      "title": "What is a Kubebuilder Marker ?",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/TpihmCIHFd8/hqdefault.jpg",
+      "publishedAt": "2024-05-30T13:31:00Z",
+      "link": "https://www.youtube.com/watch?v=TpihmCIHFd8"
+    },
+    {
+      "id": "azJsyLjvHsI",
+      "title": "Kubebuilder Crash Course - Extend Kubernetes Like a Pro!",
+      "description": "Operator pattern is very popular for bringing domain knowledge into Kubernetes and extend the Kubernetes api. There are some good tooling built by the Kubernetes community that makes building an operator much easier and https://kubebuilder.io is one of the most popular ones.\n\n\n#kubernetes  #operator #crashcourse #kubebuilder #platformengineering \n#cloudnative #programming \n\n➡  Playbook: https://roozy-io.github.io/idp/tutorials/extending-k8s.html\n➡  Hands-on Lab:  https://killercoda.com/aghilish/scenario/extending_k8s\n➡  GitHub: https://github.com/aghilish/operator-tutorial\n\n\n(0:00) Intro\n(0:38) Kubernetes Extension Points\n(3:21) Declarative vs Imperative APIs\n(05:00) Operator Pattern\n(07:48) 2 Hands-on Models\n(08:45) Hands-on Lab Agenda\n(11:12) Custom Resource Definition API\n(17:50) Create Kubebuilder Project\n(23:20) Create Our First API\n(29:28) A look into Kubebuilder Setup\n(30:55) Add Logging to Reconcile Function\n(33:33) Desired State\n(36:24) Read CR in Reconcile Function\n(39:07) Kubebuilder & RBAC\n(41:28) Add Managed Persistent Volume Claim\n(45:56) Add Managed Deployment\n(48:22) Add Managed Service\n(49:48) Wrap up Reconcile\n(54:45) Update CR\n(55:50) Delete CR\n(57:19) Deploy Operator\n(01:00:48) Setup VSCode Debugger \n(01:02:55) Learning Resources\n(01:04:00) Outro\n\n➡  Follow me on GitHub: https://github.com/aghilish \n➡  Follow me on LinkedIn: https://linkedin.com/in/aghilish/",
+      "thumbnail": "https://i.ytimg.com/vi/azJsyLjvHsI/hqdefault.jpg",
+      "publishedAt": "2024-05-19T15:02:20Z",
+      "link": "https://www.youtube.com/watch?v=azJsyLjvHsI"
+    },
+    {
+      "id": "m6-xIhQcCe4",
+      "title": "Crossplane Composition Functions Deep Dive",
+      "description": "Crossplane composition functions allows platform engineers to extend the crossplane core and implement custom logic for their compositions. \n\n⚠️ 𝗖𝗢𝗥𝗥𝗘𝗖𝗧𝗜𝗢𝗡 ⚠️ \nAt multiple points during the video, I mention that 𝗥𝘂𝗻𝗙𝘂𝗻𝗰𝘁𝗶𝗼𝗻𝗥𝗲𝗾𝘂𝗲𝘀𝘁 is initiated at the provider which is 𝘄𝗿𝗼𝗻𝗴! The source of the requests is 𝗖𝗿𝗼𝘀𝘀𝗽𝗹𝗮𝗻𝗲 𝗖𝗼𝗿𝗲 𝗥𝘂𝗻𝘁𝗶𝗺𝗲. \n\n#crossplane #iac #kubernetes #platformengineering \n#cloudnative #crossplane_compositions\n➡  Gist with the commands: https://roozy-io.github.io/idp/templating/crossplane-composition-functions.html\n➡  GitHub: https://github.com/aghilish/function-add-k8s-labels-annotations\n\n\n(0:00) Intro\n(0:37) Crossplane Recap \n(2:18) Limitations of Compositions\n(4:36) Crossplane Goals with Composition Functions\n(5:15) How does It Work?\n(7:28) Benefits\n(08:20) Functions Internals\n(09:40) Code Deep Dive\n(14:20) Building the Function\n(15:30) Running the Function Locally\n(17:40) How to Package Your Function\n(18:28) How to Deploy to Production\n(26:47) Outro\n\n\n➡  Intro to crossplane : \nhttps://www.youtube.com/watch?v=iqc2VAxsH_s\n➡  Crossplane Compositions vs Terraform Modules : \nhttps://www.youtube.com/watch?v=Ysg-u2ba88I\n➡  Steven Borrelli's Demo of Composition Functions at OSSummit 2023:\nhttps://www.youtube.com/watch?v=n0j5WiavXEI\n\n • Crossplane Demo  \n➡  Follow me on Twitter: https://twitter.com/aghilish\n➡  Follow me on GitHub: https://github.com/aghilish\n➡  Follow me on LinkedIn: https://www.linkedin.com/in/aghilish/",
+      "thumbnail": "https://i.ytimg.com/vi/m6-xIhQcCe4/hqdefault.jpg",
+      "publishedAt": "2024-03-16T10:02:56Z",
+      "link": "https://www.youtube.com/watch?v=m6-xIhQcCe4"
+    },
+    {
+      "id": "Ysg-u2ba88I",
+      "title": "Crossplane Compositions vs Terraform Modules",
+      "description": "Crossplane is an advanced tool for managing infrastructure in the cloud-native ecosystem. Crossplane API allows platform engineers to group managed resources into compositions and hide the complexities from application teams. \n\n#crossplane #iac #kubernetes #platformengineering \n#terraform #cloudnative\n➡  Gist with the commands: https://roozy-io.github.io/idp/templating/crossplane-compositions.html\n➡  GitHub: https://github.com/aghilish/crossplane-compositions-vs-terraform-modules\n\n\n(0:00) Intro\n(1:33) Why do we need compositions? \n(2:18) Compositions architecture\n(4:36) Sample GKE cluster module in Terraform \n(5:55) Setup Crossplane\n(9:17) Apply XRD\n(12:00) Apply Composition\n(13:06) Composition Functions\n(15:30) Claiming a cluster\n(18:26) Accessing the cluster\n(19:47) Destroying the cluster\n(20:14) Outro\n\n\n➡  Intro to crossplane : https://youtu.be/iqc2VAxsH_s\n➡  Follow me on Twitter:  https://twitter.com/aghilish\n➡  Follow me on GitHub:  https://github.com/aghilish\n➡  Follow me on LinkedIn: https://www.linkedin.com/in/aghilish",
+      "thumbnail": "https://i.ytimg.com/vi/Ysg-u2ba88I/hqdefault.jpg",
+      "publishedAt": "2024-02-09T15:46:13Z",
+      "link": "https://www.youtube.com/watch?v=Ysg-u2ba88I"
+    },
+    {
+      "id": "YjW_EL9rqCg",
+      "title": "Argo CD Demo",
+      "description": "Argo CD is the most popular tool for gitOps continuous deployment within the cloud native community.  \n\n#argocd  #gitops #cloudnative #kubernetes #cid #handsontraining \n\n➡  Gist : https://roozy-io.github.io/idp/tools/argocd.html\n➡ Hands on Exercise:  https://killercoda.com/shahrooz33ce/scenario/argo_cd_intro\n\n(0:00) Intro to Argo CD\n(0:28) Argo CD on CNCF landscape\n(0:55) GitOps - Pull vs Push\n(3:02) Hands on Exercise\n(4:00) Installing Argo CD\n(5:21) Logging into Argo CD dashboard\n(6:15) Creating the first Argo CD application\n(9:19) Self Healing\n(10:58) Self Pruning\n(12:00) Outro\n\n\n➡  Follow me on Twitter:  https://twitter.com/aghilish\n➡  Follow me on GitHub:  https://github.com/aghilish\n➡  Follow me on LinkedIn: https://www.linkedin.com/in/aghilish",
+      "thumbnail": "https://i.ytimg.com/vi/YjW_EL9rqCg/hqdefault.jpg",
+      "publishedAt": "2024-01-14T12:44:18Z",
+      "link": "https://www.youtube.com/watch?v=YjW_EL9rqCg"
+    },
+    {
+      "id": "iqc2VAxsH_s",
+      "title": "Crossplane Demo",
+      "description": "Crossplane is an advanced tool for managing infrastructure in the cloud-native ecosystem.\n\n#crossplane #iac #kubernetes \n\n➡  Gist with the commands: https://roozy-io.github.io/idp/templating/crossplane.html\n\n(0:00) Intro to Crossplane\n(0:57) Crossplane on CNCF landscape\n(2:07) Installing Crossplane\n(5:24) Configuring GCP\n(8:22) Creating the first Crossplane Managed Object\n(9:52) Drift Detection\n(11:18) Outro\n\n➡  Follow me on Twitter:  https://twitter.com/aghilish\n➡  Follow me on GitHub:  https://github.com/aghilish\n➡  Follow me on LinkedIn: https://www.linkedin.com/in/aghilish",
+      "thumbnail": "https://i.ytimg.com/vi/iqc2VAxsH_s/hqdefault.jpg",
+      "publishedAt": "2024-01-04T14:09:20Z",
+      "link": "https://www.youtube.com/watch?v=iqc2VAxsH_s"
+    },
+    {
+      "id": "mvPhL5ONScU",
+      "title": "Public Cloud and Chat GPT",
+      "description": "https://infrabyteai.com",
+      "thumbnail": "https://i.ytimg.com/vi/mvPhL5ONScU/hqdefault.jpg",
+      "publishedAt": "2023-08-03T17:25:07Z",
+      "link": "https://www.youtube.com/watch?v=mvPhL5ONScU"
+    }
+  ],
+  "playlists": [
+    {
+      "id": "PL7X-d0Xri3pQH4WIn6th_sQdYcDoJxFXP",
+      "title": "MCP",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/8-okWLAUI3Q/hqdefault.jpg",
+      "itemCount": 4,
+      "publishedAt": "2025-07-29T19:12:17.083905Z",
+      "link": "https://www.youtube.com/playlist?list=PL7X-d0Xri3pQH4WIn6th_sQdYcDoJxFXP"
+    },
+    {
+      "id": "PL7X-d0Xri3pQodizfnvPksxcyGSS_MB-R",
+      "title": "Kubebuilder",
+      "description": "",
+      "thumbnail": "https://i.ytimg.com/vi/azJsyLjvHsI/hqdefault.jpg",
+      "itemCount": 6,
+      "publishedAt": "2024-07-30T07:37:49.843188Z",
+      "link": "https://www.youtube.com/playlist?list=PL7X-d0Xri3pQodizfnvPksxcyGSS_MB-R"
+    },
+    {
+      "id": "PL7X-d0Xri3pTKXodjF6_kjfy6TOXt_GyN",
+      "title": "Tutorials",
+      "description": "A playlist for the tutorials and crash courses I post on anything Kubernetes.",
+      "thumbnail": "https://i.ytimg.com/vi/ZvcwY5Y4ouk/hqdefault.jpg",
+      "itemCount": 8,
+      "publishedAt": "2024-05-19T14:50:29.296839Z",
+      "link": "https://www.youtube.com/playlist?list=PL7X-d0Xri3pTKXodjF6_kjfy6TOXt_GyN"
+    },
+    {
+      "id": "PL7X-d0Xri3pQV9M4D0BAjBJxz8vUXJYnQ",
+      "title": "Internal Developer Platform",
+      "description": "Let’s discuss tools and technologies used to build an internal developer platform.",
+      "thumbnail": "https://i.ytimg.com/vi/iqc2VAxsH_s/hqdefault.jpg",
+      "itemCount": 11,
+      "publishedAt": "2024-01-04T13:52:30.677121Z",
+      "link": "https://www.youtube.com/playlist?list=PL7X-d0Xri3pQV9M4D0BAjBJxz8vUXJYnQ"
+    }
+  ],
+  "lastUpdated": "2025-11-25T11:51:50.991Z"
+}
