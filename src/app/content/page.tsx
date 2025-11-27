@@ -245,7 +245,7 @@ export default function ContentPage() {
       {/* Topics I Cover */}
       <section className="content-section" style={{ paddingLeft: 0, paddingRight: 0 }}>
         <h2 className="content-section__title" style={{ paddingLeft: '3rem', paddingRight: '3rem' }}>Topics I Cover</h2>
-        <div className="cards-grid">
+        <div className="cards-grid" style={{ borderTop: '1px solid var(--color-border)' }}>
           <div className="card" style={{ textAlign: 'left', borderLeft: 'none' }}>
             <KubernetesIcon style={{ marginBottom: '1.5rem', color: 'var(--color-accent)' }} />
             <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.8rem', marginBottom: '1rem' }}>Kubernetes</h3>

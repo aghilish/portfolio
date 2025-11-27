@@ -101,27 +101,27 @@ export default function CVPage() {
       </section>
 
       {/* Quick Overview */}
-      <section className="content-section">
-        <h2 className="content-section__title">Quick Overview</h2>
-        <div className="cards-grid" style={{ borderTop: 'none' }}>
-          <div className="card" style={{ textAlign: 'left' }}>
+      <section className="content-section" style={{ paddingLeft: 0, paddingRight: 0 }}>
+        <h2 className="content-section__title" style={{ paddingLeft: '3rem', paddingRight: '3rem' }}>Quick Overview</h2>
+        <div className="cards-grid" style={{ borderTop: '1px solid var(--color-border)' }}>
+          <div className="card" style={{ textAlign: 'left', borderLeft: 'none' }}>
             <BriefcaseIcon style={{ marginBottom: '1.5rem', color: 'var(--color-accent)' }} />
-            <h3 className="card__title" style={{ marginTop: 0 }}>16+ Years Experience</h3>
-            <p className="card__teaser" style={{ marginBottom: 0 }}>
+            <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.8rem', marginBottom: '1rem' }}>16+ Years Experience</h3>
+            <p style={{ color: 'var(--color-muted)', lineHeight: '1.6' }}>
               From research in telecommunications to leading DevOps teams at Fortune 500 companies.
             </p>
           </div>
           <div className="card" style={{ textAlign: 'left' }}>
             <EducationIcon style={{ marginBottom: '1.5rem', color: 'var(--color-accent)' }} />
-            <h3 className="card__title" style={{ marginTop: 0 }}>Academic Background</h3>
-            <p className="card__teaser" style={{ marginBottom: 0 }}>
+            <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.8rem', marginBottom: '1rem' }}>Academic Background</h3>
+            <p style={{ color: 'var(--color-muted)', lineHeight: '1.6' }}>
               MS from Sharif University. PhD research at TU Darmstadt in 5G networks.
             </p>
           </div>
           <div className="card" style={{ textAlign: 'left' }}>
             <AwardIcon style={{ marginBottom: '1.5rem', color: 'var(--color-accent)' }} />
-            <h3 className="card__title" style={{ marginTop: 0 }}>Certifications</h3>
-            <p className="card__teaser" style={{ marginBottom: 0 }}>
+            <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.8rem', marginBottom: '1rem' }}>Certifications</h3>
+            <p style={{ color: 'var(--color-muted)', lineHeight: '1.6' }}>
               CKA, CKS, GCP Professional Cloud Architect, CNCF Community Organizer.
             </p>
           </div>
