@@ -176,16 +176,19 @@ export default function Home() {
               background: 'linear-gradient(135deg, rgba(0,212,170,0.1) 0%, rgba(77,175,230,0.1) 100%)'
             }}>
               {work.logos.map((Logo, index) => (
-                <Logo
+                <div
                   key={index}
-                  className="company-logo"
                   style={{
                     width: work.logos.length > 1 ? '45%' : '60%',
                     height: 'auto',
                     maxHeight: '80px',
-                    objectFit: 'contain'
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center'
                   }}
-                />
+                >
+                  <Logo className="company-logo" />
+                </div>
               ))}
             </div>
             <h3 className="card__title">{work.title}</h3>

@@ -192,7 +192,7 @@ export default function ServicesPage() {
           rel="noopener noreferrer"
           className="cta-button cta-button--services"
         >
-          <LinkedInLogo width="20" height="20" />
+          <LinkedInLogo width={20} height={20} />
           Connect on LinkedIn
         </a>
       </section>
