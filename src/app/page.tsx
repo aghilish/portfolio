@@ -8,7 +8,8 @@ import {
   GoogleCloudLogo,
   LinkedInLogo,
   YouTubeLogo,
-  ContactIcon
+  ContactIcon,
+  CalendlyIcon
 } from '@/components/CompanyLogos';
 
 const trustedCompanies = [
@@ -37,7 +38,7 @@ const featuredWork = [
     logos: [VolkswagenLogo],
   },
   {
-    company: 'Google Cloud Alliance',
+    company: 'Deloitte × Google Cloud',
     title: 'Manufacturing Data Engine PoC',
     description: 'Directed development of GCP Manufacturing Data Engine proof of concept, applying FinOps principles and Well-Architected Framework.',
     tags: ['GCP', 'MDE', 'FinOps', 'Architecture'],
@@ -75,6 +76,15 @@ export default function Home() {
           <ContactIcon className="cta-icon" />
         </Link>
         <a
+          href="https://calendly.com/aghilish/30min"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="cta-button"
+          aria-label="Schedule a Call"
+        >
+          <CalendlyIcon className="cta-icon" />
+        </a>
+        <a
           href="https://linkedin.com/in/aghilish"
           target="_blank"
           rel="noopener noreferrer"
@@ -97,9 +107,8 @@ export default function Home() {
       {/* Bio Section */}
       <section className="intro intro--content">
         <p>
-          With 16+ years of software engineering experience, I specialize in cloud-native technologies,
-          technical leadership, and DevOps transformation. Currently leading DevOps workstreams at Deloitte
-          for Volkswagen's manufacturing platform. <span className="intro__emoji">🚀</span>
+          I help enterprises scale with cloud-native technologies. Currently leading DevOps transformation
+          at Deloitte for Volkswagen. <span className="intro__emoji">🚀</span>
         </p>
       </section>
 
@@ -163,7 +172,7 @@ export default function Home() {
               justifyContent: 'center',
               gap: '1rem',
               padding: '2rem',
-              minHeight: '200px',
+              height: '200px',
               background: 'linear-gradient(135deg, rgba(0,212,170,0.1) 0%, rgba(77,175,230,0.1) 100%)'
             }}>
               {work.logos.map((Logo, index) => (

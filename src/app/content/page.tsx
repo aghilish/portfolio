@@ -1,5 +1,7 @@
 import youtubeData from '@/data/youtube-content.json';
 import killercodaData from '@/data/killercoda-content.json';
+import { KubernetesIcon, DevOpsIcon, ObservabilityIcon, LabIcon } from '@/components/Icons';
+import { YouTubeLogo } from '@/components/CompanyLogos';
 
 const topics = [
   { name: 'Kubernetes', count: 15 },
@@ -40,7 +42,7 @@ export default function ContentPage() {
       {playlists.length > 0 && (
         <>
           <h2 className="section-title">
-            <span style={{ marginRight: '0.5rem' }}>📚</span> YouTube Playlists
+            <YouTubeLogo className="section-title-icon" /> YouTube Playlists
           </h2>
           <section className="content-grid">
             {playlists.map((playlist) => (
@@ -177,7 +179,7 @@ export default function ContentPage() {
 
       {/* KillerCoda Labs */}
       <h2 className="section-title">
-        <span style={{ marginRight: '0.5rem' }}>🧪</span> Interactive Labs (KillerCoda)
+        <LabIcon className="section-title-icon" /> Interactive Labs (KillerCoda)
       </h2>
       <section className="content-grid">
         {killercodaLabs.map((lab) => (
@@ -241,30 +243,30 @@ export default function ContentPage() {
       </section>
 
       {/* Topics I Cover */}
-      <section className="content-section">
-        <h2 className="content-section__title">Topics I Cover</h2>
-        <div className="cards-grid" style={{ borderTop: 'none' }}>
-          <div className="card" style={{ textAlign: 'left' }}>
-            <span style={{ fontSize: '2.5rem', marginBottom: '1rem', display: 'block' }}>☸️</span>
+      <section className="content-section" style={{ paddingLeft: 0, paddingRight: 0 }}>
+        <h2 className="content-section__title" style={{ paddingLeft: '3rem', paddingRight: '3rem' }}>Topics I Cover</h2>
+        <div className="cards-grid">
+          <div className="card" style={{ textAlign: 'left', borderLeft: 'none' }}>
+            <KubernetesIcon style={{ marginBottom: '1.5rem', color: 'var(--color-accent)' }} />
             <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.8rem', marginBottom: '1rem' }}>Kubernetes</h3>
             <p style={{ color: 'var(--color-muted)', lineHeight: '1.6' }}>
-              From fundamentals to advanced operations. Deployments, networking, security, 
+              From fundamentals to advanced operations. Deployments, networking, security,
               troubleshooting, and production best practices.
             </p>
           </div>
           <div className="card" style={{ textAlign: 'left' }}>
-            <span style={{ fontSize: '2.5rem', marginBottom: '1rem', display: 'block' }}>🔄</span>
+            <DevOpsIcon style={{ marginBottom: '1.5rem', color: 'var(--color-accent)' }} />
             <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.8rem', marginBottom: '1rem' }}>DevOps & CI/CD</h3>
             <p style={{ color: 'var(--color-muted)', lineHeight: '1.6' }}>
-              GitOps, Tekton, GitHub Actions, ArgoCD. Building reliable pipelines 
+              GitOps, Tekton, GitHub Actions, ArgoCD. Building reliable pipelines
               for cloud-native applications.
             </p>
           </div>
           <div className="card" style={{ textAlign: 'left' }}>
-            <span style={{ fontSize: '2.5rem', marginBottom: '1rem', display: 'block' }}>📊</span>
+            <ObservabilityIcon style={{ marginBottom: '1.5rem', color: 'var(--color-accent)' }} />
             <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.8rem', marginBottom: '1rem' }}>Observability</h3>
             <p style={{ color: 'var(--color-muted)', lineHeight: '1.6' }}>
-              OpenTelemetry, Prometheus, Grafana, Elastic Stack. Complete observability 
+              OpenTelemetry, Prometheus, Grafana, Elastic Stack. Complete observability
               for distributed systems.
             </p>
           </div>

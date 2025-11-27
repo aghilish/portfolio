@@ -1,0 +1,235 @@
+cv:
+  name: Shahrooz Aghili
+  label: Senior Solutions Architect & CNCF Community Group Organizer
+  location: Frankfurt, Hesse, Germany
+  email: shahrooz33ce@gmail.com
+  website: https://linktr.ee/aghilish
+  social_networks:
+    - network: LinkedIn
+      username: aghilish
+    - network: YouTube
+      username: aghilish
+  sections:
+    Summary:
+      - '[**Multi-Domain Software Engineer**](https://linktr.ee/aghilish) with 16+ years of experience in software engineering'
+      - 'Expertise in **Cloud-Native Technologies**, **Technical Leadership**, and **Mentorship**'
+      - 'Passionate **Educator** and **Innovation Enthusiast**'
+
+    Skills:
+      - label: Cloud & Platforms
+        details: Google Cloud Platform (GCP), AWS, OpenShift, Kubernetes, Anthos, EKS
+      - label: DevOps & CI/CD
+        details: Tekton Framework, GitHub Actions, GitLab CI, ArgoCD, Helm
+      - label: Observability
+        details: OpenTelemetry, Elastic Stack (ELK), Prometheus, Grafana, APM
+      - label: Programming
+        details: C#/.NET, TypeScript/Node.js, Python, Java, Go, MATLAB, C++
+      - label: Infrastructure as Code
+        details: Terraform, AWS CDK, CloudFormation, Helm Charts
+      - label: Message Brokers
+        details: MQTT, Apache Kafka, RabbitMQ, Redis
+      - label: Databases
+        details: PostgreSQL, MongoDB, Elasticsearch, Redis
+
+    Experience:
+      - company: Deloitte Consulting
+        position: DevOps Squad Lead
+        location: Frankfurt, Hesse, Germany
+        start_date: 2025-01
+        end_date: present
+        highlights:
+          - Leading two workstreams with a combined team of 12 consultants across multiple seniority levels
+          - Responsible for technical interviews and supporting engagement partner with staffing decisions
+          - Serving as technical lead and platform engineer for Volkswagen's DevOps Enabling Team within ART FSS
+          - Developing self-service CDK library fully compliant with Volkswagen's AWS Vanguard framework
+          - Automating CI/CD pipelines and designing scalable EKS-based deployment architectures
+          - Driving end-to-end implementation of ART-wide observability strategy covering metrics, logs, traces, and business KPIs
+          - Implementing zero-code instrumentation for business-specific signals using shared NuGet packages
+          - Integrating Elastic Stack as central monitoring platform with OTLP exporters and Helm chart extensions
+
+      - company: Deloitte Consulting
+        position: DevOps Tech Lead
+        location: Frankfurt, Hesse, Germany
+        start_date: 2024-04
+        end_date: 2024-12
+        highlights:
+          - Led infrastructure automation initiatives and CI/CD pipeline development for Volkswagen and Audi
+          - Mentored and provided technical direction to a team of three Deloitte engineers
+          - Collaborated with product owners to develop tailored rollout strategies aligned with business needs
+          - Designed and implemented release concepts for workloads on plant-based clusters
+          - Developed cloud-native system and load testing automation for Data Capture Application (DCA)
+          - Integrated Tekton pipelines with XRAY and Jira to streamline testing workflows
+          - Partnered with VW SDC operations teams and external consulting partners for seamless platform integration
+
+      - company: Deloitte Consulting
+        position: Senior Solutions Architect
+        location: Frankfurt, Hesse, Germany
+        start_date: 2023-12
+        end_date: 2024-04
+        highlights:
+          - Directed development of PoC for Google Cloud's Manufacturing Data Engine for Deloitte-Google Alliance
+          - Applied FinOps principles and GCP Well-Architected Framework best practices
+          - Built advanced pipelines for Kubernetes node scheduling and on-demand infrastructure provisioning
+          - Worked closely with Google MDE development teams for seamless upgrades and maintenance
+          - Delivered technical presentations to prospective Deloitte clients
+
+      - company: Cloud Native Frankfurt
+        position: Community Group Organizer
+        location: Frankfurt Rhine-Main Metropolitan Area
+        start_date: 2025-02
+        end_date: present
+        highlights:
+          - Organizing Cloud Native community events and meetups in Frankfurt region
+          - Building local CNCF community and fostering knowledge sharing
+          - Connecting cloud-native practitioners and enthusiasts
+
+      - company: Self-employed
+        position: Content Creator – Cloud-Native Technologies
+        location: Remote
+        start_date: 2024-04
+        end_date: present
+        highlights:
+          - Developed hands-on training materials and interactive scenarios on https://killercoda.com/aghilish
+          - Created and managed YouTube channel with tutorials and practical guides (https://www.youtube.com/@aghilish)
+          - Covered topics including Kubernetes, containerization, cloud platforms, and DevOps best practices
+          - Empowering learners with actionable skills through engaging educational content
+
+      - company: CARIAD
+        position: Freelance Senior DevOps Engineer
+        location: Remote
+        start_date: 2023-10
+        end_date: 2023-11
+        highlights:
+          - Successfully migrated Infotainment software build pipeline from CARIAD DevStack to GitHub Enterprise CI/CD
+          - Enhanced pipeline efficiency and maintainability
+
+      - company: Commerzbank AG
+        position: Senior Platform Engineer
+        location: Frankfurt, Hesse, Germany
+        start_date: 2023-02
+        end_date: 2023-09
+        highlights:
+          - Led engineering backlog ensuring platform's continuous development and team alignment
+          - Guided and mentored team of junior cloud-native engineers
+          - Designed and conducted in-depth workshops on Knowledge Graph Kubernetes platform
+          - Spearheaded migration of microservices to multi-regional Google Anthos setup
+          - Maintained hands-on approach through practical demonstrations on killercoda.com/aghilish
+
+      - company: Commerzbank AG
+        position: Platform Engineer
+        location: Frankfurt, Hesse, Germany
+        start_date: 2021-03
+        end_date: 2023-02
+        highlights:
+          - Engineered robust deployment pipeline for KYC ETL process
+          - Implemented and maintained Infrastructure as Code (IaC) practices
+          - Designed and managed CI/CD pipelines to streamline development workflows
+          - Contributed to design and implementation of scalable microservices-based solutions
+          - Built and optimized networking architecture for reliable system communication
+
+      - company: Main Incubator GmbH
+        position: Backend Engineer / DevOps
+        location: Frankfurt am Main, Hesse
+        start_date: 2019-06
+        end_date: 2021-02
+        highlights:
+          - Contributed to small agile incubator team developing cloud-native applications on GCP
+          - Played dual role in backend development and DevOps
+          - Utilized cutting-edge stack including Firebase, Node.js with TypeScript, and React.js
+
+      - company: Technische Universität Darmstadt
+        position: Researcher - PhD Dropout
+        location: Darmstadt Area, Germany
+        start_date: 2016-12
+        end_date: 2018-12
+        highlights:
+          - Contributed to development and optimization of 5G mm-wave network technologies
+          - Utilized Python, C++, and MATLAB for network design, simulation, and implementation
+
+      - company: Parham Co.
+        position: Senior Software Engineer
+        location: Tehran, Iran
+        start_date: 2015-10
+        end_date: 2016-10
+        highlights:
+          - Delivered comprehensive full-stack solutions
+          - Leveraged expertise in both front-end and back-end development
+
+      - company: Sharif University of Technology
+        position: Research Assistant
+        location: Tehran, Iran
+        start_date: 2014-09
+        end_date: 2015-09
+        highlights:
+          - Focused on Software Defined Networks (SDN) with innovative network architectures
+          - Authored thesis on "Distributed Publisher-Subscriber Pattern for Content-Based Routing in SDN"
+          - Hands-on experience with OpenDaylight Controller, Mininet, and Java
+
+      - company: Solico Group
+        position: Senior Software Developer
+        location: Tehran, Iran
+        start_date: 2012-03
+        end_date: 2014-11
+        highlights:
+          - Specialized in creating robust and scalable back-end solutions for enterprise applications
+
+      - company: Telecomsoft
+        position: Software Developer
+        location: Tehran, Iran
+        start_date: 2011-10
+        end_date: 2012-02
+        highlights:
+          - Designed and developed simulation tool for routing and bundling in optical networks
+          - Commissioned by Iranian Telecommunication Research Center (ITRC)
+          - Utilized C# and MATLAB for application development and simulation
+
+    Education:
+      - institution: Technische Universität Darmstadt
+        area: Computer Science
+        degree: PhD (Dropout)
+        start_date: 2016
+        end_date: 2018
+        highlights:
+          - Research focus on 5G mm-wave network technologies
+
+      - institution: Sharif University of Technology
+        area: Information Technology
+        degree: Master of Science (MS)
+        start_date: 2013
+        end_date: 2015
+        highlights:
+          - Thesis on Software Defined Networks and Content-Based Routing
+
+      - institution: Isfahan University of Technology
+        area: Computer Engineering
+        degree: Bachelor of Science (BS)
+        start_date: 2007
+        end_date: 2011
+
+    Certifications:
+      - bullet: "Organizer - 2024 Cloud Native Community Group"
+      - bullet: "Agentic AI Certification"
+      - bullet: "Google Cloud Certified Professional Cloud Architect"
+      - bullet: "CKA: Certified Kubernetes Administrator"
+      - bullet: "CKS: Certified Kubernetes Security Specialist"
+
+    Languages:
+      - label: Persian
+        details: Native or Bilingual
+      - label: English
+        details: Full Professional
+      - label: German
+        details: Full Professional
+
+design:
+  theme: engineeringresumes
+  page:
+    size: a4
+  colors:
+    text: rgb(0, 0, 0)
+    name: rgb(0, 0, 0)
+    connections: rgb(0, 0, 0)
+    section_titles: rgb(0, 0, 0)
+    links: rgb(0, 0, 0)
+  text:
+    font_size: 10pt

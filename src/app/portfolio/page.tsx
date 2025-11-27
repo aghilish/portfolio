@@ -1,7 +1,10 @@
+import { DeloitteLogo, VolkswagenLogo, GoogleCloudLogo, CommerzbankLogo, CariadLogo } from '@/components/CompanyLogos';
+
 const caseStudies = [
   {
     id: 'deloitte-vw',
     company: 'Deloitte × Volkswagen',
+    logos: [DeloitteLogo, VolkswagenLogo],
     title: 'DevOps Enabling Team for Future Shopfloor Services',
     context: `Volkswagen's Agile Release Train (ART) for Future Shopfloor Services needed a robust DevOps 
       foundation to support their manufacturing digitalization initiative. The platform serves multiple 
@@ -27,6 +30,7 @@ const caseStudies = [
   {
     id: 'gcp-mde',
     company: 'Deloitte × Google Cloud Alliance',
+    logos: [DeloitteLogo, GoogleCloudLogo],
     title: 'Manufacturing Data Engine Proof of Concept',
     context: `As part of Deloitte's partnership with Google Cloud, we needed to demonstrate the 
       capabilities of the Manufacturing Data Engine (MDE) to prospective clients in the manufacturing 
@@ -52,6 +56,7 @@ const caseStudies = [
   {
     id: 'commerzbank',
     company: 'Commerzbank AG',
+    logos: [CommerzbankLogo, GoogleCloudLogo],
     title: 'Multi-Regional Google Anthos Migration',
     context: `Commerzbank's Knowledge Graph platform required enhanced scalability and reliability 
       to support growing microservices workloads. The existing single-region setup was becoming a 
@@ -77,6 +82,7 @@ const caseStudies = [
   {
     id: 'cariad',
     company: 'CARIAD (Volkswagen Group)',
+    logos: [CariadLogo],
     title: 'CI/CD Migration to GitHub Enterprise',
     context: `CARIAD's Infotainment software build pipeline was running on the internal DevStack 
       platform. The team needed to migrate to GitHub Enterprise to improve collaboration and 
@@ -100,6 +106,7 @@ const caseStudies = [
   {
     id: 'main-incubator',
     company: 'Main Incubator GmbH',
+    logos: [CommerzbankLogo, GoogleCloudLogo],
     title: 'Cloud-Native Application Development on GCP',
     context: `As part of Commerzbank's innovation arm, Main Incubator builds cutting-edge 
       fintech applications. The team needed full-stack engineering capabilities with strong 
@@ -143,6 +150,14 @@ export default function PortfolioPage() {
             <div className="case-study__tags">
               {study.technologies.map((tech) => (
                 <span key={tech} className="tag">{tech}</span>
+              ))}
+            </div>
+            <div className="case-study__logos">
+              {study.logos.map((Logo, index) => (
+                <Logo
+                  key={index}
+                  className="case-study__logo"
+                />
               ))}
             </div>
           </div>

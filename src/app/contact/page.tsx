@@ -1,4 +1,6 @@
 import Link from 'next/link';
+import { LightningIcon, PhoneIcon, DocumentIcon, MailIcon } from '@/components/Icons';
+import { LinkedInLogo } from '@/components/CompanyLogos';
 
 export default function ContactPage() {
   return (
@@ -24,6 +26,14 @@ export default function ContactPage() {
               </p>
             </div>
             <div className="contact-info__item">
+              <p className="contact-info__label">Schedule a Call</p>
+              <p className="contact-info__value">
+                <a href="https://calendly.com/aghilish/30min" target="_blank" rel="noopener noreferrer">
+                  Book a 30-minute call
+                </a>
+              </p>
+            </div>
+            <div className="contact-info__item">
               <p className="contact-info__label">LinkedIn</p>
               <p className="contact-info__value">
                 <a href="https://linkedin.com/in/aghilish" target="_blank" rel="noopener noreferrer">
@@ -45,9 +55,9 @@ export default function ContactPage() {
         {/* Contact Form */}
         <section className="content-section">
           <h2 className="content-section__title">Send a Message</h2>
-          <form 
+          <form
             className="contact-form"
-            action="https://formspree.io/f/your-form-id" 
+            action="https://formspree.io/f/meowpwwz"
             method="POST"
           >
             <div className="form-group">
@@ -106,30 +116,30 @@ export default function ContactPage() {
       </div>
 
       {/* What to Expect */}
-      <section className="content-section">
-        <h2 className="content-section__title">What to Expect</h2>
-        <div className="cards-grid" style={{ borderTop: 'none' }}>
-          <div className="card" style={{ textAlign: 'left' }}>
-            <span style={{ fontSize: '2.5rem', marginBottom: '1rem', display: 'block' }}>⚡</span>
+      <section className="content-section" style={{ paddingLeft: 0, paddingRight: 0 }}>
+        <h2 className="content-section__title" style={{ paddingLeft: '3rem', paddingRight: '3rem' }}>What to Expect</h2>
+        <div className="cards-grid">
+          <div className="card" style={{ textAlign: 'left', borderLeft: 'none' }}>
+            <LightningIcon style={{ marginBottom: '1.5rem', color: 'var(--color-accent)' }} />
             <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.8rem', marginBottom: '1rem' }}>Quick Response</h3>
             <p style={{ color: 'var(--color-muted)', lineHeight: '1.6' }}>
-              I typically respond within 24-48 hours on business days. For urgent matters, 
+              I typically respond within 24-48 hours on business days. For urgent matters,
               reach out via LinkedIn.
             </p>
           </div>
           <div className="card" style={{ textAlign: 'left' }}>
-            <span style={{ fontSize: '2.5rem', marginBottom: '1rem', display: 'block' }}>📞</span>
+            <PhoneIcon style={{ marginBottom: '1.5rem', color: 'var(--color-accent)' }} />
             <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.8rem', marginBottom: '1rem' }}>Discovery Call</h3>
             <p style={{ color: 'var(--color-muted)', lineHeight: '1.6' }}>
-              For consulting inquiries, we'll schedule a free 30-minute call to discuss your 
+              For consulting inquiries, we'll schedule a free 30-minute call to discuss your
               needs and how I can help.
             </p>
           </div>
           <div className="card" style={{ textAlign: 'left' }}>
-            <span style={{ fontSize: '2.5rem', marginBottom: '1rem', display: 'block' }}>📋</span>
+            <DocumentIcon style={{ marginBottom: '1.5rem', color: 'var(--color-accent)' }} />
             <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.8rem', marginBottom: '1rem' }}>Proposal</h3>
             <p style={{ color: 'var(--color-muted)', lineHeight: '1.6' }}>
-              Based on our discussion, I'll provide a detailed proposal with scope, 
+              Based on our discussion, I'll provide a detailed proposal with scope,
               timeline, and investment options.
             </p>
           </div>
@@ -160,19 +170,23 @@ export default function ContactPage() {
           Let's build something great together.
         </p>
         <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
-          <a 
-            href="mailto:shahrooz33ce@gmail.com" 
+          <a
+            href="mailto:shahrooz33ce@gmail.com"
             className="btn btn--accent"
+            style={{ display: 'inline-flex', alignItems: 'center', gap: '0.8rem' }}
           >
-            📧 Email Me
+            <MailIcon width="20" height="20" />
+            Email Me
           </a>
-          <a 
-            href="https://linkedin.com/in/aghilish" 
+          <a
+            href="https://linkedin.com/in/aghilish"
             target="_blank"
             rel="noopener noreferrer"
             className="btn"
+            style={{ display: 'inline-flex', alignItems: 'center', gap: '0.8rem' }}
           >
-            💼 Connect on LinkedIn
+            <LinkedInLogo width="20" height="20" />
+            Connect on LinkedIn
           </a>
         </div>
       </section>

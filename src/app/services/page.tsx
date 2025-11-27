@@ -1,8 +1,19 @@
 import Link from 'next/link';
+import {
+  KubernetesIcon,
+  DevOpsIcon,
+  ObservabilityIcon,
+  CloudIcon,
+  FactoryIcon,
+  MoneyIcon,
+  CalendarIcon,
+  FolderIcon
+} from '@/components/Icons';
+import { LinkedInLogo } from '@/components/CompanyLogos';
 
 const services = [
   {
-    icon: '☸️',
+    icon: KubernetesIcon,
     title: 'Kubernetes Infrastructure Design',
     description: 'Design and implement production-grade Kubernetes clusters tailored to your organization\'s needs.',
     offerings: [
@@ -14,7 +25,7 @@ const services = [
     ],
   },
   {
-    icon: '🔄',
+    icon: DevOpsIcon,
     title: 'DevOps & CI/CD Strategy',
     description: 'Transform your software delivery with modern DevOps practices and automated pipelines.',
     offerings: [
@@ -26,7 +37,7 @@ const services = [
     ],
   },
   {
-    icon: '📊',
+    icon: ObservabilityIcon,
     title: 'Observability Implementation',
     description: 'Gain full visibility into your systems with comprehensive observability solutions.',
     offerings: [
@@ -38,7 +49,7 @@ const services = [
     ],
   },
   {
-    icon: '☁️',
+    icon: CloudIcon,
     title: 'Cloud Architecture & Migration',
     description: 'Navigate your cloud journey with expert guidance on architecture and migration.',
     offerings: [
@@ -50,7 +61,7 @@ const services = [
     ],
   },
   {
-    icon: '🏭',
+    icon: FactoryIcon,
     title: 'Google Cloud Manufacturing Data Engine',
     description: 'Leverage Google\'s manufacturing solutions for Industry 4.0 transformation.',
     offerings: [
@@ -62,7 +73,7 @@ const services = [
     ],
   },
   {
-    icon: '💰',
+    icon: MoneyIcon,
     title: 'FinOps & Cost Optimization',
     description: 'Optimize your cloud spend while maintaining performance and reliability.',
     offerings: [
@@ -91,11 +102,6 @@ const engagementTypes = [
     description: 'Comprehensive review of your current infrastructure, identifying improvements and creating actionable roadmaps.',
     duration: '1-2 weeks',
   },
-  {
-    title: 'Team Enablement',
-    description: 'Hands-on workshops and training to upskill your team on Kubernetes, DevOps practices, and cloud-native technologies.',
-    duration: 'Custom',
-  },
 ];
 
 export default function ServicesPage() {
@@ -112,18 +118,21 @@ export default function ServicesPage() {
       {/* Services Grid */}
       <h2 className="section-title">Core Services</h2>
       <section className="cards-grid">
-        {services.map((service) => (
-          <div key={service.title} className="service-card">
-            <span className="service-card__icon">{service.icon}</span>
-            <h3 className="service-card__title">{service.title}</h3>
-            <p className="service-card__description">{service.description}</p>
-            <ul className="service-card__list">
-              {service.offerings.map((offering) => (
-                <li key={offering}>{offering}</li>
-              ))}
-            </ul>
-          </div>
-        ))}
+        {services.map((service) => {
+          const IconComponent = service.icon;
+          return (
+            <div key={service.title} className="service-card">
+              <IconComponent className="service-card__icon" style={{ color: 'var(--color-accent)' }} />
+              <h3 className="service-card__title">{service.title}</h3>
+              <p className="service-card__description">{service.description}</p>
+              <ul className="service-card__list">
+                {service.offerings.map((offering) => (
+                  <li key={offering}>{offering}</li>
+                ))}
+              </ul>
+            </div>
+          );
+        })}
       </section>
 
       {/* Engagement Types */}
@@ -131,9 +140,9 @@ export default function ServicesPage() {
       <section className="cards-grid">
         {engagementTypes.map((type) => (
           <div key={type.title} className="card" style={{ textAlign: 'left' }}>
-            <span className="card__date">{type.duration}</span>
-            <h3 className="card__title" style={{ marginTop: '1rem' }}>{type.title}</h3>
-            <p className="card__teaser" style={{ marginBottom: 0 }}>{type.description}</p>
+            <span className="card__date" style={{ fontSize: '1.6rem' }}>{type.duration}</span>
+            <h3 className="card__title" style={{ marginTop: '1rem', fontSize: '2rem' }}>{type.title}</h3>
+            <p className="card__teaser" style={{ marginBottom: 0, fontSize: '1.5rem' }}>{type.description}</p>
           </div>
         ))}
       </section>
@@ -168,20 +177,23 @@ export default function ServicesPage() {
       </section>
 
       {/* CTA */}
-      <section className="cta-section">
-        <Link href="/contact" className="cta-button cta-button--primary">
-          📅 Schedule a Discovery Call
+      <section className="cta-section cta-section--services">
+        <Link href="/contact" className="cta-button cta-button--services cta-button--primary">
+          <CalendarIcon width="20" height="20" />
+          Schedule a Call
         </Link>
-        <Link href="/portfolio" className="cta-button">
-          📂 View Case Studies
+        <Link href="/portfolio" className="cta-button cta-button--services">
+          <FolderIcon width="20" height="20" />
+          View Portfolio
         </Link>
-        <a 
-          href="https://linkedin.com/in/aghilish" 
-          target="_blank" 
+        <a
+          href="https://linkedin.com/in/aghilish"
+          target="_blank"
           rel="noopener noreferrer"
-          className="cta-button"
+          className="cta-button cta-button--services"
         >
-          💼 Connect on LinkedIn
+          <LinkedInLogo width="20" height="20" />
+          Connect on LinkedIn
         </a>
       </section>
     </>

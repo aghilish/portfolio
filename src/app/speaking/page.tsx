@@ -3,8 +3,8 @@ import Link from 'next/link';
 const communityRole = {
   title: 'Cloud Native Frankfurt',
   role: 'Community Group Organizer',
-  description: `As a CNCF Community Group Organizer, I help foster the cloud-native ecosystem 
-    in the Frankfurt Rhine-Main metropolitan area. We organize meetups, workshops, and networking 
+  description: `As a CNCF Community Group Organizer, I help foster the cloud-native ecosystem
+    in the Frankfurt Rhine-Main metropolitan area. We organize meetups, workshops, and networking
     events for cloud-native practitioners.`,
   activities: [
     'Organizing monthly meetups and technical talks',
@@ -12,7 +12,27 @@ const communityRole = {
     'Facilitating knowledge sharing among practitioners',
     'Connecting local talent with cloud-native opportunities',
   ],
+  meetupUrl: 'https://www.meetup.com/cloud-native-frankfurt/',
 };
+
+const pastTalks = [
+  {
+    title: 'Crossplane Composition Functions, Step by Step',
+    event: 'Cloud Native Frankfurt Meetup',
+    date: 'July 2024',
+    description: 'Deep dive into Crossplane Composition Functions, exploring how to build custom compositions for infrastructure provisioning.',
+    tags: ['Crossplane', 'Kubernetes', 'IaC'],
+    url: 'https://community.cncf.io/events/details/cncf-cloud-native-frankfurt-presents-cloud-native-frankfurt-meetup-jul-2024/',
+  },
+  {
+    title: 'Power Up Your Kubernetes Clusters with AI',
+    event: 'Grafana Friends Frankfurt',
+    date: 'November 2024',
+    description: 'AI + Kubernetes: Exploring K8SGPT for intelligent Kubernetes troubleshooting and Schednex AI-powered Scheduler.',
+    tags: ['K8SGPT', 'Grafana', 'Kubernetes', 'Observability'],
+    url: 'https://www.meetup.com/grafana-friends-frankfurt/events/304895481/',
+  },
+];
 
 const speakingTopics = [
   {
@@ -112,24 +132,52 @@ export default function SpeakingPage() {
             }}>
               {communityRole.description}
             </p>
-            <ul style={{ display: 'grid', gap: '0.8rem' }}>
+            <ul style={{ display: 'grid', gap: '0.8rem', marginBottom: '2rem' }}>
               {communityRole.activities.map((activity) => (
-                <li key={activity} style={{ 
-                  paddingLeft: '1.5rem', 
+                <li key={activity} style={{
+                  paddingLeft: '2.5rem',
                   position: 'relative',
                   color: 'var(--color-muted)'
                 }}>
-                  <span style={{ 
-                    position: 'absolute', 
-                    left: 0, 
-                    color: 'var(--color-accent)' 
+                  <span style={{
+                    position: 'absolute',
+                    left: 0,
+                    color: 'var(--color-accent)'
                   }}>→</span>
                   {activity}
                 </li>
               ))}
             </ul>
+            <a
+              href={communityRole.meetupUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn--accent"
+            >
+              Join Cloud Native Frankfurt
+            </a>
           </div>
         </div>
+      </section>
+
+      {/* Past Talks */}
+      <h2 className="section-title">Past Talks</h2>
+      <section className="cards-grid">
+        {pastTalks.map((talk) => (
+          <article key={talk.title} className="card">
+            <span className="card__date">{talk.event} · {talk.date}</span>
+            <h3 className="card__title">{talk.title}</h3>
+            <p className="card__teaser">{talk.description}</p>
+            <div className="card__tags">
+              {talk.tags.map((tag) => (
+                <span key={tag} className="tag">{tag}</span>
+              ))}
+            </div>
+            <a href={talk.url} target="_blank" rel="noopener noreferrer" className="btn card__btn">
+              View Event
+            </a>
+          </article>
+        ))}
       </section>
 
       {/* Speaking Topics */}

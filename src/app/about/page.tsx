@@ -1,3 +1,5 @@
+import { PlatformIcon, ObservabilityIcon, EducationIcon } from '@/components/Icons';
+
 export default function AboutPage() {
   return (
     <>
@@ -14,50 +16,50 @@ export default function AboutPage() {
         <h2 className="content-section__title">The Story</h2>
         <div className="rich-text" style={{ maxWidth: '80ch' }}>
           <p>
-            I'm <strong>Shahrooz Aghili</strong>, a Senior Solutions Architect and DevOps Technical Lead 
-            based in Frankfurt, Germany. With over 16 years in software engineering, I've evolved from 
-            academic research in telecommunications to becoming a trusted advisor for Fortune 500 companies 
+            I'm <strong>Shahrooz Aghili</strong>, a Senior Solutions Architect and DevOps Technical Lead
+            based in Frankfurt, Germany. With over 16 years in software engineering, I've evolved from
+            academic research in telecommunications to becoming a trusted advisor for Fortune 500 companies
             on their cloud-native transformations.
           </p>
           <p>
-            My journey began at <strong>Sharif University of Technology</strong>, where I researched 
-            Software Defined Networks. After pursuing a PhD at <strong>TU Darmstadt</strong> (focusing on 
-            5G mm-wave technologies), I pivoted to the industry, bringing research rigor to practical 
+            My journey began at <strong>Sharif University of Technology</strong>, where I researched
+            Software Defined Networks. After pursuing a PhD at <strong>TU Darmstadt</strong> (focusing on
+            5G mm-wave technologies), I pivoted to the industry, bringing research rigor to practical
             engineering challenges.
           </p>
           <p>
-            Today, I lead DevOps workstreams at <strong>Deloitte Consulting</strong>, architecting platforms 
-            for automotive giants like Volkswagen and Audi. I'm passionate about making complex cloud-native 
+            Today, I lead DevOps workstreams at <strong>Deloitte Consulting</strong>, architecting platforms
+            for automotive giants like Volkswagen and Audi. I'm passionate about making complex cloud-native
             technologies accessible — through my consulting work, community organizing, and educational content.
           </p>
         </div>
       </section>
 
       {/* What I Do */}
-      <section className="content-section">
-        <h2 className="content-section__title">What I Do</h2>
-        <div className="cards-grid" style={{ borderTop: 'none' }}>
-          <div className="card" style={{ textAlign: 'left' }}>
-            <span style={{ fontSize: '3rem', marginBottom: '1.5rem', display: 'block' }}>🏗️</span>
+      <section className="content-section" style={{ paddingLeft: 0, paddingRight: 0 }}>
+        <h2 className="content-section__title" style={{ paddingLeft: '3rem', paddingRight: '3rem' }}>What I Do</h2>
+        <div className="cards-grid">
+          <div className="card" style={{ textAlign: 'left', borderLeft: 'none' }}>
+            <PlatformIcon style={{ marginBottom: '1.5rem', color: 'var(--color-accent)' }} />
             <h3 className="card__title" style={{ marginTop: 0 }}>Platform Engineering</h3>
             <p className="card__teaser" style={{ marginBottom: 0 }}>
-              Designing and implementing Kubernetes-based platforms that enable teams to ship faster 
+              Designing and implementing Kubernetes-based platforms that enable teams to ship faster
               with confidence. Focus on developer experience and operational excellence.
             </p>
           </div>
           <div className="card" style={{ textAlign: 'left' }}>
-            <span style={{ fontSize: '3rem', marginBottom: '1.5rem', display: 'block' }}>📊</span>
+            <ObservabilityIcon style={{ marginBottom: '1.5rem', color: 'var(--color-accent)' }} />
             <h3 className="card__title" style={{ marginTop: 0 }}>Observability Strategy</h3>
             <p className="card__teaser" style={{ marginBottom: 0 }}>
-              End-to-end observability implementations covering metrics, logs, traces, and business KPIs. 
+              End-to-end observability implementations covering metrics, logs, traces, and business KPIs.
               Expert in OpenTelemetry and Elastic Stack integrations.
             </p>
           </div>
           <div className="card" style={{ textAlign: 'left' }}>
-            <span style={{ fontSize: '3rem', marginBottom: '1.5rem', display: 'block' }}>🎓</span>
+            <EducationIcon style={{ marginBottom: '1.5rem', color: 'var(--color-accent)' }} />
             <h3 className="card__title" style={{ marginTop: 0 }}>Education & Content</h3>
             <p className="card__teaser" style={{ marginBottom: 0 }}>
-              Creating hands-on learning experiences through YouTube tutorials and KillerCoda 
+              Creating hands-on learning experiences through YouTube tutorials and KillerCoda
               interactive labs. Making cloud-native accessible to everyone.
             </p>
           </div>
