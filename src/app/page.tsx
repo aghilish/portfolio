@@ -61,7 +61,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="intro intro--large">
         <p>
-          Moin, I'm Shahrooz — the <span style={{ whiteSpace: 'nowrap' }}>Cloud <img src="https://cdn-icons-png.flaticon.com/512/4215/4215831.png" alt="Cloud" style={{ height: '1.2em', width: '1.2em', verticalAlign: 'middle', display: 'inline-block', margin: '0 0.2em' }} /> and Kubernetes <img src="https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png" alt="Kubernetes" style={{ height: '1.2em', width: '1.2em', verticalAlign: 'middle', display: 'inline-block', margin: '0 0.2em' }} /></span> architect!
+          Moin, I'm Shahrooz — the Cloud <img src="https://cdn-icons-png.flaticon.com/512/4215/4215831.png" alt="Cloud" style={{ height: '1.2em', width: '1.2em', verticalAlign: 'middle', display: 'inline-block', margin: '0 0.2em' }} /> and Kubernetes <img src="https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png" alt="Kubernetes" style={{ height: '1.2em', width: '1.2em', verticalAlign: 'middle', display: 'inline-block', margin: '0 0.2em' }} /> architect!
           <em>I help enterprises build scalable platforms on Kubernetes, AWS & GCP.</em>
         </p>
       </section>
