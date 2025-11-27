@@ -153,30 +153,38 @@
     transition-delay: 0.25s;
     z-index: -6;
   }
-  
+  .item:nth-child(7) .link {
+    transition-delay: 0.3s;
+    z-index: -7;
+  }
+
   .header:not(.isOpen) .item:nth-child(1) .link {
-    transition-delay: 0.25s;
+    transition-delay: 0.3s;
     transform: translateY(-1px) translateY(-100%);
   }
   .header:not(.isOpen) .item:nth-child(2) .link {
-    transition-delay: 0.2s;
+    transition-delay: 0.25s;
     transform: translateY(-1px) translateY(-200%);
   }
   .header:not(.isOpen) .item:nth-child(3) .link {
-    transition-delay: 0.15s;
+    transition-delay: 0.2s;
     transform: translateY(-1px) translateY(-300%);
   }
   .header:not(.isOpen) .item:nth-child(4) .link {
-    transition-delay: 0.1s;
+    transition-delay: 0.15s;
     transform: translateY(-1px) translateY(-400%);
   }
   .header:not(.isOpen) .item:nth-child(5) .link {
-    transition-delay: 0.05s;
+    transition-delay: 0.1s;
     transform: translateY(-1px) translateY(-500%);
   }
   .header:not(.isOpen) .item:nth-child(6) .link {
-    transition-delay: 0s;
+    transition-delay: 0.05s;
     transform: translateY(-1px) translateY(-600%);
+  }
+  .header:not(.isOpen) .item:nth-child(7) .link {
+    transition-delay: 0s;
+    transform: translateY(-1px) translateY(-700%);
   }
 }
 
