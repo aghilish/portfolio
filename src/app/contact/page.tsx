@@ -185,7 +185,7 @@ export default function ContactPage() {
             className="btn"
             style={{ display: 'inline-flex', alignItems: 'center', gap: '0.8rem' }}
           >
-            <LinkedInLogo width="20" height="20" />
+            <LinkedInLogo width={20} height={20} />
             Connect on LinkedIn
           </a>
         </div>
