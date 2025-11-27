@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { JetBrains_Mono, Inter } from 'next/font/google';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import GoogleAnalytics from '@/components/GoogleAnalytics';
 import '@/styles/globals.css';
 
 const jetbrainsMono = JetBrains_Mono({
@@ -41,9 +42,12 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const gaId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
+
   return (
     <html lang="en" className={`${jetbrainsMono.variable} ${inter.variable}`}>
       <body>
+        {gaId && <GoogleAnalytics measurementId={gaId} />}
         <div className="global-wrapper">
           <Header />
           <main>{children}</main>
