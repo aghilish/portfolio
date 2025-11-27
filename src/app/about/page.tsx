@@ -38,27 +38,27 @@ export default function AboutPage() {
       {/* What I Do */}
       <section className="content-section" style={{ paddingLeft: 0, paddingRight: 0 }}>
         <h2 className="content-section__title" style={{ paddingLeft: '3rem', paddingRight: '3rem' }}>What I Do</h2>
-        <div className="cards-grid">
+        <div className="cards-grid" style={{ borderTop: '1px solid var(--color-border)' }}>
           <div className="card" style={{ textAlign: 'left', borderLeft: 'none' }}>
             <PlatformIcon style={{ marginBottom: '1.5rem', color: 'var(--color-accent)' }} />
-            <h3 className="card__title" style={{ marginTop: 0 }}>Platform Engineering</h3>
-            <p className="card__teaser" style={{ marginBottom: 0 }}>
+            <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.8rem', marginBottom: '1rem' }}>Platform Engineering</h3>
+            <p style={{ color: 'var(--color-muted)', lineHeight: '1.6' }}>
               Designing and implementing Kubernetes-based platforms that enable teams to ship faster
               with confidence. Focus on developer experience and operational excellence.
             </p>
           </div>
           <div className="card" style={{ textAlign: 'left' }}>
             <ObservabilityIcon style={{ marginBottom: '1.5rem', color: 'var(--color-accent)' }} />
-            <h3 className="card__title" style={{ marginTop: 0 }}>Observability Strategy</h3>
-            <p className="card__teaser" style={{ marginBottom: 0 }}>
+            <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.8rem', marginBottom: '1rem' }}>Observability Strategy</h3>
+            <p style={{ color: 'var(--color-muted)', lineHeight: '1.6' }}>
               End-to-end observability implementations covering metrics, logs, traces, and business KPIs.
               Expert in OpenTelemetry and Elastic Stack integrations.
             </p>
           </div>
           <div className="card" style={{ textAlign: 'left' }}>
             <EducationIcon style={{ marginBottom: '1.5rem', color: 'var(--color-accent)' }} />
-            <h3 className="card__title" style={{ marginTop: 0 }}>Education & Content</h3>
-            <p className="card__teaser" style={{ marginBottom: 0 }}>
+            <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.8rem', marginBottom: '1rem' }}>Education & Content</h3>
+            <p style={{ color: 'var(--color-muted)', lineHeight: '1.6' }}>
               Creating hands-on learning experiences through YouTube tutorials and KillerCoda
               interactive labs. Making cloud-native accessible to everyone.
             </p>
