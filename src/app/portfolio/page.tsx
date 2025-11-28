@@ -15,7 +15,8 @@ const logoMap: Record<string, any[]> = {
 export default function PortfolioPage() {
   const { t } = useLanguage();
 
-  const caseStudies = t('portfolio.caseStudies');
+  const caseStudiesData = t('portfolio.caseStudies');
+  const caseStudies = Array.isArray(caseStudiesData) ? caseStudiesData : [];
 
   return (
     <>

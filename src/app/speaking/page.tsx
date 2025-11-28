@@ -6,10 +6,18 @@ import { useLanguage } from '@/contexts/LanguageContext';
 export default function SpeakingPage() {
   const { t } = useLanguage();
 
-  const communityRole = t('speaking.communityRole');
-  const pastTalks = t('speaking.pastTalkItems');
-  const speakingTopics = t('speaking.topicItems');
-  const workshops = t('speaking.workshopItems');
+  const communityRoleData = t('speaking.communityRole');
+  const communityRole = (typeof communityRoleData === 'object' && communityRoleData !== null) ? communityRoleData : { role: '', title: '', description: '', activities: [] };
+
+  const pastTalksData = t('speaking.pastTalkItems');
+  const pastTalks = Array.isArray(pastTalksData) ? pastTalksData : [];
+
+  const speakingTopicsData = t('speaking.topicItems');
+  const speakingTopics = Array.isArray(speakingTopicsData) ? speakingTopicsData : [];
+
+  const workshopsData = t('speaking.workshopItems');
+  const workshops = Array.isArray(workshopsData) ? workshopsData : [];
+
   const meetupUrl = 'https://www.meetup.com/cloud-native-frankfurt/';
 
   return (
@@ -55,7 +63,7 @@ export default function SpeakingPage() {
               {communityRole.description}
             </p>
             <ul style={{ display: 'grid', gap: '0.8rem', marginBottom: '2rem' }}>
-              {communityRole.activities.map((activity: string) => (
+              {Array.isArray(communityRole.activities) && communityRole.activities.map((activity: string) => (
                 <li key={activity} style={{
                   paddingLeft: '2.5rem',
                   position: 'relative',

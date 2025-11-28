@@ -19,8 +19,11 @@ const serviceIcons = [KubernetesIcon, DevOpsIcon, ObservabilityIcon, CloudIcon, 
 export default function ServicesPage() {
   const { t } = useLanguage();
 
-  const services = t('services.serviceItems');
-  const engagementTypes = t('services.engagementItems');
+  const servicesData = t('services.serviceItems');
+  const services = Array.isArray(servicesData) ? servicesData : [];
+
+  const engagementData = t('services.engagementItems');
+  const engagementTypes = Array.isArray(engagementData) ? engagementData : [];
 
   return (
     <>

@@ -6,6 +6,12 @@ import { PlatformIcon, ObservabilityIcon, EducationIcon } from '@/components/Ico
 export default function AboutPage() {
   const { t } = useLanguage();
 
+  const experienceData = t('about.experienceItems');
+  const experienceItems = Array.isArray(experienceData) ? experienceData : [];
+
+  const educationData = t('about.educationItems');
+  const educationItems = Array.isArray(educationData) ? educationData : [];
+
   return (
     <>
       {/* Page Header */}
@@ -58,7 +64,7 @@ export default function AboutPage() {
       <section className="content-section">
         <h2 className="content-section__title">{t('about.experience')}</h2>
         <div className="timeline">
-          {t('about.experienceItems').map((item: any, index: number) => (
+          {experienceItems.map((item: any, index: number) => (
             <div key={index} className="timeline__item">
               <span className="timeline__date">{item.date}</span>
               <h3 className="timeline__title">{item.title}</h3>
@@ -120,7 +126,7 @@ export default function AboutPage() {
       <section className="content-section">
         <h2 className="content-section__title">{t('about.educationTitle')}</h2>
         <div className="timeline">
-          {t('about.educationItems').map((item: any, index: number) => (
+          {educationItems.map((item: any, index: number) => (
             <div key={index} className="timeline__item">
               <span className="timeline__date">{item.date}</span>
               <h3 className="timeline__title">{item.title}</h3>
