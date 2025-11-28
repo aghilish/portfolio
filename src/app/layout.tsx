@@ -1,7 +1,9 @@
 import type { Metadata } from 'next';
 import { JetBrains_Mono, Inter } from 'next/font/google';
+import { LanguageProvider } from '@/contexts/LanguageContext';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import LanguageSwitcher from '@/components/LanguageSwitcher';
 import GoogleAnalytics from '@/components/GoogleAnalytics';
 import '@/styles/globals.css';
 
@@ -47,12 +49,15 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${jetbrainsMono.variable} ${inter.variable}`}>
       <body>
-        {gaId && <GoogleAnalytics measurementId={gaId} />}
-        <div className="global-wrapper">
-          <Header />
-          <main>{children}</main>
-          <Footer />
-        </div>
+        <LanguageProvider>
+          {gaId && <GoogleAnalytics measurementId={gaId} />}
+          <LanguageSwitcher />
+          <div className="global-wrapper">
+            <Header />
+            <main>{children}</main>
+            <Footer />
+          </div>
+        </LanguageProvider>
       </body>
     </html>
   );

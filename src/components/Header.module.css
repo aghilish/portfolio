@@ -35,10 +35,11 @@
   color: var(--color-accent);
 }
 
+/* Language switcher styles moved to LanguageSwitcher.module.css */
+
 .toggle {
   width: 5rem;
   height: 5rem;
-  margin-left: auto;
   border: none;
   border-left: 1px solid var(--color-border);
   border-bottom: 1px solid var(--color-border);

@@ -1,4 +1,7 @@
+'use client';
+
 import Link from 'next/link';
+import { useLanguage } from '@/contexts/LanguageContext';
 import styles from './Footer.module.css';
 
 const socialLinks = [
@@ -41,15 +44,17 @@ const socialLinks = [
 ];
 
 export default function Footer() {
+  const { t } = useLanguage();
+
   return (
     <footer className={styles.footer}>
       <nav>
         <ul className={styles.list}>
           {socialLinks.map((link) => (
             <li key={link.name}>
-              <a 
-                href={link.url} 
-                target="_blank" 
+              <a
+                href={link.url}
+                target="_blank"
                 rel="noopener noreferrer"
                 title={`Follow me on ${link.name}`}
                 className={styles.socialLink}
@@ -61,9 +66,9 @@ export default function Footer() {
           ))}
         </ul>
       </nav>
-      <p className={styles.love}>Built with code & ☕</p>
+      <p className={styles.love}>{t('footer.love')}</p>
       <p className={styles.copyright}>
-        © Shahrooz Aghili {new Date().getFullYear()}
+        {t('footer.copyright')} {new Date().getFullYear()}
       </p>
     </footer>
   );

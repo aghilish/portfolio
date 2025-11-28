@@ -1,7 +1,9 @@
+'use client';
+
 import youtubeData from '@/data/youtube-content.json';
 import killercodaData from '@/data/killercoda-content.json';
-import { KubernetesIcon, DevOpsIcon, ObservabilityIcon, LabIcon } from '@/components/Icons';
-import { YouTubeLogo } from '@/components/CompanyLogos';
+import { KubernetesIcon, DevOpsIcon, ObservabilityIcon, LabIcon, PlaylistIcon, VideoIcon } from '@/components/Icons';
+import { useLanguage } from '@/contexts/LanguageContext';
 
 const topics = [
   { name: 'Kubernetes', count: 15 },
@@ -13,6 +15,7 @@ const topics = [
 ];
 
 export default function ContentPage() {
+  const { t } = useLanguage();
   const { videos, playlists, channel } = youtubeData;
   const { labs: killercodaLabs, profileUrl: killercodaProfileUrl } = killercodaData;
   const hasYouTubeContent = videos.length > 0 || playlists.length > 0;
@@ -21,9 +24,9 @@ export default function ContentPage() {
     <>
       {/* Page Header */}
       <header className="page-header">
-        <h1 className="page-header__title">Content Hub</h1>
+        <h1 className="page-header__title">{t('content.title')}</h1>
         <p className="page-header__subtitle">
-          Free tutorials, interactive labs, and deep-dives into cloud-native technologies.
+          {t('content.subtitle')}
         </p>
       </header>
 
@@ -42,7 +45,7 @@ export default function ContentPage() {
       {playlists.length > 0 && (
         <>
           <h2 className="section-title">
-            <YouTubeLogo className="section-title-icon" /> YouTube Playlists
+            <PlaylistIcon className="section-title-icon" /> {t('content.youtubePlaylists')}
           </h2>
           <section className="content-grid">
             {playlists.map((playlist) => (
@@ -65,7 +68,7 @@ export default function ContentPage() {
                 </div>
                 <div style={{ padding: '1.5rem' }}>
                   <span className="content-item__type">
-                    {playlist.itemCount} {playlist.itemCount === 1 ? 'video' : 'videos'}
+                    {playlist.itemCount} {playlist.itemCount === 1 ? t('content.video') : t('content.videos')}
                   </span>
                   <h3 className="content-item__title">{playlist.title}</h3>
                   {playlist.description && (
@@ -81,7 +84,7 @@ export default function ContentPage() {
                     rel="noopener noreferrer"
                     className="content-item__link"
                   >
-                    Watch Playlist →
+                    {t('content.watchPlaylist')}
                   </a>
                 </div>
               </div>
@@ -94,7 +97,7 @@ export default function ContentPage() {
       {videos.length > 0 && (
         <>
           <h2 className="section-title">
-            <span style={{ marginRight: '0.5rem' }}>🎬</span> Latest Videos
+            <VideoIcon className="section-title-icon" /> {t('content.latestVideos')}
           </h2>
           <section className="content-grid">
             {videos.slice(0, 12).map((video) => (
@@ -116,7 +119,7 @@ export default function ContentPage() {
                   />
                 </div>
                 <div style={{ padding: '1.5rem' }}>
-                  <span className="content-item__type">Video</span>
+                  <span className="content-item__type">{t('content.video')}</span>
                   <h3 className="content-item__title" style={{ fontSize: '1.1rem', marginBottom: '0.5rem' }}>
                     {video.title.length > 60 ? `${video.title.substring(0, 60)}...` : video.title}
                   </h3>
@@ -133,7 +136,7 @@ export default function ContentPage() {
                     rel="noopener noreferrer"
                     className="content-item__link"
                   >
-                    Watch on YouTube →
+                    {t('content.watchOnYoutube')}
                   </a>
                 </div>
               </div>
@@ -165,7 +168,7 @@ export default function ContentPage() {
           fontSize: '2rem',
           marginBottom: '2rem'
         }}>
-          Subscribe for weekly cloud-native content
+          {t('content.subscribeWeekly')}
         </p>
         <a
           href={`${channel.url}?sub_confirmation=1`}
@@ -173,13 +176,13 @@ export default function ContentPage() {
           rel="noopener noreferrer"
           className="btn btn--accent"
         >
-          Subscribe to {channel.title}
+          {t('content.subscribeTo')} {channel.title}
         </a>
       </section>
 
       {/* KillerCoda Labs */}
       <h2 className="section-title">
-        <LabIcon className="section-title-icon" /> Interactive Labs (KillerCoda)
+        <LabIcon className="section-title-icon" /> {t('content.interactiveLabs')}
       </h2>
       <section className="content-grid">
         {killercodaLabs.map((lab) => (
@@ -212,7 +215,7 @@ export default function ContentPage() {
               </div>
             )}
             <span className="content-item__link">
-              Start Lab →
+              {t('content.startLab')}
             </span>
           </a>
         ))}
@@ -230,7 +233,7 @@ export default function ContentPage() {
           fontSize: '2rem',
           marginBottom: '2rem'
         }}>
-          Learn by doing with hands-on exercises
+          {t('content.learnByDoing')}
         </p>
         <a
           href={killercodaProfileUrl}
@@ -238,36 +241,33 @@ export default function ContentPage() {
           rel="noopener noreferrer"
           className="btn"
         >
-          Explore All Labs
+          {t('content.exploreAllLabs')}
         </a>
       </section>
 
       {/* Topics I Cover */}
       <section className="content-section" style={{ paddingLeft: 0, paddingRight: 0 }}>
-        <h2 className="content-section__title" style={{ paddingLeft: '3rem', paddingRight: '3rem' }}>Topics I Cover</h2>
+        <h2 className="content-section__title" style={{ paddingLeft: '3rem', paddingRight: '3rem' }}>{t('content.topicsCover')}</h2>
         <div className="cards-grid" style={{ borderTop: '1px solid var(--color-border)' }}>
           <div className="card" style={{ textAlign: 'left', borderLeft: 'none' }}>
             <KubernetesIcon style={{ marginBottom: '1.5rem', color: 'var(--color-accent)' }} />
-            <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.8rem', marginBottom: '1rem' }}>Kubernetes</h3>
+            <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.8rem', marginBottom: '1rem' }}>{t('content.kubernetesTitle')}</h3>
             <p style={{ color: 'var(--color-muted)', lineHeight: '1.6' }}>
-              From fundamentals to advanced operations. Deployments, networking, security,
-              troubleshooting, and production best practices.
+              {t('content.kubernetesDesc')}
             </p>
           </div>
           <div className="card" style={{ textAlign: 'left' }}>
             <DevOpsIcon style={{ marginBottom: '1.5rem', color: 'var(--color-accent)' }} />
-            <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.8rem', marginBottom: '1rem' }}>DevOps & CI/CD</h3>
+            <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.8rem', marginBottom: '1rem' }}>{t('content.devopsTitle')}</h3>
             <p style={{ color: 'var(--color-muted)', lineHeight: '1.6' }}>
-              GitOps, Tekton, GitHub Actions, ArgoCD. Building reliable pipelines
-              for cloud-native applications.
+              {t('content.devopsDesc')}
             </p>
           </div>
           <div className="card" style={{ textAlign: 'left' }}>
             <ObservabilityIcon style={{ marginBottom: '1.5rem', color: 'var(--color-accent)' }} />
-            <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.8rem', marginBottom: '1rem' }}>Observability</h3>
+            <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.8rem', marginBottom: '1rem' }}>{t('content.observabilityTitle')}</h3>
             <p style={{ color: 'var(--color-muted)', lineHeight: '1.6' }}>
-              OpenTelemetry, Prometheus, Grafana, Elastic Stack. Complete observability
-              for distributed systems.
+              {t('content.observabilityDesc')}
             </p>
           </div>
         </div>

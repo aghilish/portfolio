@@ -1,66 +1,54 @@
+'use client';
+
+import { useLanguage } from '@/contexts/LanguageContext';
 import { PlatformIcon, ObservabilityIcon, EducationIcon } from '@/components/Icons';
 
 export default function AboutPage() {
+  const { t } = useLanguage();
+
   return (
     <>
       {/* Page Header */}
       <header className="page-header">
-        <h1 className="page-header__title">About Me</h1>
+        <h1 className="page-header__title">{t('about.title')}</h1>
         <p className="page-header__subtitle">
-          From research labs to enterprise cloud — a journey of continuous learning and technical leadership.
+          {t('about.subtitle')}
         </p>
       </header>
 
       {/* Bio Section */}
       <section className="content-section">
-        <h2 className="content-section__title">The Story</h2>
+        <h2 className="content-section__title">{t('about.storyTitle')}</h2>
         <div className="rich-text" style={{ maxWidth: '80ch' }}>
-          <p>
-            I'm <strong>Shahrooz Aghili</strong>, a Senior Solutions Architect and DevOps Technical Lead
-            based in Frankfurt, Germany. With over 16 years in software engineering, I've evolved from
-            academic research in telecommunications to becoming a trusted advisor for Fortune 500 companies
-            on their cloud-native transformations.
-          </p>
-          <p>
-            My journey began at <strong>Sharif University of Technology</strong>, where I researched
-            Software Defined Networks. After pursuing a PhD at <strong>TU Darmstadt</strong> (focusing on
-            5G mm-wave technologies), I pivoted to the industry, bringing research rigor to practical
-            engineering challenges.
-          </p>
-          <p>
-            Today, I lead DevOps workstreams at <strong>Deloitte Consulting</strong>, architecting platforms
-            for automotive giants like Volkswagen and Audi. I'm passionate about making complex cloud-native
-            technologies accessible — through my consulting work, community organizing, and educational content.
-          </p>
+          <p dangerouslySetInnerHTML={{ __html: t('about.paragraph1') }} />
+          <p dangerouslySetInnerHTML={{ __html: t('about.paragraph2') }} />
+          <p dangerouslySetInnerHTML={{ __html: t('about.paragraph3') }} />
         </div>
       </section>
 
       {/* What I Do */}
       <section className="content-section" style={{ paddingLeft: 0, paddingRight: 0 }}>
-        <h2 className="content-section__title" style={{ paddingLeft: '3rem', paddingRight: '3rem' }}>What I Do</h2>
+        <h2 className="content-section__title" style={{ paddingLeft: '3rem', paddingRight: '3rem' }}>{t('about.whatIDo')}</h2>
         <div className="cards-grid" style={{ borderTop: '1px solid var(--color-border)' }}>
           <div className="card" style={{ textAlign: 'left', borderLeft: 'none' }}>
             <PlatformIcon style={{ marginBottom: '1.5rem', color: 'var(--color-accent)' }} />
-            <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.8rem', marginBottom: '1rem' }}>Platform Engineering</h3>
+            <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.8rem', marginBottom: '1rem' }}>{t('about.platformEngineering')}</h3>
             <p style={{ color: 'var(--color-muted)', lineHeight: '1.6' }}>
-              Designing and implementing Kubernetes-based platforms that enable teams to ship faster
-              with confidence. Focus on developer experience and operational excellence.
+              {t('about.platformEngineeringDesc')}
             </p>
           </div>
           <div className="card" style={{ textAlign: 'left' }}>
             <ObservabilityIcon style={{ marginBottom: '1.5rem', color: 'var(--color-accent)' }} />
-            <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.8rem', marginBottom: '1rem' }}>Observability Strategy</h3>
+            <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.8rem', marginBottom: '1rem' }}>{t('about.observabilityStrategy')}</h3>
             <p style={{ color: 'var(--color-muted)', lineHeight: '1.6' }}>
-              End-to-end observability implementations covering metrics, logs, traces, and business KPIs.
-              Expert in OpenTelemetry and Elastic Stack integrations.
+              {t('about.observabilityStrategyDesc')}
             </p>
           </div>
           <div className="card" style={{ textAlign: 'left' }}>
             <EducationIcon style={{ marginBottom: '1.5rem', color: 'var(--color-accent)' }} />
-            <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.8rem', marginBottom: '1rem' }}>Education & Content</h3>
+            <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.8rem', marginBottom: '1rem' }}>{t('about.educationContent')}</h3>
             <p style={{ color: 'var(--color-muted)', lineHeight: '1.6' }}>
-              Creating hands-on learning experiences through YouTube tutorials and KillerCoda
-              interactive labs. Making cloud-native accessible to everyone.
+              {t('about.educationContentDesc')}
             </p>
           </div>
         </div>
@@ -68,72 +56,26 @@ export default function AboutPage() {
 
       {/* Experience Timeline */}
       <section className="content-section">
-        <h2 className="content-section__title">Experience</h2>
+        <h2 className="content-section__title">{t('about.experience')}</h2>
         <div className="timeline">
-          <div className="timeline__item">
-            <span className="timeline__date">2025 — Present</span>
-            <h3 className="timeline__title">DevOps Squad Lead</h3>
-            <p className="timeline__company">Deloitte Consulting</p>
-            <p className="timeline__description">
-              Leading two workstreams with 12+ consultants. Technical lead for VW's Agile Release Train. 
-              Developing self-service CDK library and driving ART-wide observability strategy.
-            </p>
-          </div>
-          <div className="timeline__item">
-            <span className="timeline__date">2024</span>
-            <h3 className="timeline__title">DevOps Tech Lead</h3>
-            <p className="timeline__company">Deloitte Consulting</p>
-            <p className="timeline__description">
-              Led infrastructure automation and CI/CD pipeline development. Mentored team of engineers 
-              and collaborated with VW/Audi product owners on rollout strategies.
-            </p>
-          </div>
-          <div className="timeline__item">
-            <span className="timeline__date">2023 — 2024</span>
-            <h3 className="timeline__title">Senior Solutions Architect</h3>
-            <p className="timeline__company">Deloitte Consulting</p>
-            <p className="timeline__description">
-              Directed Google Cloud Manufacturing Data Engine PoC. Applied FinOps principles and 
-              GCP Well-Architected Framework. Delivered technical presentations to prospective clients.
-            </p>
-          </div>
-          <div className="timeline__item">
-            <span className="timeline__date">2021 — 2023</span>
-            <h3 className="timeline__title">Senior Platform Engineer</h3>
-            <p className="timeline__company">Commerzbank AG</p>
-            <p className="timeline__description">
-              Led engineering backlog for Kubernetes platform. Spearheaded multi-regional Google Anthos 
-              migration. Designed workshops and mentored junior cloud-native engineers.
-            </p>
-          </div>
-          <div className="timeline__item">
-            <span className="timeline__date">2019 — 2021</span>
-            <h3 className="timeline__title">Backend Engineer / DevOps</h3>
-            <p className="timeline__company">Main Incubator GmbH</p>
-            <p className="timeline__description">
-              Member of agile incubator team building cloud-native apps on GCP. Dual role in backend 
-              development and DevOps using Firebase, Node.js, and React.js.
-            </p>
-          </div>
-          <div className="timeline__item">
-            <span className="timeline__date">2016 — 2018</span>
-            <h3 className="timeline__title">Researcher (PhD)</h3>
-            <p className="timeline__company">TU Darmstadt</p>
-            <p className="timeline__description">
-              Research on 5G mm-wave network technologies. Used Python, C++, and MATLAB for network 
-              simulation and implementation.
-            </p>
-          </div>
+          {t('about.experienceItems').map((item: any, index: number) => (
+            <div key={index} className="timeline__item">
+              <span className="timeline__date">{item.date}</span>
+              <h3 className="timeline__title">{item.title}</h3>
+              <p className="timeline__company">{item.company}</p>
+              <p className="timeline__description">{item.description}</p>
+            </div>
+          ))}
         </div>
       </section>
 
       {/* Skills & Certifications */}
       <section className="content-section">
-        <h2 className="content-section__title">Skills & Certifications</h2>
+        <h2 className="content-section__title">{t('about.skillsCertifications')}</h2>
         <div style={{ display: 'grid', gap: '3rem' }}>
           <div>
             <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.6rem', marginBottom: '1.5rem', color: 'var(--color-accent)' }}>
-              Certifications
+              {t('about.certificationsTitle')}
             </h3>
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem' }}>
               <span className="tag tag--accent">CKA: Certified Kubernetes Administrator</span>
@@ -144,7 +86,7 @@ export default function AboutPage() {
           </div>
           <div>
             <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.6rem', marginBottom: '1.5rem', color: 'var(--color-accent)' }}>
-              Core Technologies
+              {t('about.coreTechnologies')}
             </h3>
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem' }}>
               <span className="tag">Kubernetes</span>
@@ -163,7 +105,7 @@ export default function AboutPage() {
           </div>
           <div>
             <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.6rem', marginBottom: '1.5rem', color: 'var(--color-accent)' }}>
-              Languages
+              {t('about.languagesTitle')}
             </h3>
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem' }}>
               <span className="tag">🇬🇧 English (Professional)</span>
@@ -176,29 +118,16 @@ export default function AboutPage() {
 
       {/* Education */}
       <section className="content-section">
-        <h2 className="content-section__title">Education</h2>
+        <h2 className="content-section__title">{t('about.educationTitle')}</h2>
         <div className="timeline">
-          <div className="timeline__item">
-            <span className="timeline__date">2016 — 2018</span>
-            <h3 className="timeline__title">PhD in Computer Science (Incomplete)</h3>
-            <p className="timeline__company">Technische Universität Darmstadt</p>
-            <p className="timeline__description">
-              Research focus on 5G mm-wave network technologies.
-            </p>
-          </div>
-          <div className="timeline__item">
-            <span className="timeline__date">2013 — 2015</span>
-            <h3 className="timeline__title">Master of Science, Information Technology</h3>
-            <p className="timeline__company">Sharif University of Technology</p>
-            <p className="timeline__description">
-              Thesis: "Distributed Publisher-Subscriber Pattern for Content-Based Routing in SDN"
-            </p>
-          </div>
-          <div className="timeline__item">
-            <span className="timeline__date">2007 — 2011</span>
-            <h3 className="timeline__title">Bachelor of Science, Computer Engineering</h3>
-            <p className="timeline__company">Isfahan University of Technology</p>
-          </div>
+          {t('about.educationItems').map((item: any, index: number) => (
+            <div key={index} className="timeline__item">
+              <span className="timeline__date">{item.date}</span>
+              <h3 className="timeline__title">{item.title}</h3>
+              <p className="timeline__company">{item.company}</p>
+              {item.description && <p className="timeline__description">{item.description}</p>}
+            </div>
+          ))}
         </div>
       </section>
     </>

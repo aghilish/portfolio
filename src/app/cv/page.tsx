@@ -1,15 +1,19 @@
 'use client';
 
+import { useLanguage } from '@/contexts/LanguageContext';
 import { BriefcaseIcon, EducationIcon, AwardIcon, DownloadIcon, ExternalLinkIcon } from '@/components/Icons';
 
 export default function CVPage() {
+  const { language, t } = useLanguage();
+  const cvFile = language === 'de' ? '/cv-de.pdf' : '/cv.pdf';
+
   return (
     <>
       {/* Page Header */}
       <header className="page-header">
-        <h1 className="page-header__title">Curriculum Vitae</h1>
+        <h1 className="page-header__title">{t('cv.title')}</h1>
         <p className="page-header__subtitle">
-          Download or view my professional CV showcasing 16+ years of experience in software engineering, specializing in cloud-native technologies and platform engineering.
+          {t('cv.subtitle')}
         </p>
       </header>
 
@@ -17,7 +21,7 @@ export default function CVPage() {
       <section className="content-section" style={{ paddingTop: '2rem' }}>
         <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
           <a
-            href="/cv.pdf"
+            href={cvFile}
             download="Shahrooz_Aghili_CV.pdf"
             className="button button--primary"
             style={{
@@ -36,10 +40,10 @@ export default function CVPage() {
             }}
           >
             <DownloadIcon width="20" height="20" />
-            Download CV (PDF)
+            {t('cv.downloadButton')}
           </a>
           <a
-            href="/cv.pdf"
+            href={cvFile}
             target="_blank"
             rel="noopener noreferrer"
             className="button button--secondary"
@@ -59,14 +63,14 @@ export default function CVPage() {
             }}
           >
             <ExternalLinkIcon width="20" height="20" />
-            Open in New Tab
+            {t('cv.openNewTab')}
           </a>
         </div>
       </section>
 
       {/* PDF Preview */}
       <section className="content-section">
-        <h2 className="content-section__title">Preview</h2>
+        <h2 className="content-section__title">{t('cv.preview')}</h2>
         <div
           style={{
             width: '100%',
@@ -79,7 +83,7 @@ export default function CVPage() {
           }}
         >
           <iframe
-            src="/cv.pdf"
+            src={cvFile}
             style={{
               width: '100%',
               height: '100%',
@@ -96,33 +100,33 @@ export default function CVPage() {
             color: 'var(--color-text-muted)'
           }}
         >
-          If the preview doesn't load, please <a href="/cv.pdf" download style={{ color: 'var(--color-accent)' }}>download the PDF</a> or <a href="/cv.pdf" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-accent)' }}>open it in a new tab</a>.
+          {t('cv.previewFallback')} <a href={cvFile} download style={{ color: 'var(--color-accent)' }}>{t('cv.downloadPdf')}</a> {t('cv.or')} <a href={cvFile} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-accent)' }}>{t('cv.openTab')}</a>.
         </p>
       </section>
 
       {/* Quick Overview */}
       <section className="content-section" style={{ paddingLeft: 0, paddingRight: 0 }}>
-        <h2 className="content-section__title" style={{ paddingLeft: '3rem', paddingRight: '3rem' }}>Quick Overview</h2>
+        <h2 className="content-section__title" style={{ paddingLeft: '3rem', paddingRight: '3rem' }}>{t('cv.quickOverview')}</h2>
         <div className="cards-grid" style={{ borderTop: '1px solid var(--color-border)' }}>
           <div className="card" style={{ textAlign: 'left', borderLeft: 'none' }}>
             <BriefcaseIcon style={{ marginBottom: '1.5rem', color: 'var(--color-accent)' }} />
-            <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.8rem', marginBottom: '1rem' }}>16+ Years Experience</h3>
+            <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.8rem', marginBottom: '1rem' }}>{t('cv.experienceYears')}</h3>
             <p style={{ color: 'var(--color-muted)', lineHeight: '1.6' }}>
-              From research in telecommunications to leading DevOps teams at Fortune 500 companies.
+              {t('cv.experienceDesc')}
             </p>
           </div>
           <div className="card" style={{ textAlign: 'left' }}>
             <EducationIcon style={{ marginBottom: '1.5rem', color: 'var(--color-accent)' }} />
-            <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.8rem', marginBottom: '1rem' }}>Academic Background</h3>
+            <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.8rem', marginBottom: '1rem' }}>{t('cv.academicBackground')}</h3>
             <p style={{ color: 'var(--color-muted)', lineHeight: '1.6' }}>
-              MS from Sharif University. PhD research at TU Darmstadt in 5G networks.
+              {t('cv.academicDesc')}
             </p>
           </div>
           <div className="card" style={{ textAlign: 'left' }}>
             <AwardIcon style={{ marginBottom: '1.5rem', color: 'var(--color-accent)' }} />
-            <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.8rem', marginBottom: '1rem' }}>Certifications</h3>
+            <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.8rem', marginBottom: '1rem' }}>{t('cv.certifications')}</h3>
             <p style={{ color: 'var(--color-muted)', lineHeight: '1.6' }}>
-              CKA, CKS, GCP Professional Cloud Architect, CNCF Community Organizer.
+              {t('cv.certificationsDesc')}
             </p>
           </div>
         </div>
@@ -130,26 +134,26 @@ export default function CVPage() {
 
       {/* Key Highlights */}
       <section className="content-section">
-        <h2 className="content-section__title">Key Highlights</h2>
+        <h2 className="content-section__title">{t('cv.keyHighlights')}</h2>
         <div className="rich-text" style={{ maxWidth: '80ch' }}>
           <ul style={{ lineHeight: '2' }}>
             <li>
-              <strong>Current Role:</strong> DevOps Squad Lead at Deloitte Consulting, leading 6+ consultants across two workstreams
+              <strong>{t('cv.currentRole')}</strong> {t('cv.currentRoleDesc')}
             </li>
             <li>
-              <strong>Cloud Expertise:</strong> Google Cloud Platform, AWS, Azure - with focus on Kubernetes and platform engineering
+              <strong>{t('cv.cloudExpertise')}</strong> {t('cv.cloudExpertiseDesc')}
             </li>
             <li>
-              <strong>Observability:</strong> End-to-end implementation of monitoring strategies using OpenTelemetry, Elastic Stack, and Prometheus
+              <strong>{t('cv.observability')}</strong> {t('cv.observabilityDesc')}
             </li>
             <li>
-              <strong>Automation:</strong> CI/CD pipeline development using Tekton, GitHub Actions, ArgoCD
+              <strong>{t('cv.automation')}</strong> {t('cv.automationDesc')}
             </li>
             <li>
-              <strong>Community:</strong> CNCF Community Group Organizer for Cloud Native Frankfurt
+              <strong>{t('cv.community')}</strong> {t('cv.communityDesc')}
             </li>
             <li>
-              <strong>Education:</strong> Content creator on YouTube and Killercoda, making cloud-native accessible
+              <strong>{t('cv.education')}</strong> {t('cv.educationDesc')}
             </li>
           </ul>
         </div>

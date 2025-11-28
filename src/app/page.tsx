@@ -1,4 +1,7 @@
+'use client';
+
 import Link from 'next/link';
+import { useLanguage } from '@/contexts/LanguageContext';
 import {
   DeloitteLogo,
   VolkswagenLogo,
@@ -28,41 +31,25 @@ const certifications = [
   { name: 'CNCF Organizer', url: 'https://www.credly.com/badges/9e8f0200-9ade-4389-a70c-c6fa2e02deaa' },
 ];
 
-const featuredWork = [
-  {
-    company: 'Deloitte × Volkswagen',
-    title: 'DevOps Squad Lead',
-    description: 'Leading DevOps enabling team for Volkswagen\'s Agile Release Train, implementing observability strategy and self-service CDK library.',
-    tags: ['Kubernetes', 'AWS', 'Tekton', 'Elastic Stack'],
-    href: '/portfolio#deloitte-vw',
-    logos: [VolkswagenLogo],
-  },
-  {
-    company: 'Deloitte × Google Cloud',
-    title: 'Manufacturing Data Engine PoC',
-    description: 'Directed development of GCP Manufacturing Data Engine proof of concept, applying FinOps principles and Well-Architected Framework.',
-    tags: ['GCP', 'MDE', 'FinOps', 'Architecture'],
-    href: '/portfolio#gcp-mde',
-    logos: [GoogleCloudLogo],
-  },
-  {
-    company: 'Commerzbank',
-    title: 'Multi-Regional Anthos Migration',
-    description: 'Led migration of microservices to multi-regional Google Anthos setup, enhancing scalability and reliability for banking infrastructure.',
-    tags: ['Anthos', 'GKE', 'Multi-region', 'Platform'],
-    href: '/portfolio#commerzbank',
-    logos: [CommerzbankLogo],
-  },
-];
+// Logo mapping for featured work (logos can't be stored in JSON)
+const featuredWorkLogos: Record<number, any[]> = {
+  0: [VolkswagenLogo],      // Deloitte × Volkswagen
+  1: [GoogleCloudLogo],     // Deloitte × Google Cloud
+  2: [CommerzbankLogo],     // Commerzbank
+};
 
 export default function Home() {
+  const { t } = useLanguage();
+
+  const featuredWorkData = t('home.featuredWorkItems');
+  const featuredWork = Array.isArray(featuredWorkData) ? featuredWorkData : [];
+
   return (
     <>
       {/* Hero Section */}
       <section className="intro intro--large">
         <p>
-          Moin, I'm Shahrooz — the Cloud <img src="https://cdn-icons-png.flaticon.com/512/4215/4215831.png" alt="Cloud" style={{ height: '1.2em', width: '1.2em', verticalAlign: 'middle', display: 'inline-block', margin: '0 0.2em' }} /> and Kubernetes <img src="https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png" alt="Kubernetes" style={{ height: '1.2em', width: '1.2em', verticalAlign: 'middle', display: 'inline-block', margin: '0 0.2em' }} /> architect!
-          <em>I help enterprises build scalable platforms on Kubernetes, AWS & GCP.</em>
+          {t('home.hero')} <em>{t('home.heroSubtitle')}</em>
         </p>
       </section>
 
@@ -107,14 +94,13 @@ export default function Home() {
       {/* Bio Section */}
       <section className="intro intro--content">
         <p>
-          I help enterprises scale with cloud-native technologies. Currently leading DevOps transformation
-          at Deloitte for Volkswagen. <span className="intro__emoji">🚀</span>
+          {t('home.bio')}
         </p>
       </section>
 
       {/* Trusted By */}
       <section className="trusted-by">
-        <h2 className="trusted-by__title">Trusted by leading enterprises</h2>
+        <h2 className="trusted-by__title">{t('home.trustedBy')}</h2>
         <div className="trusted-by__logos-container">
           <div className="trusted-by__logos">
             {/* Render logos twice for seamless infinite scroll */}
@@ -161,9 +147,9 @@ export default function Home() {
       </section>
 
       {/* Featured Work */}
-      <h2 className="section-title">Featured Work</h2>
+      <h2 className="section-title">{t('home.featuredWork')}</h2>
       <section className="cards-grid">
-        {featuredWork.map((work) => (
+        {featuredWork.map((work: any, index: number) => (
           <article key={work.title} className="card">
             <span className="card__date">{work.company}</span>
             <div className="card__thumbnail" style={{
@@ -175,11 +161,11 @@ export default function Home() {
               height: '200px',
               background: 'linear-gradient(135deg, rgba(0,212,170,0.1) 0%, rgba(77,175,230,0.1) 100%)'
             }}>
-              {work.logos.map((Logo, index) => (
+              {featuredWorkLogos[index]?.map((Logo, logoIndex) => (
                 <div
-                  key={index}
+                  key={logoIndex}
                   style={{
-                    width: work.logos.length > 1 ? '45%' : '60%',
+                    width: featuredWorkLogos[index].length > 1 ? '45%' : '60%',
                     height: 'auto',
                     maxHeight: '80px',
                     display: 'flex',
@@ -194,12 +180,12 @@ export default function Home() {
             <h3 className="card__title">{work.title}</h3>
             <p className="card__teaser">{work.description}</p>
             <div className="card__tags">
-              {work.tags.map((tag) => (
+              {work.tags.map((tag: string) => (
                 <span key={tag} className="tag">{tag}</span>
               ))}
             </div>
             <Link href={work.href} className="btn card__btn">
-              View Case Study
+              {t('home.viewCaseStudy')}
             </Link>
           </article>
         ))}
@@ -234,17 +220,17 @@ export default function Home() {
         <ul className="leader__list">
           <li>
             <Link href="/services" className="leader__link">
-              Explore my services
+              {t('home.exploreServices')}
             </Link>
           </li>
           <li>
             <Link href="/content" className="leader__link">
-              Watch tutorials & labs
+              {t('home.watchTutorials')}
             </Link>
           </li>
           <li>
             <Link href="/speaking" className="leader__link">
-              Community & speaking
+              {t('home.communitySpeaking')}
             </Link>
           </li>
         </ul>
