@@ -108,7 +108,7 @@ Sections:
 ### **7. Contact**
 Features:
 - Contact form
-- Email (public): shahrooz33ce@gmail.com
+- Email (public): info@aghili.dev
 - LinkedIn link
 - Optional Calendly integration (for future)
 

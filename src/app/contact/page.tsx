@@ -27,7 +27,7 @@ export default function ContactPage() {
             <div className="contact-info__item">
               <p className="contact-info__label">{t('contact.email')}</p>
               <p className="contact-info__value">
-                <a href="mailto:shahrooz33ce@gmail.com">shahrooz33ce@gmail.com</a>
+                <a href="mailto:info@aghili.dev">info@aghili.dev</a>
               </p>
             </div>
             <div className="contact-info__item">
@@ -172,7 +172,7 @@ export default function ContactPage() {
         </p>
         <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
           <a
-            href="mailto:shahrooz33ce@gmail.com"
+            href="mailto:info@aghili.dev"
             className="btn btn--accent"
             style={{ display: 'inline-flex', alignItems: 'center', gap: '0.8rem' }}
           >
