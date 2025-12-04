@@ -3,7 +3,7 @@ cv:
   label: Senior Solutions Architect & CNCF Community Group Organizer
   location: Frankfurt, Hesse, Germany
   email: info@aghili.dev
-  website: https://linktr.ee/aghilish
+  website: https://aghili.dev
   social_networks:
     - network: LinkedIn
       username: aghilish
@@ -11,7 +11,7 @@ cv:
       username: aghilish
   sections:
     Summary:
-      - '[**Multi-Domain Software Engineer**](https://linktr.ee/aghilish) with 16+ years of experience in software engineering'
+      - '[**Multi-Domain Software Engineer**](https://aghili.dev) with 16+ years of experience in software engineering'
       - 'Expertise in **Cloud-Native Technologies**, **Technical Leadership**, and **Mentorship**'
       - 'Passionate **Educator** and **Innovation Enthusiast**'
 

@@ -2,7 +2,7 @@ Contact
 info@aghili.dev
 www.linkedin.com/in/aghilish
 (LinkedIn)
-linktr.ee/aghilish (Portfolio)
+aghili.dev (Portfolio)
 Top Skills
 Tekton Framework
 OpenTelemetry
