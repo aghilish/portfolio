@@ -8,6 +8,7 @@ interface LanguageContextType {
   language: Language;
   setLanguage: (lang: Language) => void;
   t: (key: string) => any;
+  isLoading: boolean;
 }
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
@@ -15,16 +16,20 @@ const LanguageContext = createContext<LanguageContextType | undefined>(undefined
 export function LanguageProvider({ children }: { children: React.ReactNode }) {
   const [language, setLanguageState] = useState<Language>('de');
   const [translations, setTranslations] = useState<Record<string, any>>({});
+  const [isLoading, setIsLoading] = useState<boolean>(true);
 
   // Load translations when language changes
   useEffect(() => {
     const loadTranslations = async () => {
+      setIsLoading(true);
       try {
         const response = await fetch(`/translations/${language}.json`);
         const data = await response.json();
         setTranslations(data);
       } catch (error) {
         console.error('Failed to load translations:', error);
+      } finally {
+        setIsLoading(false);
       }
     };
     loadTranslations();
@@ -61,8 +66,12 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
   };
 
   return (
-    <LanguageContext.Provider value={{ language, setLanguage, t }}>
-      {children}
+    <LanguageContext.Provider value={{ language, setLanguage, t, isLoading }}>
+      {isLoading ? (
+        <div className="page-loading">Loading…</div>
+      ) : (
+        children
+      )}
     </LanguageContext.Provider>
   );
 }
