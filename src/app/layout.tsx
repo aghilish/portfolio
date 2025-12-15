@@ -7,6 +7,10 @@ import LanguageSwitcher from '@/components/LanguageSwitcher';
 import GoogleAnalytics from '@/components/GoogleAnalytics';
 import '@/styles/globals.css';
 
+const siteUrl = 'https://aghilish.github.io';
+const siteTitle = 'Shahrooz Aghili | Cloud Native Consultant & Solutions Architect';
+const siteDescription = 'Senior Solutions Architect & DevOps Lead specializing in Kubernetes, Google Cloud, Platform Engineering, and Cloud-Native Automation. 16+ years of experience.';
+
 const jetbrainsMono = JetBrains_Mono({
   subsets: ['latin'],
   weight: ['400', '500', '700'],
@@ -20,17 +24,39 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Shahrooz Aghili | Cloud Native Consultant & Solutions Architect',
-  description: 'Senior Solutions Architect & DevOps Lead specializing in Kubernetes, Google Cloud, Platform Engineering, and Cloud-Native Automation. 16+ years of experience.',
+  metadataBase: new URL(siteUrl),
+  title: siteTitle,
+  description: siteDescription,
   keywords: ['Cloud Native', 'Kubernetes', 'DevOps', 'Solutions Architect', 'GCP', 'Platform Engineering', 'Frankfurt'],
   authors: [{ name: 'Shahrooz Aghili' }],
+  alternates: {
+    canonical: siteUrl,
+    languages: {
+      'en-US': `${siteUrl}/?lang=en`,
+      'de-DE': `${siteUrl}/?lang=de`,
+      'x-default': siteUrl,
+    },
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
   openGraph: {
     title: 'Shahrooz Aghili | Cloud Native Consultant',
     description: 'Senior Solutions Architect & DevOps Lead specializing in Kubernetes, Google Cloud, and Platform Engineering.',
-    url: 'https://aghilish.github.io',
+    url: siteUrl,
     siteName: 'Shahrooz Aghili',
     locale: 'en_US',
+    alternateLocale: ['de_DE'],
     type: 'website',
+    images: [
+      {
+        url: '/logos/google-cloud.png',
+        width: 1200,
+        height: 630,
+        alt: 'Shahrooz Aghili - Cloud Native Consultant',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
@@ -45,12 +71,29 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   const gaId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
+  const orgJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    name: 'Shahrooz Aghili',
+    url: siteUrl,
+    jobTitle: 'Cloud Native Consultant & Solutions Architect',
+    description: siteDescription,
+    sameAs: [
+      'https://www.linkedin.com/in/aghilish',
+      'https://github.com/aghilish',
+      'https://www.youtube.com/@aghilish',
+    ],
+  };
 
   return (
     <html lang="en" className={`${jetbrainsMono.variable} ${inter.variable}`}>
       <body>
         <LanguageProvider>
           {gaId && <GoogleAnalytics measurementId={gaId} />}
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd) }}
+          />
           <LanguageSwitcher />
           <div className="global-wrapper">
             <Header />
