@@ -25,9 +25,21 @@ Shahrooz Aghili
 Senior Solutions Architect & CNCF Community Group Organizer
 Frankfurt, Hesse, Germany
 Summary
-Multi-Domain Software Engineer | 16+ Years Experience in Software
-Engineering | Expertise in Cloud-Native Technologies, Technical
-Leadership, and Mentorship | Educator and Innovation Enthusiast
+I build Kubernetes platforms for large enterprises and help teams actually
+ship software on them. 16 years in, I've gone from writing backend code to
+architecting cloud infrastructure for companies like VW, Audi, Commerzbank,
+and Google Cloud partners.
+
+Right now I lead DevOps workstreams at Deloitte, where I run a team of 12
+and build the platform that VW's factory software runs on. Before that, I
+migrated Commerzbank's microservices to multi-regional Anthos and built
+their KYC data pipeline. I also did a short stint at CARIAD moving their
+infotainment build system to GitHub Enterprise.
+
+I hold CKA, CKS, and Google Cloud Professional Architect certifications.
+I organize Cloud Native Frankfurt, a CNCF community group. I make
+Kubernetes tutorials on YouTube and interactive labs on KillerCoda because
+I think this stuff should be easier to learn than it is.
 Experience
 Deloitte Consulting
 2 years
@@ -147,12 +159,12 @@ Backend Engineer / DevOps
 June 2019 - February 2021 (1 year 9 months)
 Frankfurt am Main, Hesse
 : Contributed as a member of a small, agile incubator team focused on
-developing innovative cloud-native applications on Google Cloud Platform
+building cloud-native applications on Google Cloud Platform
 (GCP).
 & : Played a dual role in backend development and DevOps, ensuring efficient,
 scalable, and reliable application delivery.
-: Utilized a cutting-edge technology stack, including Firebase, Node.js with
-TypeScript, and React.js, to build and deploy user-centric solutions.
+: Built with Firebase, Node.js,
+TypeScript, and React.js.
 Technische Universität Darmstadt
 Researcher - PhD Dropout
 December 2016 - December 2018 (2 years 1 month)
@@ -166,15 +178,15 @@ Parham Co.
 Senior Software Engineer
 October 2015 - October 2016 (1 year 1 month)
 Tehran
--- : Delivered comprehensive full-stack solutions, leveraging expertise in both
-front-end and back-end development.
+: Built full-stack applications covering both
+front-end and back-end.
 Page 4 of 5
 Sharif University of Technology
 Research Assistant
 September 2014 - September 2015 (1 year 1 month)
 Tehran, Iran
 : Focused on Software Defined Networks (SDN) with a deep dive into
-innovative network architectures and protocols.
+new network architectures and protocols.
 : Authored a thesis titled "Distributed Publisher-Subscriber Pattern for Content-
 Based Routing in Software Defined Computer Networks", exploring advanced
 routing mechanisms.

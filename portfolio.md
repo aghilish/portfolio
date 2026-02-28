@@ -37,31 +37,51 @@ Content:
 
 ### **2. About**
 Content:
-- Short professional biography
-- 16+ years experience summary
-- Story of transition from researcher → engineer → architect → consultant
-- Community work (Cloud Native Frankfurt)
-- Teaching & content creation (YouTube, KillerCoda)
+- Short professional biography written in first person, conversational tone
+- 16 years: started in backend development, moved to cloud and infrastructure, now architect and team lead
+- Specific clients: VW, Audi, Commerzbank, CARIAD, Google Cloud
+- Currently leading 12 people at Deloitte across two workstreams
+- Certifications that matter: CKA, CKS, Google Cloud Professional Architect
+- Community: organize Cloud Native Frankfurt (CNCF community group)
+- Teaching: YouTube tutorials and KillerCoda interactive labs
 - Languages (EN/DE/FA)
-
+- Avoid generic "passionate leader" language. Use concrete details instead.
 ---
-
 ### **3. Services**
-Clear, concise list of consulting offerings.
+What I actually do for clients. No fluff. Each service includes a real example.
 
-**Core Services:**
-- Cloud Native Architecture & Platform Engineering
-- Kubernetes Infrastructure Design & Automation
-- DevOps & CI/CD Strategy (Tekton, GitHub Actions, GitLab)
-- Google Cloud Manufacturing Data Engine (MDE)
-- Cloud Migration & Modernization
-- Infrastructure as Code (Terraform, Anthos)
-- FinOps Optimization & Well-Architected Reviews
-- Cloud-Native System/Load Testing Automation
+**Kubernetes Platform Engineering**
+- Design, build, and run production Kubernetes clusters (EKS, GKE, Anthos, vanilla)
+- Example: Built the container platform for VW's factory software at Deloitte
 
-For each service:
-- Problem → Solution → Outcome
-- Add “Typical Engagements” bullet lists
+**CI/CD Pipeline Design**
+- Tekton, GitHub Actions, GitLab CI, ArgoCD
+- Example: Migrated CARIAD's infotainment build pipeline from DevStack to GitHub Enterprise
+
+**Observability and Monitoring**
+- OpenTelemetry instrumentation, Elastic Stack, Prometheus, Grafana
+- Example: Designed the observability strategy for VW's entire Agile Release Train (metrics, logs, traces, business KPIs)
+
+**Cloud Architecture (GCP, AWS, Azure)**
+- Multi-cloud design, FinOps, Well-Architected reviews
+- Example: Ran the Google Cloud Manufacturing Data Engine PoC for Deloitte x Google Alliance
+
+**Cloud Migration**
+- Moving workloads from on-prem to cloud, or between cloud providers
+- Example: Migrated Commerzbank microservices to multi-regional Google Anthos
+
+**Infrastructure as Code**
+- Terraform, AWS CDK, Helm charts
+- Example: Built a self-service CDK library compliant with VW's AWS Vanguard framework
+
+**Team Leadership and Mentoring**
+- I've led teams of 3 to 12 engineers. I do technical interviews, rollout planning, and hands-on architecture.
+- Not a manager who stopped coding. I still write Helm charts and debug pods.
+
+For each service page:
+- What the problem looks like
+- How I approach it
+- What the client gets
 
 ---
 
