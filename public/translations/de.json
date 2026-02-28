@@ -15,8 +15,8 @@
   },
   "home": {
     "hero": "Moin, ich bin Shahrooz — der Cloud- und Kubernetes-Architekt!",
-    "heroSubtitle": "Ich helfe Unternehmen, skalierbare Plattformen auf Kubernetes, AWS & GCP aufzubauen.",
-    "bio": "Ich helfe Unternehmen bei der Skalierung mit Cloud-Native-Technologien. Derzeit leite ich die DevOps-Transformation bei Deloitte für Volkswagen. 🚀",
+    "heroSubtitle": "Ich helfe Unternehmen, skalierbare Plattformen auf Kubernetes, AWS & GCP aufzubauen. Verfügbar für Freelance-Projekte.",
+    "bio": "16+ Jahre Softwareentwicklung. Cloud-Native-Architekt mit Spezialisierung auf Kubernetes, AWS EKS, GCP, OpenTelemetry und DevOps-Transformation. Derzeit leite ich DevOps bei Deloitte für Volkswagen. Verfügbar für Freelance-Beratung. 🚀",
     "trustedBy": "Vertrauen von führenden Unternehmen",
     "featuredWork": "Ausgewählte Projekte",
     "featuredWorkItems": [
@@ -212,6 +212,20 @@
     "communityLeadershipDesc": "Als CNCF Community Group Organizer bleibe ich an der Spitze der Cloud-Native-Innovationen.",
     "educationFocus": "Bildungsfokus:",
     "educationFocusDesc": "Ich implementiere nicht nur — ich übertrage Wissen, um sicherzustellen, dass Ihr Team die Lösungen warten und weiterentwickeln kann.",
+    "freelanceAvailability": "Freelance-Verfügbarkeit",
+    "freelanceAvailabilityDesc": "Aktuell verfügbar für Freelance-Projekte ab Q2/Q3 2026. Bevorzugtes Engagement: Remote oder Hybrid (Raum Frankfurt). Offen für Projekte über freelancermap, GULP und Direktanfragen.",
+    "freelanceKeySkills": "Gefragte Skills, die ich anbiete",
+    "freelanceKeySkillItems": [
+      "Kubernetes Platform Engineering (EKS, GKE, Anthos, OpenShift)",
+      "AWS Cloud-Architektur (CDK, EKS, CloudFormation, Terraform)",
+      "GCP Solutions Architecture (GKE, BigQuery, MDE)",
+      "Observability & Monitoring (OpenTelemetry, Elastic Stack, Prometheus, Grafana)",
+      "DevOps & CI/CD (Tekton, GitHub Actions, GitLab CI, ArgoCD)",
+      "Golang Microservices & Kubernetes Operators",
+      "Cloud-Native Security (CKS-zertifiziert)",
+      "FinOps & Kostenoptimierung",
+      "AI/MCP-Integration für Kubernetes"
+    ],
     "engagementModels": "Engagement-Modelle",
     "engagementItems": [
       {
@@ -220,7 +234,12 @@
         "duration": "Monatlich"
       },
       {
-        "title": "Projektbasiert",
+        "title": "Freelance-Projektengagement",
+        "description": "Hands-on Delivery für Platform Engineering, Cloud-Migration, Observability-Implementierung oder DevOps-Transformation. Ideal für 3-12 monatige Engagements über freelancermap oder GULP.",
+        "duration": "3-12 Monate"
+      },
+      {
+        "title": "Projektbasierte Beratung",
         "description": "Fokussiertes Engagement für spezifische Initiativen wie Migrationen, neue Plattform-Builds oder Observability-Implementierungen.",
         "duration": "2-6 Monate"
       },
@@ -326,6 +345,27 @@
         "technologies": ["GitHub Enterprise", "GitHub Actions", "Docker", "CI/CD"]
       },
       {
+        "id": "k8s-mcp",
+        "company": "Open Source",
+        "title": "Kubernetes MCP Server Operator",
+        "context": "Mit der zunehmenden Verbreitung von KI-gestützten Entwicklungstools (Claude, VS Code Copilot, ChatGPT) wächst der Bedarf an standardisierten Möglichkeiten für KI-Agenten, mit Kubernetes-Clustern zu interagieren. Das Model Context Protocol (MCP) bietet diesen Standard, aber das Deployment und Management von MCP-Servern im Großmaßstab erfordert Kubernetes-natives Tooling.",
+        "challenges": [
+          "Kein standardisierter Weg, MCP-Server als verwaltete Kubernetes-Workloads bereitzustellen",
+          "KI-Tools benötigen sicheren, strukturierten Zugriff auf Cluster-Zustand und -Operationen",
+          "Enterprise-Adoption erfordert Operator-verwalteten Lifecycle und RBAC-Integration",
+          "Brückenschlag zwischen KI-Tooling und Cloud-Native-Infrastruktur"
+        ],
+        "approach": "Aufbau eines Open-Source-Kubernetes-Operators mit Kubebuilder und Go, der MCP-Server-Deployments als Custom Resources verwaltet. Der Operator kümmert sich um Lifecycle-Management, Service-Exposition und Integration mit KI-Clients.",
+        "results": [
+          "Open-Source-Kubernetes-Operator für MCP-Server-Lifecycle-Management",
+          "Custom Resource Definitions für deklaratives MCP-Server-Deployment",
+          "Hands-on Tutorial und KillerCoda-Lab zum Erlernen von MCP + Kubernetes",
+          "YouTube-Tutorial für die Cloud-Native-AI-Community",
+          "Demonstriert die Schnittstelle von Agentic AI und Platform Engineering"
+        ],
+        "technologies": ["Golang", "Kubernetes", "Kubebuilder", "MCP", "Custom Operators", "KI-Integration"]
+      },
+      {
         "id": "main-incubator",
         "company": "Main Incubator GmbH",
         "title": "Cloud-Native-Anwendungsentwicklung auf GCP",
@@ -377,8 +417,8 @@
     "discoveryCallDesc": "Für Beratungsanfragen vereinbaren wir ein kostenloses 30-minütiges Gespräch, um Ihre Bedürfnisse zu besprechen und wie ich helfen kann.",
     "proposal": "Angebot",
     "proposalDesc": "Basierend auf unserem Gespräch erstelle ich ein detailliertes Angebot mit Umfang, Zeitplan und Investitionsoptionen.",
-    "currentlyAvailable": "Derzeit verfügbar für Projekte",
-    "currentlyAvailableDesc": "Ich nehme ausgewählte Beratungsaufträge für Q1 2025 an. Lassen Sie uns gemeinsam etwas Großartiges aufbauen.",
+    "currentlyAvailable": "Derzeit verfügbar für Freelance-Projekte",
+    "currentlyAvailableDesc": "Ich nehme ausgewählte Freelance- und Beratungsaufträge für Q2/Q3 2026 an. Spezialisiert auf Kubernetes Platform Engineering, AWS/GCP Cloud-Architektur, Observability (OpenTelemetry/Elastic Stack) und DevOps-Transformation. Remote-freundlich, mit Sitz in Frankfurt. Lassen Sie uns gemeinsam etwas Großartiges aufbauen.",
     "emailMe": "E-Mail an mich",
     "connectLinkedIn": "Auf LinkedIn verbinden"
   },

@@ -9,7 +9,7 @@ import '@/styles/globals.css';
 
 const siteUrl = 'https://aghilish.github.io';
 const siteTitle = 'Shahrooz Aghili | Cloud Native Consultant & Solutions Architect';
-const siteDescription = 'Senior Solutions Architect & DevOps Lead specializing in Kubernetes, Google Cloud, Platform Engineering, and Cloud-Native Automation. 16+ years of experience.';
+const siteDescription = 'Freelance Cloud Native Consultant & DevOps Lead specializing in Kubernetes, AWS EKS, GCP, OpenTelemetry, Golang, and Platform Engineering. 16+ years of experience. Available for freelance projects in Frankfurt/Remote.';
 
 const jetbrainsMono = JetBrains_Mono({
   subsets: ['latin'],
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: siteTitle,
   description: siteDescription,
-  keywords: ['Cloud Native', 'Kubernetes', 'DevOps', 'Solutions Architect', 'GCP', 'Platform Engineering', 'Frankfurt'],
+  keywords: ['Cloud Native', 'Kubernetes', 'DevOps', 'Solutions Architect', 'GCP', 'AWS', 'EKS', 'Platform Engineering', 'Frankfurt', 'Freelance', 'Freiberuflich', 'OpenTelemetry', 'Observability', 'Golang', 'Terraform', 'Helm', 'ArgoCD', 'CI/CD', 'Cloud Architect', 'Kubernetes Operator', 'MCP'],
   authors: [{ name: 'Shahrooz Aghili' }],
   alternates: {
     canonical: siteUrl,
@@ -42,8 +42,8 @@ export const metadata: Metadata = {
     follow: true,
   },
   openGraph: {
-    title: 'Shahrooz Aghili | Cloud Native Consultant',
-    description: 'Senior Solutions Architect & DevOps Lead specializing in Kubernetes, Google Cloud, and Platform Engineering.',
+    title: 'Shahrooz Aghili | Freelance Cloud Native Consultant & Kubernetes Architect',
+    description: 'Freelance Cloud Native Consultant & DevOps Lead. Kubernetes, AWS EKS, GCP, OpenTelemetry, Platform Engineering. Available in Frankfurt/Remote.',
     url: siteUrl,
     siteName: 'Shahrooz Aghili',
     locale: 'en_US',
@@ -60,8 +60,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Shahrooz Aghili | Cloud Native Consultant',
-    description: 'Senior Solutions Architect & DevOps Lead specializing in Kubernetes, Google Cloud, and Platform Engineering.',
+    title: 'Shahrooz Aghili | Freelance Cloud Native Consultant',
+    description: 'Freelance Kubernetes & Cloud Architect. AWS EKS, GCP, OpenTelemetry, DevOps. Frankfurt/Remote.',
   },
 };
 
@@ -76,7 +76,7 @@ export default function RootLayout({
     '@type': 'Person',
     name: 'Shahrooz Aghili',
     url: siteUrl,
-    jobTitle: 'Cloud Native Consultant & Solutions Architect',
+    jobTitle: 'Freelance Cloud Native Consultant & Kubernetes Architect',
     description: siteDescription,
     sameAs: [
       'https://www.linkedin.com/in/aghilish',

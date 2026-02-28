@@ -98,15 +98,22 @@ export default function AboutPage() {
               <span className="tag">Kubernetes</span>
               <span className="tag">Google Cloud Platform</span>
               <span className="tag">AWS</span>
+              <span className="tag">EKS</span>
+              <span className="tag">Golang</span>
               <span className="tag">Tekton</span>
               <span className="tag">OpenTelemetry</span>
               <span className="tag">Elastic Stack</span>
               <span className="tag">Terraform</span>
+              <span className="tag">AWS CDK</span>
               <span className="tag">Helm</span>
               <span className="tag">ArgoCD</span>
               <span className="tag">GitHub Actions</span>
-              <span className="tag">CDK</span>
+              <span className="tag">Docker</span>
               <span className="tag">Anthos</span>
+              <span className="tag">OpenShift</span>
+              <span className="tag">Prometheus</span>
+              <span className="tag">Grafana</span>
+              <span className="tag">MCP (Model Context Protocol)</span>
             </div>
           </div>
           <div>
