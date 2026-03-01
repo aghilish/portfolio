@@ -15,8 +15,8 @@
   },
   "home": {
     "hero": "Moin, I'm Shahrooz — the Cloud and Kubernetes architect!",
-    "heroSubtitle": "I help enterprises build scalable platforms on Kubernetes, AWS & GCP.",
-    "bio": "I help enterprises scale with cloud-native technologies. Currently leading DevOps transformation at Deloitte for Volkswagen. 🚀",
+    "heroSubtitle": "Kubernetes, AWS & GCP platforms for enterprises. Available for freelance.",
+    "bio": "16+ years software engineering. Kubernetes, AWS EKS, GCP, OpenTelemetry, DevOps. Currently DevOps Squad Lead at Deloitte for Volkswagen. Open for freelance. 🚀",
     "trustedBy": "Trusted by leading enterprises",
     "featuredWork": "Featured Work",
     "featuredWorkItems": [
@@ -212,6 +212,20 @@
     "communityLeadershipDesc": "As a CNCF Community Group Organizer, I stay at the forefront of cloud-native innovations.",
     "educationFocus": "Education Focus:",
     "educationFocusDesc": "I don't just implement — I transfer knowledge to ensure your team can maintain and evolve the solutions.",
+    "freelanceAvailability": "Freelance Availability",
+    "freelanceAvailabilityDesc": "Available from Q2/Q3 2026. Remote or hybrid (Frankfurt). Open via freelancermap, GULP, or direct.",
+    "freelanceKeySkills": "In-Demand Skills I Offer",
+    "freelanceKeySkillItems": [
+      "Kubernetes Platform Engineering (EKS, GKE, Anthos, OpenShift)",
+      "AWS Cloud Architecture (CDK, EKS, CloudFormation, Terraform)",
+      "GCP Solutions Architecture (GKE, BigQuery, MDE)",
+      "Observability & Monitoring (OpenTelemetry, Elastic Stack, Prometheus, Grafana)",
+      "DevOps & CI/CD (Tekton, GitHub Actions, GitLab CI, ArgoCD)",
+      "Golang Microservices & Kubernetes Operators",
+      "Cloud-Native Security (CKS certified)",
+      "FinOps & Cost Optimization",
+      "AI/MCP Integration for Kubernetes"
+    ],
     "engagementModels": "Engagement Models",
     "engagementItems": [
       {
@@ -220,7 +234,12 @@
         "duration": "Monthly"
       },
       {
-        "title": "Project-Based",
+        "title": "Freelance Project Engagement",
+        "description": "Hands-on platform engineering, migration, observability, or DevOps. Via freelancermap, GULP, or direct.",
+        "duration": "3-12 months"
+      },
+      {
+        "title": "Project-Based Consulting",
         "description": "Focused engagement for specific initiatives like migrations, new platform builds, or observability implementations.",
         "duration": "2-6 months"
       },
@@ -326,6 +345,24 @@
         "technologies": ["GitHub Enterprise", "GitHub Actions", "Docker", "CI/CD"]
       },
       {
+        "id": "k8s-mcp",
+        "company": "Open Source",
+        "title": "Kubernetes MCP Server Operator",
+        "context": "AI tools (Claude, Copilot, ChatGPT) need standardized access to Kubernetes clusters. MCP provides the protocol — but no Kubernetes-native operator existed.",
+        "challenges": [
+          "No operator for managing MCP servers as Kubernetes workloads",
+          "AI agents need secure, structured cluster access",
+          "Enterprise use requires lifecycle management and RBAC"
+        ],
+        "approach": "Built an open-source Kubernetes operator with Kubebuilder and Go. Manages MCP server deployments as Custom Resources with full lifecycle and service exposure.",
+        "results": [
+          "Open-source operator with CRDs for declarative MCP server deployment",
+          "KillerCoda lab and YouTube tutorial for the community",
+          "Bridges Agentic AI and Platform Engineering"
+        ],
+        "technologies": ["Golang", "Kubernetes", "Kubebuilder", "MCP", "Custom Operators"]
+      },
+      {
         "id": "main-incubator",
         "company": "Main Incubator GmbH",
         "title": "Cloud-Native Application Development on GCP",
@@ -377,8 +414,8 @@
     "discoveryCallDesc": "For consulting inquiries, we'll schedule a free 30-minute call to discuss your needs and how I can help.",
     "proposal": "Proposal",
     "proposalDesc": "Based on our discussion, I'll provide a detailed proposal with scope, timeline, and investment options.",
-    "currentlyAvailable": "Currently Available for Projects",
-    "currentlyAvailableDesc": "I'm taking on select consulting engagements for Q1 2025. Let's build something great together.",
+    "currentlyAvailable": "Available for Freelance Projects",
+    "currentlyAvailableDesc": "Taking on freelance engagements from Q2/Q3 2026. Kubernetes, AWS/GCP, Observability, DevOps. Frankfurt-based, remote-friendly.",
     "emailMe": "Email Me",
     "connectLinkedIn": "Connect on LinkedIn"
   },
