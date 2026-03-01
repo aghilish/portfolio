@@ -9,7 +9,7 @@ import '@/styles/globals.css';
 
 const siteUrl = 'https://aghilish.github.io';
 const siteTitle = 'Shahrooz Aghili | Cloud Native Consultant & Solutions Architect';
-const siteDescription = 'Freelance Cloud Native Consultant & DevOps Lead specializing in Kubernetes, AWS EKS, GCP, OpenTelemetry, Golang, and Platform Engineering. 16+ years of experience. Available for freelance projects in Frankfurt/Remote.';
+const siteDescription = 'Freelance Cloud Native Consultant. Kubernetes, AWS EKS, GCP, OpenTelemetry, Golang. 16+ years. Frankfurt/Remote.';
 
 const jetbrainsMono = JetBrains_Mono({
   subsets: ['latin'],
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Shahrooz Aghili | Freelance Cloud Native Consultant & Kubernetes Architect',
-    description: 'Freelance Cloud Native Consultant & DevOps Lead. Kubernetes, AWS EKS, GCP, OpenTelemetry, Platform Engineering. Available in Frankfurt/Remote.',
+    description: 'Freelance Kubernetes & Cloud Architect. AWS EKS, GCP, OpenTelemetry, DevOps. Frankfurt/Remote.',
     url: siteUrl,
     siteName: 'Shahrooz Aghili',
     locale: 'en_US',
