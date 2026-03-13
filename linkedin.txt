@@ -46,172 +46,118 @@ Deloitte Consulting
 DevOps Squad Lead
 January 2025 - Present (11 months)
 Frankfurt, Hesse, Germany
-: Leading two workstreams with a combined team of 6 Consultants, 3 Senior
-Consultants, and 3 additional Consultants. Responsible for technical interviews
-and supporting the engagement partner with staffing decisions.
-& : Serving as the technical lead and platform engineer for the DevOps
-Enabling Team within the Volkswagen’s ART FSS (Agile Release Train –
-Future Shopfloor Services).
-: Developing a self-service CDK library fully compliant with Volkswagen’s
-AWS Vanguard framework, enabling standardized and secure infrastructure
-provisioning across teams.
-/ & : Automating CI/CD pipelines and designing scalable deployment models,
-including EKS-based architectures and reusable delivery patterns.
-: Driving the end-to-end implementation of the ART-wide observability strategy,
-covering all monitoring signals (metrics, logs, traces, and business KPIs).
-- : Implementing zero-code instrumentation for business-specific signals using
-shared NuGet packages adopted across ART FSS.
-: Integrating the Elastic Stack as the central monitoring platform and
-extending Helm charts to support OTLP exporters and all observability-related
-configuration components.
+Leading two workstreams for Volkswagen's factory software platform (ART
+FSS). Team of 12: 6 Consultants, 3 Senior Consultants, 3 additional
+Consultants. I run technical interviews and help the engagement partner
+with staffing decisions.
+
+Technical lead and platform engineer for the DevOps Enabling Team. Built
+a self-service CDK library that meets VW's AWS Vanguard compliance
+requirements. Teams use it to provision infrastructure without filing tickets.
+
+Set up CI/CD on EKS with reusable deployment patterns. Designed the
+ART-wide observability strategy: metrics, logs, traces, business KPIs. Stack
+is OpenTelemetry plus Elastic. Built zero-code instrumentation through shared
+NuGet packages so application teams get monitoring without changing their
+code. Extended Helm charts to support OTLP exporters.
 DevOps Tech Lead
 April 2024 - December 2024 (9 months)
 Frankfurt, Hesse, Germany
 Page 1 of 5
-: Led infrastructure automation initiatives and CI/CD pipeline development,
-driving best practices and designing deployment strategies to ensure efficient,
-secure, and reliable delivery.
-: Mentored and provided technical direction to a team of three Deloitte
-engineers, supporting their professional growth and maintaining high team
-performance.
-: Collaborated with product owners from Volkswagen and Audi, as well as
-with product management, to develop tailored rollout strategies aligned with
-business and operational needs.
-: Designed and implemented release concepts, processes, and documentation
-for workloads running on plant-based clusters, ensuring controlled and
-predictable delivery cycles.
-: Developed cloud-native system and load testing automation for the Data
-Capture Application of Manufacturing Events (DCA) , integrating Tekton
-pipelines and XRAY with Jira to streamline testing workflows and improve
-traceability.
-- : Partnered with VW SDC operations teams and external consulting partners
-(IBM, Accenture, etc.) to ensure seamless integration, operation, and
-scalability of platform components.
+CI/CD and infrastructure automation for VW's plant-based clusters. Mentored
+3 Deloitte engineers. Worked directly with product owners from Volkswagen
+and Audi on rollout strategies for factory workloads.
+
+Designed the release process for plant cluster deployments. Built system and
+load testing automation for the Data Capture Application (DCA) using Tekton
+pipelines tied into XRAY and Jira. Coordinated platform integration with VW
+SDC operations and external partners (IBM, Accenture).
 Senior Solutions Architect
 December 2023 - April 2024 (5 months)
 Frankfurt, Hesse, Germany
-: Directed the development of a Proof of Concept (PoC) for Google Cloud’s
-Manufacturing Data Engine, as part of a presales project between Deloitte
-and the Google Cloud Alliance, showcasing innovation and expertise in cloud-
-based manufacturing solutions.
-: Applied FinOps principles and GCP Well-Architected Framework best
-practices to optimize costs, performance, and reliability.
-: Built advanced pipelines for Kubernetes node scheduling and on-demand
-infrastructure provisioning, enabling efficient resource utilization.
-: Worked closely with Google MDE development teams to ensure seamless
-upgrades and effective maintenance.
-: Delivered technical presentations of the Manufacturing Data Engine to
-prospective Deloitte clients, highlighting its capabilities and value.
+Presales project between Deloitte and Google Cloud Alliance. Built a PoC
+for Google Cloud's Manufacturing Data Engine. Applied FinOps and GCP
+Well-Architected Framework to optimize the setup. Created Kubernetes node
+scheduling pipelines for on-demand infrastructure provisioning. Worked with
+Google's MDE development team on upgrades and maintenance. Presented
+the MDE to prospective Deloitte clients.
 Cloud Native Frankfurt
 Community Group Organizer
 February 2025 - Present (10 months)
 Frankfurt Rhine-Main Metropolitan Area
 Page 2 of 5
 Self-employed
-Content Creator – Cloud-Native Technologies
+Content Creator - Cloud-Native Technologies
 April 2024 - Present (1 year 8 months)
-: Developed hands-on training materials and interactive scenarios on cloud-
-native technologies. https://killercoda.com/aghilish
-: Created and managed a YouTube channel focused on cloud-native
-technologies, delivering engaging tutorials, deep dives, and practical guides to
-a growing audience.
-https://www.youtube.com/@aghilish
-: Covered topics such as Kubernetes, containerization, cloud platforms,
-and DevOps best practices, empowering learners with actionable skills and
-knowledge.
+Hands-on Kubernetes and cloud-native training. Interactive scenarios on
+KillerCoda (killercoda.com/aghilish) and video tutorials on YouTube
+(youtube.com/@aghilish). Kubernetes, containerization, cloud platforms,
+DevOps. Started it because most cloud-native learning resources are either
+too shallow or too academic.
 CARIAD
 Freelance Senior DevOps Engineer
 October 2023 - November 2023 (2 months)
-: Successfully migrated the Infotainment software build pipeline from the
-CARIAD DevStack platform to GitHub Enterprise CI/CD, enhancing efficiency
-and maintainability.
+Two months, one job: migrated the infotainment software build pipeline from
+CARIAD DevStack to GitHub Enterprise CI/CD.
 Commerzbank AG
 2 years 7 months
 Senior Platform Engineer
 February 2023 - September 2023 (8 months)
 Frankfurt, Hesse, Germany
-: Led the engineering backlog, ensuring the platform’s continuous development
-and alignment with team objectives.
-: Guided and mentored a team of junior cloud-native engineers, fostering their
-technical growth and career development.
-: Designed and conducted in-depth workshops focused on the Knowledge
-Graph Kubernetes platform to share insights and best practices.
-: Spearheaded the migration of microservices to a multi-regional Google
-Anthos setup, enhancing scalability and reliability.
-- : Maintained a hands-on approach by showcasing practical Kubernetes
-knowledge and tools through resources such as killercoda.com/aghilish.
+Owned the engineering backlog for the platform team. Mentored junior
+cloud-native engineers. Ran workshops on the Knowledge Graph Kubernetes
+platform. Led the migration of microservices to multi-regional Google Anthos.
+Two years on the same platform team, which is rare for a contractor.
 Platform Engineer
 March 2021 - February 2023 (2 years)
 Frankfurt, Hesse, Germany
 Page 3 of 5
-: Engineered a robust deployment pipeline for the KYC ETL process, ensuring
-seamless and efficient data transformations.
-(): Implemented and maintained IaC practices to standardize and automate
-infrastructure provisioning.
-/ : Designed and managed continuous integration and deployment pipelines to
-streamline development workflows and improve software delivery speed.
-: Contributed to the design and implementation of scalable and modular
-microservices-based solutions.
-: Built and optimized networking architecture to support reliable and secure
-system communication.
+Built the deployment pipeline for the KYC ETL process. Managed
+infrastructure as code. Ran CI/CD pipelines. Worked on microservices
+architecture and the networking layer underneath it.
 Main Incubator GmbH
 Backend Engineer / DevOps
 June 2019 - February 2021 (1 year 9 months)
 Frankfurt am Main, Hesse
-: Contributed as a member of a small, agile incubator team focused on
-building cloud-native applications on Google Cloud Platform
-(GCP).
-& : Played a dual role in backend development and DevOps, ensuring efficient,
-scalable, and reliable application delivery.
-: Built with Firebase, Node.js,
-TypeScript, and React.js.
-Technische Universität Darmstadt
+Small incubator team inside Commerzbank, building cloud-native apps on
+GCP. Backend and DevOps, often both at once. Firebase, Node.js,
+TypeScript, React.js. The kind of place where everyone wears multiple hats.
+Technische Universitat Darmstadt
 Researcher - PhD Dropout
 December 2016 - December 2018 (2 years 1 month)
 Darmstadt Area, Germany
-: Contributed to the development and optimization of 5G mm-wave
-network technologies, pushing the boundaries of next-generation wireless
-communication.
-: Utilized Python, C++, and MATLAB to design, simulate, and implement
-network solutions.
+5G mm-wave network research. Built simulations in Python, C++, and MATLAB.
+Left before completing the PhD to go into industry.
 Parham Co.
 Senior Software Engineer
 October 2015 - October 2016 (1 year 1 month)
 Tehran
-: Built full-stack applications covering both
-front-end and back-end.
+Full-stack development. Front-end and back-end.
 Page 4 of 5
 Sharif University of Technology
 Research Assistant
 September 2014 - September 2015 (1 year 1 month)
 Tehran, Iran
-: Focused on Software Defined Networks (SDN) with a deep dive into
-new network architectures and protocols.
-: Authored a thesis titled "Distributed Publisher-Subscriber Pattern for Content-
-Based Routing in Software Defined Computer Networks", exploring advanced
-routing mechanisms.
-Technical Expertise: Hands-on experience with OpenDaylight Controller,
-Mininet, and Java for prototyping and simulation.
+Software Defined Networks (SDN) research. Thesis: "Distributed
+Publisher-Subscriber Pattern for Content-Based Routing in Software Defined
+Computer Networks." Built prototypes with OpenDaylight Controller, Mininet,
+and Java.
 Solico Group
 Senior Software Developer
 March 2012 - November 2014 (2 years 9 months)
 Tehran
-- : Specialized in creating robust and scalable back-end solutions to support
-enterprise applications.
+Back-end development for enterprise applications.
 Telecomsoft
 Software Developer
 October 2011 - February 2012 (5 months)
 Tehran
-: Designed and developed a simulation tool for routing and bundling in optical
-networks, commissioned by the Iranian Telecommunication Research Center
-(ITRC).
-: Utilized C# for application development and MATLAB for advanced simulation
-and data analysis.
+Built a simulation tool for routing and bundling in optical networks for the
+Iranian Telecommunication Research Center (ITRC). C# and MATLAB.
 Education
-Technische Universität Darmstadt
-PhD-dropout, Computer Science · (2016 - 2018)
+Technische Universitat Darmstadt
+PhD-dropout, Computer Science (2016 - 2018)
 Sharif University of Technology
-Master of Science (MS), Information Technology · (2013 - 2015)
+Master of Science (MS), Information Technology (2013 - 2015)
 Isfahan University of Technology
-Bachelor of Science (BS), Computer Engineering · (2007 - 2011)
+Bachelor of Science (BS), Computer Engineering (2007 - 2011)
 Page 5 of 5
