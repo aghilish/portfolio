@@ -55,6 +55,25 @@ export default function ServicesPage() {
         })}
       </section>
 
+      {/* Freelance Availability */}
+      <section className="content-section">
+        <h2 className="content-section__title">{t('services.freelanceAvailability')}</h2>
+        <div className="rich-text" style={{ maxWidth: '80ch' }}>
+          <p>{t('services.freelanceAvailabilityDesc')}</p>
+          <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.6rem', marginTop: '2rem', marginBottom: '1rem', color: 'var(--color-accent)' }}>
+            {t('services.freelanceKeySkills')}
+          </h3>
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.8rem' }}>
+            {(() => {
+              const skills = t('services.freelanceKeySkillItems');
+              return Array.isArray(skills) ? skills.map((skill: string) => (
+                <span key={skill} className="tag tag--accent">{skill}</span>
+              )) : null;
+            })()}
+          </div>
+        </div>
+      </section>
+
       {/* Engagement Types */}
       <h2 className="section-title">{t('services.engagementModels')}</h2>
       <section className="cards-grid">
