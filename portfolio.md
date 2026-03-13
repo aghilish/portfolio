@@ -46,6 +46,18 @@ Content:
 - Teaching: YouTube tutorials and KillerCoda interactive labs
 - Languages (EN/DE/FA)
 - Avoid generic "passionate leader" language. Use concrete details instead.
+
+**How I Work (preference pairs, displayed as a compact list):**
+Show real opinions. This format is borrowed from successful freelancer profiles and reads as distinctly human. Each line is "X over Y" to reveal working style at a glance.
+
+- Tekton over Jenkins (pipelines should be Kubernetes-native)
+- OpenTelemetry over vendor-locked APM
+- ArgoCD for GitOps, Helm for packaging
+- On-site over full-remote for the first few weeks, then flexible
+- Small PRs over big-bang merges
+- Teaching over gatekeeping (hence the YouTube channel)
+- Hands-on architecture over slide decks. I still debug pods.
+- Boring infrastructure over clever infrastructure. Reliable wins.
 ---
 ### **3. Services**
 What I actually do for clients. No fluff. Each service includes a real example.
@@ -86,23 +98,28 @@ For each service page:
 ---
 
 ### **4. Portfolio / Case Studies**
-3–6 detailed case studies from your real work.
+Real projects. Each one tells a specific story with named tech and measurable outcomes.
 
-Examples to include:
-- **Deloitte – DevOps Technical Lead**
-  - Infra automation, Tekton, system/load testing pipelines, team leadership
-- **Google Cloud Manufacturing Data Engine PoC**
-  - GCP optimization, presales architecture, node scheduling pipelines
-- **Commerzbank – Multi-regional Anthos Migration**
-- **CARIAD – CI/CD Migration to GitHub Enterprise**
-- **Main Incubator – GCP Cloud-Native App Development**
+**Deloitte / VW – DevOps Squad Lead (2024–now)**
+Leading 12 engineers across two workstreams for Volkswagen’s factory software platform.
+Built Tekton-based CI/CD pipelines, designed the ART-wide observability strategy (metrics, logs, traces, business KPIs with OpenTelemetry + Elastic Stack), and wrote a self-service AWS CDK library for VW’s Vanguard framework. Also run technical interviews and help the engagement partner with staffing.
 
-Each case study should include:
-- Context  
-- Challenges  
-- Your approach  
-- Technologies used  
-- Measurable results
+**Deloitte / Google Alliance – Manufacturing Data Engine PoC (2023–2024)**
+Presales architecture project between Deloitte and Google Cloud. Applied FinOps and Well-Architected Framework to optimize the setup. Built Kubernetes node scheduling pipelines for on-demand infra provisioning. Presented the MDE to prospective Deloitte clients.
+
+**Commerzbank – Platform Engineer (2021–2023)**
+Migrated microservices to multi-regional Google Anthos. Built the KYC ETL deployment pipeline. Mentored junior cloud-native engineers and ran Knowledge Graph Kubernetes workshops. Two years on the same platform team, which is rare for a contractor and says something about the fit.
+
+**CARIAD – CI/CD Migration (2023)**
+Two months, one job: move the infotainment software build pipeline from CARIAD DevStack to GitHub Enterprise CI/CD. Short engagement, clear scope, clean delivery.
+
+**Main Incubator / Commerzbank – Cloud-Native Apps (2019–2021)**
+Small incubator team building on GCP. Firebase, Node.js, TypeScript, React. Dual role: backend development and DevOps. The kind of place where everyone does a bit of everything.
+
+Each case study page should include:
+- What the situation was (no jargon, plain English)
+- What I actually did (specific tools and actions)
+- What changed (numbers where possible)
 
 ---
 
