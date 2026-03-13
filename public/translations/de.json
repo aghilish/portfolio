@@ -16,7 +16,7 @@
   "home": {
     "hero": "Moin, ich bin Shahrooz — der Cloud- und Kubernetes-Architekt!",
     "heroSubtitle": "Kubernetes, AWS & GCP Plattformen für Unternehmen. Verfügbar als Freelancer.",
-    "bio": "16+ Jahre Softwareentwicklung. Kubernetes, AWS EKS, GCP, OpenTelemetry, DevOps. Aktuell DevOps Squad Lead bei Deloitte für Volkswagen. Offen für Freelance. 🚀",
+    "bio": "16+ Jahre Softwareentwicklung. Kubernetes, AWS EKS, GCP, OpenTelemetry, DevOps. Aktuell DevOps Squad Lead bei Deloitte für Volkswagen. Offen für Freelance.",
     "trustedBy": "Vertrauen von führenden Unternehmen",
     "featuredWork": "Ausgewählte Projekte",
     "featuredWorkItems": [
@@ -67,7 +67,7 @@
         "date": "2025 — Heute",
         "title": "DevOps Squad Lead",
         "company": "Deloitte Consulting",
-        "description": "Leitung von zwei Workstreams mit 12+ Beratern. Technischer Lead für Volkswagens Agile Release Train. Entwicklung einer Self-Service-CDK-Bibliothek und Umsetzung der ART-weiten Observability-Strategie."
+        "description": "Leitung von zwei Workstreams mit 6+ Beratern. Technischer Lead für Volkswagens Agile Release Train. Entwicklung einer Self-Service-CDK-Bibliothek und Umsetzung der ART-weiten Observability-Strategie."
       },
       {
         "date": "2024",
@@ -265,20 +265,20 @@
         "id": "deloitte-vw",
         "company": "Deloitte × Volkswagen",
         "title": "DevOps Enabling Team für Future Shopfloor Services",
-        "context": "Volkswagens Agile Release Train (ART) für Future Shopfloor Services benötigte ein robustes DevOps-Fundament zur Unterstützung ihrer Digitalisierungsinitiative in der Fertigung. Die Plattform dient mehreren Teams, die Anwendungen für werkbasierte Kubernetes-Cluster entwickeln.",
+        "context": "Volkswagens Agile Release Train (ART) für Future Shopfloor Services benötigte ein robustes DevOps-Fundament zur Unterstützung ihrer Digitalisierungsinitiative in der Fertigung. Die Plattform dient mehreren Teams, die Anwendungen für OpenShift-Edge-Cluster entwickeln.",
         "challenges": [
           "Fehlende standardisierte Infrastrukturbereitstellung über Teams hinweg",
           "Keine einheitliche Observability-Strategie für alle Monitoring-Signale",
-          "Komplexes Release-Management für werkbasierte Cluster-Deployments",
+          "Komplexes Release-Management für OpenShift-Edge-Cluster-Deployments",
           "Bedarf an Self-Service-Fähigkeiten ohne Compliance-Verzicht"
         ],
-        "approach": "Leitung des DevOps Enabling Teams als Squad Lead, verantwortlich für zwei Workstreams mit 12+ Beratern. Implementierung einer umfassenden Strategie für Infrastruktur-Automatisierung, CI/CD-Pipelines und End-to-End-Observability.",
+        "approach": "Leitung des DevOps Enabling Teams als Squad Lead, verantwortlich für zwei Workstreams mit 6+ Beratern. Implementierung einer umfassenden Strategie für Infrastruktur-Automatisierung, CI/CD-Pipelines und End-to-End-Observability.",
         "results": [
           "Entwicklung einer Self-Service-CDK-Bibliothek konform mit dem VW AWS Vanguard Framework",
           "Implementierung einer ART-weiten Observability-Strategie (Metriken, Logs, Traces, Business-KPIs)",
           "Zero-Code-Instrumentierung über gemeinsame NuGet-Pakete im gesamten ART FSS",
           "Integration von Elastic Stack mit OTLP-Exportern über erweiterte Helm-Charts",
-          "Design von Release-Konzepten für kontrollierte werkbasierte Deployments"
+          "Design von Release-Konzepten für kontrollierte OpenShift-Edge-Deployments"
         ],
         "technologies": ["Kubernetes", "EKS", "AWS CDK", "Tekton", "OpenTelemetry", "Elastic Stack", "Helm"]
       },

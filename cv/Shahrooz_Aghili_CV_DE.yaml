@@ -1,5 +1,6 @@
 cv:
   name: Shahrooz Aghili
+  photo: shahrooz.jpeg
   label: DevOps Team Lead & CNCF Community Group Organizer
   location: Frankfurt, Hessen, Deutschland
   phone: +49 162 733 54 09
@@ -39,7 +40,7 @@ cv:
         start_date: 2025-01
         end_date: present
         highlights:
-          - Leitung von zwei Workstreams mit insgesamt 12 Consultants unterschiedlicher Senioritätsstufen
+          - Leitung von zwei Workstreams mit insgesamt 6 Consultants unterschiedlicher Senioritätsstufen
           - Verantwortlich für technische Interviews und Unterstützung des Engagement Partners bei Personalentscheidungen
           - Technischer Lead und Platform Engineer für das DevOps Enabling Team von Volkswagen im ART FSS
           - Entwicklung einer Self-Service-CDK-Bibliothek, die vollständig dem AWS Vanguard Framework von Volkswagen entspricht
@@ -57,7 +58,7 @@ cv:
           - Leitung von Infrastruktur-Automatisierungsinitiativen und CI/CD-Pipeline-Entwicklung für Volkswagen und Audi
           - Mentoring und technische Führung eines Teams von drei Deloitte-Ingenieuren
           - Zusammenarbeit mit Product Ownern zur Entwicklung maßgeschneiderter Rollout-Strategien
-          - Entwicklung und Implementierung von Release-Konzepten für Workloads auf werkbasierten Clustern
+          - Entwicklung und Implementierung von Release-Konzepten für Workloads auf OpenShift-Edge-Clustern
           - Entwicklung von Cloud-Native-System- und Lasttest-Automatisierung für die Data Capture Application (DCA)
           - Integration von Tekton-Pipelines mit XRAY und Jira zur Optimierung von Test-Workflows
           - Partnerschaft mit VW SDC Operations-Teams und externen Beratungspartnern für nahtlose Plattformintegration
