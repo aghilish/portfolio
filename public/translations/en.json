@@ -557,7 +557,7 @@
     "currentRole": "Current Role:",
     "currentRoleDesc": "DevOps Squad Lead at Deloitte Consulting, leading 6+ consultants across two workstreams",
     "cloudExpertise": "Cloud Expertise:",
-    "cloudExpertiseDesc": "Google Cloud Platform, AWS, Azure - with focus on Kubernetes and platform engineering",
+    "cloudExpertiseDesc": "Google Cloud Platform, AWS - with focus on Kubernetes and platform engineering",
     "observability": "Observability:",
     "observabilityDesc": "End-to-end implementation of monitoring strategies using OpenTelemetry, Elastic Stack, and Prometheus",
     "automation": "Automation:",
