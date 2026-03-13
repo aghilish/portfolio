@@ -209,11 +209,11 @@ cv:
         end_date: 2011
 
     Zertifizierungen:
-      - bullet: "Organizer - 2024 Cloud Native Community Group"
-      - bullet: "Agentic AI Zertifizierung"
-      - bullet: "Google Cloud Certified Professional Cloud Architect"
-      - bullet: "CKA: Certified Kubernetes Administrator"
-      - bullet: "CKS: Certified Kubernetes Security Specialist"
+      - bullet: "[Organizer - 2024 Cloud Native Community Group](https://www.credly.com/badges/9e8f0200-9ade-4389-a70c-c6fa2e02deaa/linked_in_profile)"
+      - bullet: "[Agentic AI Zertifizierung](https://learn.deeplearning.ai/certificates/dadb2e3f-2e4d-45ac-8e8f-31e821930c88)"
+      - bullet: "[Google Cloud Certified Professional Cloud Architect](https://www.credly.com/badges/ac5b0e02-8780-482b-8f8f-d7d2f5e31199)"
+      - bullet: "[CKA: Certified Kubernetes Administrator](https://www.credly.com/badges/d371b221-adb9-4fea-b0fc-47d15d5daa39/linked_in_profile)"
+      - bullet: "[CKS: Certified Kubernetes Security Specialist](https://www.credly.com/badges/b94af0df-1b06-4f43-91a0-123b884441cb/linked_in_profile)"
 
     Sprachen:
       - label: Persisch

@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useLanguage } from '@/contexts/LanguageContext';
 import {
   DeloitteLogo,
@@ -27,7 +28,7 @@ const trustedCompanies = [
 const certifications = [
   { name: 'Certified Kubernetes Administrator', url: 'https://www.credly.com/badges/d371b221-adb9-4fea-b0fc-47d15d5daa39' },
   { name: 'Certified Kubernetes Security Specialist', url: 'https://www.credly.com/badges/b94af0df-1b06-4f43-91a0-123b884441cb' },
-  { name: 'GCP Professional Cloud Architect', url: null },
+  { name: 'GCP Professional Cloud Architect', url: 'https://www.credly.com/badges/ac5b0e02-8780-482b-8f8f-d7d2f5e31199' },
   { name: 'CNCF Organizer', url: 'https://www.credly.com/badges/9e8f0200-9ade-4389-a70c-c6fa2e02deaa' },
 ];
 
@@ -48,6 +49,16 @@ export default function Home() {
     <>
       {/* Hero Section */}
       <section className="intro intro--large">
+        <div className="hero-photo">
+          <Image
+            src="/shahrooz.jpeg"
+            alt="Shahrooz Aghili"
+            width={180}
+            height={180}
+            priority
+            quality={90}
+          />
+        </div>
         <p>
           {t('home.hero')} <em>{t('home.heroSubtitle')}</em>
         </p>

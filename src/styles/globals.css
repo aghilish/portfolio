@@ -285,6 +285,32 @@ ul, ol {
   margin-bottom: 0;
 }
 
+/* Hero Photo */
+.hero-photo {
+  margin-bottom: 2rem;
+}
+
+.hero-photo img {
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--color-border);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+@media (min-width: 31em) {
+  .hero-photo img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (min-width: 69em) {
+  .hero-photo img {
+    width: 220px;
+    height: 220px;
+  }
+}
+
 /* Intro Section */
 .intro {
   font-family: var(--font-display);
