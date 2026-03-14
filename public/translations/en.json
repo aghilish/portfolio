@@ -277,7 +277,7 @@
           "Developed self-service CDK library compliant with VW AWS Vanguard framework",
           "Implemented ART-wide observability strategy (metrics, logs, traces, business KPIs)",
           "Zero-code instrumentation via shared NuGet packages across ART FSS",
-          "Integrated Elastic Stack with OTLP exporters via extended Helm charts",
+          "Integrated Elastic Stack with OTLP pipelines and collector configuration via extended Helm charts",
           "Designed release concepts for controlled OpenShift edge deployments"
         ],
         "technologies": ["Kubernetes", "EKS", "AWS CDK", "Tekton", "OpenTelemetry", "Elastic Stack", "Helm"]

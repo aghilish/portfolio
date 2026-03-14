@@ -47,7 +47,7 @@ cv:
           - Automatisierung von CI/CD-Pipelines und Entwicklung skalierbarer EKS-basierter Deployment-Architekturen
           - Leitung der End-to-End-Implementierung der ART-weiten Observability-Strategie (Metriken, Logs, Traces, Business-KPIs)
           - Implementierung von Zero-Code-Instrumentierung für geschäftsspezifische Signale mit gemeinsamen NuGet-Paketen
-          - Integration des Elastic Stack als zentrale Monitoring-Plattform mit OTLP-Exportern und Helm-Chart-Erweiterungen
+          - Integration des Elastic Stack als zentrale Monitoring-Plattform mit OTLP-Pipelines, Collector-Konfiguration und Helm-Chart-Erweiterungen
 
       - company: Deloitte Consulting
         position: DevOps Tech Lead
