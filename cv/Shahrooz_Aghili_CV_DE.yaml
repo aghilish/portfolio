@@ -29,7 +29,7 @@ cv:
       - label: Infrastructure as Code
         details: Terraform, AWS CDK, CloudFormation, Helm Charts
       - label: Message Brokers
-        details: MQTT, Apache Kafka, RabbitMQ, Redis
+        details: MQTT, RabbitMQ, Redis
       - label: Cloud Native Security
         details: OPA, SonarQube, Black Duck Hub, mTLS/Istio, Kubernetes Audit Logs, SBOM, GCP Security Command Center
       - label: Datenbanken
