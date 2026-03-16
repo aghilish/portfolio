@@ -278,9 +278,10 @@
           "Implementierung einer ART-weiten Observability-Strategie (Metriken, Logs, Traces, Business-KPIs)",
           "Zero-Code-Instrumentierung über gemeinsame NuGet-Pakete im gesamten ART FSS",
           "Integration von Elastic Stack mit OTLP-Pipelines und Collector-Konfiguration über erweiterte Helm-Charts",
-          "Design von Release-Konzepten für kontrollierte OpenShift-Edge-Deployments"
+          "Design von Release-Konzepten für kontrollierte OpenShift-Edge-Deployments",
+          "Implementierung von SonarQube-Scanning, SBOM-Generierung und FOSS-Lizenz-Compliance-Pipelines"
         ],
-        "technologies": ["Kubernetes", "EKS", "AWS CDK", "Tekton", "OpenTelemetry", "Elastic Stack", "Helm"]
+        "technologies": ["Kubernetes", "EKS", "AWS CDK", "Tekton", "OpenTelemetry", "Elastic Stack", "Helm", "SonarQube"]
       },
       {
         "id": "gcp-mde",
@@ -320,9 +321,10 @@
           "Verbesserte Skalierbarkeit mit Unterstützung für 3x Workload-Wachstum",
           "Verbesserte Zuverlässigkeit mit regionsübergreifenden Failover-Fähigkeiten",
           "Design und Durchführung von Kubernetes-Plattform-Workshops",
+          "CVE-Behebung, Image-Härtung und Absicherung der Service-Grenzen auf Netzwerk- und Anwendungsebene",
           "Erstellung praktischer Lernressourcen auf KillerCoda"
         ],
-        "technologies": ["Google Anthos", "GKE", "Kubernetes", "Istio", "Cloud SQL", "Terraform"]
+        "technologies": ["Google Anthos", "GKE", "Kubernetes", "Istio", "Cloud SQL", "Terraform", "Security Command Center"]
       },
       {
         "id": "cariad",

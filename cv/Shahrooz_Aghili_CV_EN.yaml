@@ -48,6 +48,8 @@ cv:
           - Driving end-to-end implementation of ART-wide observability strategy covering metrics, logs, traces, and business KPIs
           - Implementing zero-code instrumentation for business-specific signals using shared NuGet packages
           - Integrating Elastic Stack as central monitoring platform with OTLP pipelines, collector configuration, and Helm chart extensions
+          - Implementing SonarQube scanning and SBOM generation in CI pipelines for microservices across ART FSS
+          - Building FOSS license compliance pipelines scanning software components and generated container images
 
       - company: Deloitte Consulting
         position: DevOps Tech Lead
@@ -115,6 +117,8 @@ cv:
           - Guided and mentored team of junior cloud-native engineers
           - Designed and conducted in-depth workshops on Knowledge Graph Kubernetes platform
           - Spearheaded migration of microservices to multi-regional Google Anthos setup
+          - Consulted CCoE of BDAA department on CVE remediation, image hardening, and securing service boundaries at network and application layer
+          - Leveraged GCP Security Command Center for vulnerability management and compliance monitoring
           - Maintained hands-on approach through practical demonstrations on killercoda.com/aghilish
 
       - company: Commerzbank AG
