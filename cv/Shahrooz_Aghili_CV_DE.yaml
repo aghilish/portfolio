@@ -25,7 +25,7 @@ cv:
       - label: Observability
         details: OpenTelemetry, Elastic Stack (ELK), Prometheus, Grafana, APM
       - label: Programmierung
-        details: C#/.NET, TypeScript/Node.js, Python, Java, Go, MATLAB, C++
+        details: C#/.NET, TypeScript/Node.js, Python, Java, Go
       - label: Infrastructure as Code
         details: Terraform, AWS CDK, CloudFormation, Helm Charts
       - label: Message Brokers
