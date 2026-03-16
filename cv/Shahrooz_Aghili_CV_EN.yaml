@@ -30,6 +30,8 @@ cv:
         details: Terraform, AWS CDK, CloudFormation, Helm Charts
       - label: Message Brokers
         details: MQTT, Apache Kafka, RabbitMQ, Redis
+      - label: Cloud Native Security
+        details: OPA, SonarQube, Black Duck Hub, mTLS/Istio, Kubernetes Audit Logs, SBOM, GCP Security Command Center
       - label: Databases
         details: PostgreSQL, MongoDB, Elasticsearch, Redis
 
@@ -47,9 +49,9 @@ cv:
           - Automating CI/CD pipelines and designing scalable EKS-based deployment architectures
           - Driving end-to-end implementation of ART-wide observability strategy covering metrics, logs, traces, and business KPIs
           - Implementing zero-code instrumentation for business-specific signals using shared NuGet packages
-          - Integrating Elastic Stack as central monitoring platform with OTLP pipelines, collector configuration, and Helm chart extensions
+          - Integrating Elastic Stack as central monitoring platform with OTLP pipelines, collector configuration, certificate management for service-collector connections, and Helm chart extensions
           - Implementing SonarQube scanning and SBOM generation in CI pipelines for microservices across ART FSS
-          - Building FOSS license compliance pipelines scanning software components and generated container images
+          - Building FOSS license compliance pipelines with Black Duck Hub, scanning software components and generated container images
 
       - company: Deloitte Consulting
         position: DevOps Tech Lead
@@ -116,8 +118,8 @@ cv:
           - Led engineering backlog ensuring platform's continuous development and team alignment
           - Guided and mentored team of junior cloud-native engineers
           - Designed and conducted in-depth workshops on Knowledge Graph Kubernetes platform
-          - Spearheaded migration of microservices to multi-regional Google Anthos setup
-          - Consulted CCoE of BDAA department on CVE remediation, image hardening, and securing service boundaries at network and application layer
+          - Spearheaded migration of microservices to multi-regional Google Anthos setup with mTLS enforcement via managed Istio service mesh
+          - Consulted CCoE of BDAA department on CVE remediation, image hardening, OPA policies, and securing service boundaries at network and application layer
           - Leveraged GCP Security Command Center for vulnerability management and compliance monitoring
           - Maintained hands-on approach through practical demonstrations on killercoda.com/aghilish
 

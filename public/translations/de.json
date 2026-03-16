@@ -277,9 +277,9 @@
           "Entwicklung einer Self-Service-CDK-Bibliothek konform mit dem VW AWS Vanguard Framework",
           "Implementierung einer ART-weiten Observability-Strategie (Metriken, Logs, Traces, Business-KPIs)",
           "Zero-Code-Instrumentierung über gemeinsame NuGet-Pakete im gesamten ART FSS",
-          "Integration von Elastic Stack mit OTLP-Pipelines und Collector-Konfiguration über erweiterte Helm-Charts",
+          "Integration von Elastic Stack mit OTLP-Pipelines, Collector-Konfiguration und Zertifikatsmanagement über erweiterte Helm-Charts",
           "Design von Release-Konzepten für kontrollierte OpenShift-Edge-Deployments",
-          "Implementierung von SonarQube-Scanning, SBOM-Generierung und FOSS-Lizenz-Compliance-Pipelines"
+          "Implementierung von SonarQube-Scanning, SBOM-Generierung und FOSS-Lizenz-Compliance-Pipelines mit Black Duck Hub"
         ],
         "technologies": ["Kubernetes", "EKS", "AWS CDK", "Tekton", "OpenTelemetry", "Elastic Stack", "Helm", "SonarQube"]
       },
@@ -317,7 +317,7 @@
         ],
         "approach": "Leitung des Engineering-Backlogs als Senior Platform Engineer, Koordination mit mehreren Teams bei Design und Durchführung der Migration. Durchführung von Workshops zur Sicherstellung des Wissenstransfers in der Organisation.",
         "results": [
-          "Erfolgreiche Migration zu multi-regionalem Google Anthos Setup",
+          "Erfolgreiche Migration zu multi-regionalem Google Anthos Setup mit mTLS-Durchsetzung über Managed Istio Service Mesh",
           "Verbesserte Skalierbarkeit mit Unterstützung für 3x Workload-Wachstum",
           "Verbesserte Zuverlässigkeit mit regionsübergreifenden Failover-Fähigkeiten",
           "Design und Durchführung von Kubernetes-Plattform-Workshops",
