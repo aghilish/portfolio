@@ -45,7 +45,35 @@
     "exploreServices": "Meine Dienstleistungen entdecken",
     "watchTutorials": "Tutorials & Labs ansehen",
     "communitySpeaking": "Community & Vorträge",
-    "viewCaseStudy": "Fallstudie ansehen"
+    "viewCaseStudy": "Fallstudie ansehen",
+    "openSourceTitle": "Open Source",
+    "viewAllProjects": "Alle Projekte ansehen",
+    "featuredOpenSource": [
+      {
+        "id": "killercoda",
+        "title": "KillerCoda Labs",
+        "description": "Interaktive K8s Hands-on Labs",
+        "url": "https://github.com/aghilish/killercoda"
+      },
+      {
+        "id": "k8s-mcp",
+        "title": "K8s MCP Operator",
+        "description": "MCP-Server-Operator für KI",
+        "url": "https://github.com/aghilish/k8s-mcp"
+      },
+      {
+        "id": "operator-tutorial",
+        "title": "Operator Tutorial",
+        "description": "Kubebuilder Beispiel-Operator",
+        "url": "https://github.com/aghilish/operator-tutorial"
+      },
+      {
+        "id": "microservices-helm",
+        "title": "Observability Helm",
+        "description": "Produktions-K8s-Helm-Chart",
+        "url": "https://github.com/aghilish/microservices-observability-helm"
+      }
+    ]
   },
   "about": {
     "title": "Über mich",
