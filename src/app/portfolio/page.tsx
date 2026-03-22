@@ -1,7 +1,7 @@
 'use client';
 
 import { useLanguage } from '@/contexts/LanguageContext';
-import { DeloitteLogo, VolkswagenLogo, GoogleCloudLogo, CommerzbankLogo, CariadLogo } from '@/components/CompanyLogos';
+import { DeloitteLogo, VolkswagenLogo, GoogleCloudLogo, CommerzbankLogo, CariadLogo, GitHubLogo } from '@/components/CompanyLogos';
 
 // Logo mapping for case studies (logos can't be stored in JSON)
 const logoMap: Record<string, any[]> = {
@@ -71,6 +71,39 @@ export default function PortfolioPage() {
           </div>
         </article>
       ))}
+
+      {/* Open Source Projects Section */}
+      <section className="content-section">
+        <header className="content-section__header">
+          <h2 className="content-section__title">{t('portfolio.openSourceTitle')}</h2>
+          <p className="content-section__subtitle">{t('portfolio.openSourceSubtitle')}</p>
+        </header>
+        <div className="cards-grid cards-grid--4">
+          {(t('portfolio.openSourceProjects') as any[])?.map((project: any) => (
+            <a
+              key={project.id}
+              href={project.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="card card--open-source"
+            >
+              <div className="card__icon">
+                <GitHubLogo width={32} height={32} />
+              </div>
+              <h3 className="card__title">{project.title}</h3>
+              <p className="card__teaser">{project.description}</p>
+              <div className="card__tags">
+                {project.technologies.map((tech: string) => (
+                  <span key={tech} className="tag">{tech}</span>
+                ))}
+              </div>
+              <span className="card__link">
+                {t('portfolio.viewOnGitHub')} →
+              </span>
+            </a>
+          ))}
+        </div>
+      </section>
 
       {/* CTA */}
       <section className="content-section" style={{ textAlign: 'center' }}>

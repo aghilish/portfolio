@@ -260,6 +260,39 @@
     "readyToDiscuss": "Bereit, Ihr Projekt zu besprechen?",
     "readyToDiscussDesc": "Lassen Sie uns erkunden, wie ich Ihrer Organisation helfen kann, ähnliche Ergebnisse zu erzielen.",
     "startConversation": "Gespräch beginnen",
+    "openSourceTitle": "Open-Source-Projekte",
+    "openSourceSubtitle": "Wiederverwendbare Templates und Module aus der Unternehmenspraxis.",
+    "viewOnGitHub": "Auf GitHub ansehen",
+    "openSourceProjects": [
+      {
+        "id": "microservices-helm",
+        "title": "Microservices Observability Helm",
+        "description": "Produktionsreifes Helm-Chart für Multi-Service-Kubernetes-Deployments mit OpenTelemetry und Prometheus.",
+        "url": "https://github.com/aghilish/microservices-observability-helm",
+        "technologies": ["Helm", "Kubernetes", "OpenTelemetry", "Prometheus"]
+      },
+      {
+        "id": "elastic-stack",
+        "title": "Elastic Observability Stack",
+        "description": "Lokaler Entwicklungsstack mit Elasticsearch, Kibana und OpenTelemetry Collector für Observability.",
+        "url": "https://github.com/aghilish/elastic-observability-stack",
+        "technologies": ["Docker", "Elasticsearch", "Kibana", "OTel"]
+      },
+      {
+        "id": "terraform-gcp",
+        "title": "Terraform GCP Platform",
+        "description": "Modulares Terraform für GCP-Infrastruktur: GKE, Cloud SQL, BigTable, BigQuery und VPC-Netzwerke.",
+        "url": "https://github.com/aghilish/terraform-gcp-platform",
+        "technologies": ["Terraform", "GKE", "Cloud SQL", "BigQuery"]
+      },
+      {
+        "id": "elasticsearch-tf",
+        "title": "Elasticsearch TF Module",
+        "description": "Terraform-Module für Elasticsearch: Kibana Spaces, Security-Rollen, ILM-Policies und Index-Templates.",
+        "url": "https://github.com/aghilish/elasticsearch-terraform-modules",
+        "technologies": ["Terraform", "Elasticsearch", "Kibana", "ILM"]
+      }
+    ],
     "caseStudies": [
       {
         "id": "deloitte-vw",

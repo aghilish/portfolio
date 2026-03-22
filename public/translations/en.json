@@ -260,6 +260,39 @@
     "readyToDiscuss": "Ready to discuss your project?",
     "readyToDiscussDesc": "Let's explore how I can help your organization achieve similar results.",
     "startConversation": "Start a Conversation",
+    "openSourceTitle": "Open Source Projects",
+    "openSourceSubtitle": "Reusable templates and modules from enterprise experience.",
+    "viewOnGitHub": "View on GitHub",
+    "openSourceProjects": [
+      {
+        "id": "microservices-helm",
+        "title": "Microservices Observability Helm",
+        "description": "Production-ready Helm chart for multi-service Kubernetes deployments with OpenTelemetry and Prometheus.",
+        "url": "https://github.com/aghilish/microservices-observability-helm",
+        "technologies": ["Helm", "Kubernetes", "OpenTelemetry", "Prometheus"]
+      },
+      {
+        "id": "elastic-stack",
+        "title": "Elastic Observability Stack",
+        "description": "Local development stack with Elasticsearch, Kibana, and OpenTelemetry Collector for observability.",
+        "url": "https://github.com/aghilish/elastic-observability-stack",
+        "technologies": ["Docker", "Elasticsearch", "Kibana", "OTel"]
+      },
+      {
+        "id": "terraform-gcp",
+        "title": "Terraform GCP Platform",
+        "description": "Modular Terraform for GCP infrastructure: GKE, Cloud SQL, BigTable, BigQuery, and VPC networking.",
+        "url": "https://github.com/aghilish/terraform-gcp-platform",
+        "technologies": ["Terraform", "GKE", "Cloud SQL", "BigQuery"]
+      },
+      {
+        "id": "elasticsearch-tf",
+        "title": "Elasticsearch TF Modules",
+        "description": "Terraform modules for Elasticsearch: Kibana spaces, security roles, ILM policies, and index templates.",
+        "url": "https://github.com/aghilish/elasticsearch-terraform-modules",
+        "technologies": ["Terraform", "Elasticsearch", "Kibana", "ILM"]
+      }
+    ],
     "caseStudies": [
       {
         "id": "deloitte-vw",
