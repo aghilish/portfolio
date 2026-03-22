@@ -291,6 +291,34 @@
         "description": "Terraform modules for Elasticsearch: Kibana spaces, security roles, ILM policies, and index templates.",
         "url": "https://github.com/aghilish/elasticsearch-terraform-modules",
         "technologies": ["Terraform", "Elasticsearch", "Kibana", "ILM"]
+      },
+      {
+        "id": "killercoda",
+        "title": "KillerCoda Labs",
+        "description": "Interactive hands-on labs for Kubernetes, ArgoCD, Operators, and cloud-native technologies hosted on KillerCoda.",
+        "url": "https://github.com/aghilish/killercoda",
+        "technologies": ["Kubernetes", "ArgoCD", "Operators", "CRDs"]
+      },
+      {
+        "id": "k8s-mcp",
+        "title": "Kubernetes MCP Operator",
+        "description": "Tutorial for building a Kubernetes operator to manage Model Context Protocol (MCP) servers for AI applications.",
+        "url": "https://github.com/aghilish/k8s-mcp",
+        "technologies": ["Go", "Kubernetes", "MCP", "Operators"]
+      },
+      {
+        "id": "operator-tutorial",
+        "title": "K8s Operator Tutorial",
+        "description": "Sample Kubernetes operator built with Kubebuilder for learning controller patterns and CRD development.",
+        "url": "https://github.com/aghilish/operator-tutorial",
+        "technologies": ["Go", "Kubebuilder", "CRDs", "Controllers"]
+      },
+      {
+        "id": "k8s-hard-way",
+        "title": "Kubernetes The Hard Way",
+        "description": "Step-by-step guide to bootstrap Kubernetes manually, understanding every component from certificates to kubelet.",
+        "url": "https://github.com/aghilish/kubernetes-the-hard-way",
+        "technologies": ["Kubernetes", "etcd", "containerd", "TLS"]
       }
     ],
     "caseStudies": [
