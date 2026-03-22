@@ -1,7 +1,7 @@
 'use client';
 
 import { useLanguage } from '@/contexts/LanguageContext';
-import { DeloitteLogo, VolkswagenLogo, GoogleCloudLogo, CommerzbankLogo, CariadLogo, GitHubLogo } from '@/components/CompanyLogos';
+import { DeloitteLogo, VolkswagenLogo, GoogleCloudLogo, CommerzbankLogo, CariadLogo, GitHubLogo, KubernetesLogo, MCPLogo } from '@/components/CompanyLogos';
 
 // Logo mapping for case studies (logos can't be stored in JSON)
 const logoMap: Record<string, any[]> = {
@@ -10,6 +10,7 @@ const logoMap: Record<string, any[]> = {
   'commerzbank': [CommerzbankLogo, GoogleCloudLogo],
   'cariad': [CariadLogo],
   'main-incubator': [CommerzbankLogo, GoogleCloudLogo],
+  'k8s-mcp': [KubernetesLogo, MCPLogo],
 };
 
 export default function PortfolioPage() {
