@@ -13,8 +13,7 @@ import {
   LinkedInLogo,
   YouTubeLogo,
   ContactIcon,
-  CalendlyIcon,
-  GitHubLogo
+  CalendlyIcon
 } from '@/components/CompanyLogos';
 
 const trustedCompanies = [
@@ -202,31 +201,6 @@ export default function Home() {
           </article>
         ))}
       </section>
-
-      {/* Open Source */}
-      <h2 className="section-title">{t('home.openSourceTitle')}</h2>
-      <section className="open-source-grid">
-        {(t('home.featuredOpenSource') as any[])?.map((project: any) => (
-          <a
-            key={project.id}
-            href={project.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="open-source-card"
-          >
-            <GitHubLogo width={20} height={20} className="open-source-card__icon" />
-            <div className="open-source-card__content">
-              <h3 className="open-source-card__title">{project.title}</h3>
-              <p className="open-source-card__desc">{project.description}</p>
-            </div>
-          </a>
-        ))}
-      </section>
-      <div style={{ textAlign: 'center', marginTop: '1rem' }}>
-        <Link href="/portfolio" className="btn btn--secondary">
-          {t('home.viewAllProjects')} →
-        </Link>
-      </div>
 
       {/* Leader Section */}
       <nav className="leader">
