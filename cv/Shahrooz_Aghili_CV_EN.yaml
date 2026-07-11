@@ -22,6 +22,8 @@ cv:
         details: Google Cloud Platform (GCP), AWS, OpenShift, Kubernetes, Anthos, EKS
       - label: DevOps & CI/CD
         details: Tekton Framework, GitHub Actions, GitLab CI, ArgoCD, Helm
+      - label: Service Mesh & Zero Trust
+        details: Istio Service Mesh, mTLS enforcement, Ingress/Egress policies, service-to-service encryption
       - label: Observability
         details: OpenTelemetry, Elastic Stack (ELK), Prometheus, Grafana, APM
       - label: Programming
