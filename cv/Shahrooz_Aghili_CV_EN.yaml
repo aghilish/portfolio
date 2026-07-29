@@ -1,7 +1,7 @@
 cv:
   name: Shahrooz Aghili
   photo: shahrooz.jpeg
-  label: DevOps Team Lead & CNCF Community Group Organizer
+  headline: DevOps Team Lead & CNCF Community Group Organizer
   location: Frankfurt, Hesse, Germany
   phone: +49 162 733 54 09
   email: info@aghili.dev
@@ -36,13 +36,29 @@ cv:
         details: OPA, SonarQube, Black Duck Hub, mTLS/Istio, Kubernetes Audit Logs, SBOM, GCP Security Command Center
       - label: Databases
         details: PostgreSQL, MongoDB, Elasticsearch, Redis
+      - label: Developer Enablement & IDP
+        details: Internal Developer Platforms, Backstage, Diátaxis documentation, technical content & video production, developer experience (DevEx)
 
     Experience:
+      - company: Self-employed
+        position: Freelance Platform Enablement Specialist
+        location: Frankfurt, Hesse, Germany / Remote
+        start_date: 2026-08
+        end_date: present
+        highlights:
+          - Engaged as an independent contractor supporting an Energy Data Platform for a critical-infrastructure client in the energy sector
+          - Driving developer enablement for an internal developer platform (IDP), lowering cognitive load and accelerating team onboarding across the platform
+          - Designing and producing end-to-end technical enablement content — video tutorials, hands-on labs, storyboards, and workshops — following the Diátaxis documentation framework
+          - Defining and tracking enablement KPIs to measure adoption, self-service usage, and developer productivity across platform teams
+          - Building golden-path templates and self-service workflows on Backstage to standardize service scaffolding and deployment
+          - Establishing GitOps-based delivery patterns (ArgoCD, Helm) and CI/CD best practices as reusable, teachable reference implementations
+          - Managing the full content lifecycle — from needs analysis and scripting through production, publishing, and iteration based on developer feedback
+
       - company: Deloitte Consulting
         position: DevOps Squad Lead
         location: Frankfurt, Hesse, Germany
         start_date: 2025-01
-        end_date: present
+        end_date: 2026-07
         highlights:
           - Leading two workstreams with a combined team of 6 consultants across multiple seniority levels
           - Responsible for technical interviews and supporting engagement partner with staffing decisions
@@ -236,10 +252,11 @@ design:
   page:
     size: a4
   colors:
-    text: rgb(0, 0, 0)
+    body: rgb(0, 0, 0)
     name: rgb(0, 0, 0)
     connections: rgb(0, 0, 0)
     section_titles: rgb(0, 0, 0)
     links: rgb(0, 0, 0)
-  text:
-    font_size: 10pt
+  typography:
+    font_size:
+      body: 10pt

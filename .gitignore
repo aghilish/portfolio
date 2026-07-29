@@ -41,3 +41,7 @@ next-env.d.ts
 .vercel
 *.pem
 applications/
+
+# RenderCV
+cv/.venv/
+cv/rendercv_output*/
