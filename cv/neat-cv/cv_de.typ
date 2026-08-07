@@ -13,6 +13,7 @@
   ),
   profile-picture: image("shahrooz.jpeg"),
   accent-color: rgb("#2563eb"),
+  body-font-size: 9.5pt,
 )
 
 #side[
@@ -43,6 +44,13 @@
   #item-with-level("Tekton", 5)
   #item-with-level("GitHub Actions", 5)
   #item-with-level("GitLab CI", 5)
+
+  *Developer Enablement & IDP*
+  #item-with-level("Backstage", 3)
+  #item-with-level("Internal Developer Platforms", 4)
+  #item-with-level("Diátaxis-Dokumentation", 4)
+  #item-with-level("Technische Content- & Videoproduktion", 5)
+  #item-with-level("Developer Experience (DevEx)", 4)
 
   *Observability*
   #item-with-level("OpenTelemetry", 4)
@@ -97,10 +105,25 @@
 == Berufserfahrung
 
 #entry(
+  title: "Freelance Platform Enablement Specialist",
+  institution: "Selbständig",
+  location: "Frankfurt, Deutschland / Remote",
+  date: "Aug 2026 - Heute",
+)[
+  - Tätig als unabhängiger Auftragnehmer zur Unterstützung einer Energy Data Platform für einen Kunden im Bereich kritischer Infrastruktur der Energiewirtschaft
+  - Vorantreiben von Developer Enablement für eine interne Developer-Plattform (IDP), Reduzierung der kognitiven Last und Beschleunigung des Team-Onboardings auf der Plattform
+  - Konzeption und Produktion von End-to-End technischem Enablement-Content, einschließlich Video-Tutorials, Hands-on-Labs, Storyboards und Workshops, nach dem Diátaxis-Dokumentationsframework
+  - Definition und Tracking von Enablement-KPIs zur Messung von Adoption, Self-Service-Nutzung und Entwicklerproduktivität über Plattform-Teams hinweg
+  - Aufbau von Golden-Path-Templates und Self-Service-Workflows auf Backstage zur Standardisierung von Service-Scaffolding und Deployment
+  - Etablierung GitOps-basierter Delivery-Patterns (ArgoCD, Helm) und CI/CD Best Practices als wiederverwendbare, lehrbare Referenzimplementierungen
+  - Verantwortung für den gesamten Content-Lifecycle, von der Bedarfsanalyse und Skripterstellung über die Produktion bis zur Veröffentlichung und Iteration basierend auf Entwickler-Feedback
+]
+
+#entry(
   title: "DevOps Squad Lead",
   institution: "Deloitte Consulting",
   location: "Frankfurt, Deutschland",
-  date: "Jan 2025 - Heute",
+  date: "Jan 2025 - Jul 2026",
 )[
   - Leitung von zwei Workstreams mit insgesamt 6 Consultants unterschiedlicher Senioritätsstufen
   - Technischer Lead und Platform Engineer für das DevOps Enabling Team von Volkswagen im ART FSS

@@ -13,6 +13,7 @@
   ),
   profile-picture: image("shahrooz.jpeg"),
   accent-color: rgb("#2563eb"),
+  body-font-size: 9.5pt,
 )
 
 #side[
@@ -43,6 +44,13 @@
   #item-with-level("Tekton", 5)
   #item-with-level("GitHub Actions", 5)
   #item-with-level("GitLab CI", 5)
+
+  *Developer Enablement & IDP*
+  #item-with-level("Backstage", 3)
+  #item-with-level("Internal Developer Platforms", 4)
+  #item-with-level("Diátaxis Documentation", 4)
+  #item-with-level("Technical Content & Video Production", 5)
+  #item-with-level("Developer Experience (DevEx)", 4)
 
   *Observability*
   #item-with-level("OpenTelemetry", 4)
@@ -97,10 +105,25 @@
 == Experience
 
 #entry(
+  title: "Freelance Platform Enablement Specialist",
+  institution: "Self-employed",
+  location: "Frankfurt, Germany / Remote",
+  date: "Aug 2026 - Present",
+)[
+  - Engaged as an independent contractor supporting an Energy Data Platform for a critical-infrastructure client in the energy sector
+  - Driving developer enablement for an internal developer platform (IDP), lowering cognitive load and accelerating team onboarding across the platform
+  - Designing and producing end-to-end technical enablement content, including video tutorials, hands-on labs, storyboards, and workshops, following the Diátaxis documentation framework
+  - Defining and tracking enablement KPIs to measure adoption, self-service usage, and developer productivity across platform teams
+  - Building golden-path templates and self-service workflows on Backstage to standardize service scaffolding and deployment
+  - Establishing GitOps-based delivery patterns (ArgoCD, Helm) and CI/CD best practices as reusable, teachable reference implementations
+  - Managing the full content lifecycle, from needs analysis and scripting through production, publishing, and iteration based on developer feedback
+]
+
+#entry(
   title: "DevOps Squad Lead",
   institution: "Deloitte Consulting",
   location: "Frankfurt, Germany",
-  date: "Jan 2025 - Present",
+  date: "Jan 2025 - Jul 2026",
 )[
   - Leading two workstreams with a combined team of 6 consultants across multiple seniority levels
   - Technical lead and platform engineer for Volkswagen's DevOps Enabling Team within ART FSS

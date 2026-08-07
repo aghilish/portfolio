@@ -1,158 +1,48 @@
-# CV as Code with RenderCV
+# CV as Code with Typst (neat-cv)
 
-This directory contains your CV in both English and German, using RenderCV - a modern CV-as-code tool.
+Your CV is written directly in Typst using the [`neat-cv`](https://typst.app/universe/package/neat-cv) package, in both English and German.
+
+## Source Files
+
+- `neat-cv/cv_en.typ` - English CV source
+- `neat-cv/cv_de.typ` - German CV source
+- `neat-cv/shahrooz.jpeg` - Profile picture used by both
 
 ## Generated Files
 
 - `Shahrooz_Aghili_CV_EN.pdf` - Your CV in English (PDF)
 - `Shahrooz_Aghili_CV_DE.pdf` - Your CV in German (PDF)
-- `Shahrooz_Aghili_CV_EN.yaml` - English CV source file
-- `Shahrooz_Aghili_CV_DE.yaml` - German CV source file
+
+These are also copied into `../public/cv.pdf` and `../public/cv-de.pdf` so the site's `/cv` download links resolve to the latest version.
 
 ## How to Update Your CV
 
-1. Edit the YAML file (`Shahrooz_Aghili_CV_EN.yaml` or `Shahrooz_Aghili_CV_DE.yaml`)
-2. Run the render command:
+1. Edit `neat-cv/cv_en.typ` and/or `neat-cv/cv_de.typ` directly (experience entries use `#entry(...)`, skills use `#item-with-level("Name", level)` where level is 1-5)
+2. Compile to PDF:
    ```bash
-   rendercv render Shahrooz_Aghili_CV_EN.yaml
+   typst compile neat-cv/cv_en.typ neat-cv/Shahrooz_Aghili_CV_EN.pdf
+   typst compile neat-cv/cv_de.typ neat-cv/Shahrooz_Aghili_CV_DE.pdf
    ```
-3. The updated PDF will be generated in the `rendercv_output` directory
+   (or via the Python `typst` package: `python -m typst compile ...`, available in `.venv`)
+3. Copy the resulting PDFs into `cv/` and `../public/` (`cv.pdf`, `cv-de.pdf`)
 
-## Customization Options
+### Fonts required
 
-### Changing Colors
-
-Edit the `design.colors` section in the YAML file:
-
-```yaml
-design:
-  colors:
-    name: rgb(0, 79, 144)         # Your name color
-    connections: rgb(0, 79, 144)   # Contact info color
-    section_titles: rgb(0, 79, 144) # Section headers
-    links: rgb(0, 79, 144)         # Hyperlinks
-```
-
-Color examples:
-- Blue: `rgb(0, 79, 144)`
-- Red: `rgb(200, 0, 0)`
-- Green: `rgb(0, 128, 0)`
-- Purple: `rgb(128, 0, 128)`
-- Black: `rgb(0, 0, 0)`
-
-### Changing Font Size
-
-Edit the `design.text.font_size` value:
-
-```yaml
-design:
-  text:
-    font_size: 10pt  # Options: 9pt, 10pt, 11pt, 12pt
-```
-
-### Changing Page Size
-
-Edit the `design.page.size` value:
-
-```yaml
-design:
-  page:
-    size: a4  # Options: a4, us-letter
-```
-
-### Changing Theme
-
-RenderCV supports multiple themes. Edit the `design.theme` value:
-
-```yaml
-design:
-  theme: classic  # Options: classic, moderncv, sb2nov, engineeringresumes
-```
-
-To see all available themes:
-```bash
-rendercv new --theme <theme-name> "Your Name"
-```
-
-### Modifying Content
-
-#### Adding/Editing Experience
-
-```yaml
-Experience:
-  - company: Company Name
-    position: Your Position
-    location: City, Country
-    start_date: 2024-01
-    end_date: present  # or a date like 2024-12
-    highlights:
-      - First achievement
-      - Second achievement
-```
-
-#### Adding/Editing Skills
-
-```yaml
-Skills:
-  - label: Category Name
-    details: Skill1, Skill2, Skill3
-```
-
-#### Adding/Editing Education
-
-```yaml
-Education:
-  - institution: University Name
-    area: Field of Study
-    degree: Degree Name
-    start_date: 2020
-    end_date: 2024
-    highlights:
-      - Notable achievement
-```
-
-## Advanced Customization
-
-For advanced customization options, check the [RenderCV documentation](https://docs.rendercv.com).
-
-### Available Entry Types
-
-RenderCV supports 7 entry types:
-1. **BulletEntry** - Simple bullet points
-2. **TextEntry** - Plain text entries
-3. **OneLineEntry** - Label: Details format
-4. **EducationEntry** - For education history
-5. **ExperienceEntry** - For work experience
-6. **NormalEntry** - Generic entry with name, date, location
-7. **PublicationEntry** - For academic publications
-
-## Useful Commands
+Compiling requires these fonts installed system-wide, or the contact icons and body text silently fall back to substitutes:
 
 ```bash
-# Generate CV from YAML
-rendercv render Shahrooz_Aghili_CV_EN.yaml
-
-# Create a new sample CV
-rendercv new "Your Name"
-
-# Validate YAML without rendering
-rendercv render --validate-only Shahrooz_Aghili_CV_EN.yaml
+brew install --cask font-noto-sans font-roboto font-fira-sans font-fontawesome
 ```
 
-## Tips
+### Keeping it to 2 pages
 
-1. Keep your YAML files in version control (Git) to track changes
-2. Test changes by rendering to PDF before finalizing
-3. Use Markdown formatting in highlights for bold (**text**) and links ([text](url))
-4. Date format: YYYY-MM for start_date and end_date, or use "present"
-5. The LinkedIn data is already fully incorporated into both CVs
+Both files set `body-font-size: 9.5pt` in the `cv.with(...)` call specifically to keep the CV at 2 pages. If you add enough content to overflow again, reduce this further before letting it spill onto a near-empty 3rd page.
+
+## Legacy: RenderCV
+
+`Shahrooz_Aghili_CV_EN.yaml` / `_DE.yaml` and `.venv/` are left over from a prior RenderCV-based pipeline and are **no longer the source of truth**. They're kept for reference but are not used to generate the CVs above.
 
 ## Resources
 
-- [RenderCV Documentation](https://docs.rendercv.com)
-- [RenderCV GitHub](https://github.com/rendercv/rendercv)
-- [RenderCV Web App](https://rendercv.com)
-
-## Workflow Integration
-
-You can automate CV generation using GitHub Actions or other CI/CD tools. Check out the [RenderCV Pipeline](https://github.com/rendercv/rendercv-pipeline) for examples.
+- [neat-cv on Typst Universe](https://typst.app/universe/package/neat-cv)
+- [Typst Documentation](https://typst.app/docs)

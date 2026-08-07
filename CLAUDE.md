@@ -17,10 +17,10 @@ npm run export       # Alias for build (static export)
 # Content
 npm run fetch-youtube  # Fetch YouTube video data (requires YOUTUBE_API_KEY in .env.local)
 
-# CV Generation (requires rendercv)
-rendercv render cv/Shahrooz_Aghili_CV_EN.yaml  # Generate English CV PDF
-rendercv render cv/Shahrooz_Aghili_CV_DE.yaml  # Generate German CV PDF
-# Copy resulting PDFs into public/ so the /cv download links resolve.
+# CV Generation (requires the Typst CLI, or `python -m typst`)
+typst compile cv/neat-cv/cv_en.typ cv/neat-cv/Shahrooz_Aghili_CV_EN.pdf
+typst compile cv/neat-cv/cv_de.typ cv/neat-cv/Shahrooz_Aghili_CV_DE.pdf
+# Copy resulting PDFs into public/ (cv.pdf, cv-de.pdf) so the /cv download links resolve.
 ```
 
 No test or lint scripts are configured. The only CI check is the `build` step in `.github/workflows/deploy.yml`; run `npm run build` locally to validate changes.
@@ -61,7 +61,9 @@ The site uses `output: 'export'`, `trailingSlash: true`, and `images.unoptimized
 - `src/data/killercoda-content.json` - KillerCoda lab metadata
 
 ### CV as Code
-CVs in `cv/` directory use RenderCV. Edit YAML files, then run `rendercv render` to generate PDFs. Generated PDFs should be copied to `public/` for download.
+CVs are authored directly in Typst at `cv/neat-cv/cv_en.typ` / `cv_de.typ`, using the `@preview/neat-cv` package (sidebar layout with photo, skill-level bars, dark header). Edit the `.typ` files, then compile to PDF and copy the result to `public/` (`cv.pdf`, `cv-de.pdf`) and into `cv/` for download. Compiling requires the Font Awesome, Noto Sans, Roboto, and Fira Sans fonts to be installed system-wide (`brew install --cask font-noto-sans font-roboto font-fira-sans font-fontawesome`) — without them the contact icons and body text silently fall back to substitute fonts.
+
+The `cv/*.yaml` RenderCV files and `cv/.venv` are legacy from a prior generation pipeline and are no longer the source of truth for the CV PDFs.
 
 ## Deployment
 
