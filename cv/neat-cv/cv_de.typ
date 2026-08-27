@@ -7,6 +7,7 @@
     email: "info@aghili.dev",
     phone: "+49 162 733 54 09",
     position: "DevOps Team Lead & CNCF Community Group Organizer",
+    address: "Frankfurt, Deutschland",
     github: "aghilish",
     linkedin: "aghilish",
     website: "https://aghili.dev",
@@ -19,7 +20,7 @@
 #side[
   == Über mich
 
-  Multi-Domain Software Engineer mit über 16 Jahren Erfahrung in der Softwareentwicklung. Expertise in Cloud-Native-Technologien, Technischer Führung und Mentoring. Leidenschaftlicher Dozent und Innovationsbegeisterter.
+  Multi-Domain Software Engineer mit über 16 Jahren Erfahrung in der Softwareentwicklung. Schwerpunkt auf Cloud Native Plattformen, technischer Führung und Mentoring. Deutscher Staatsangehöriger, wohnhaft in Frankfurt. Gibt sein Wissen regelmäßig in Workshops, Vorträgen und Video-Tutorials weiter.
 
   == Kontakt
 
@@ -36,6 +37,7 @@
   #item-with-level("AWS", 4)
   #item-with-level("Anthos/Istio", 5)
   #item-with-level("EKS", 4)
+  #item-with-level("RKE2 / Rancher", 4)
 
   *DevOps & CI/CD*
   #item-with-level("Helm", 5)
@@ -110,13 +112,16 @@
   location: "Frankfurt, Deutschland / Remote",
   date: "Aug 2026 - Heute",
 )[
-  - Tätig als unabhängiger Auftragnehmer zur Unterstützung einer Energy Data Platform für einen Kunden im Bereich kritischer Infrastruktur der Energiewirtschaft
-  - Vorantreiben von Developer Enablement für eine interne Developer-Plattform (IDP), Reduzierung der kognitiven Last und Beschleunigung des Team-Onboardings auf der Plattform
-  - Konzeption und Produktion von End-to-End technischem Enablement-Content, einschließlich Video-Tutorials, Hands-on-Labs, Storyboards und Workshops, nach dem Diátaxis-Dokumentationsframework
-  - Definition und Tracking von Enablement-KPIs zur Messung von Adoption, Self-Service-Nutzung und Entwicklerproduktivität über Plattform-Teams hinweg
-  - Aufbau von Golden-Path-Templates und Self-Service-Workflows auf Backstage zur Standardisierung von Service-Scaffolding und Deployment
-  - Etablierung GitOps-basierter Delivery-Patterns (ArgoCD, Helm) und CI/CD Best Practices als wiederverwendbare, lehrbare Referenzimplementierungen
-  - Verantwortung für den gesamten Content-Lifecycle, von der Bedarfsanalyse und Skripterstellung über die Produktion bis zur Veröffentlichung und Iteration basierend auf Entwickler-Feedback
+  - Unabhängiger Auftragnehmer für eine Energy Data Platform bei einem Kunden aus dem Bereich kritische Infrastruktur der Energiewirtschaft
+  - Verantwortlich für Developer Enablement auf der internen Developer Plattform (IDP), senkt die kognitive Last für neue Teams und beschleunigt das Onboarding
+  - Arbeitet eng mit dem Customer Success Team und dem Cloud Native Application Governance Team zusammen
+  - Erstellt technischen Schulungscontent für die Entwicklerorganisation gemäß dem Operating Model der Cloud Native Application Governance
+  - Unterstützt Tenants auf ihrer Onboarding Journey zur Plattform
+  - Produziert Enablement Content von der Idee bis zur Veröffentlichung, darunter Video Tutorials, Hands-on Labs, Storyboards und Workshops nach dem Diátaxis Framework
+  - Definiert und trackt Enablement KPIs wie Adoption, Self Service Nutzung und Entwicklerproduktivität über mehrere Plattform Teams hinweg
+  - Baut Golden Path Templates und Self Service Workflows auf Backstage, um Service Scaffolding und Deployment zu standardisieren
+  - Betreibt die Open Source Plattform Educates für Trainings auf einem Rancher RKE2 Cluster, mit Kyverno Policies zur Isolation der Workshop Teilnehmer, und überwacht die Infrastruktur mit Prometheus und Grafana
+  - Etabliert GitOps basierte Delivery Patterns (ArgoCD, Helm) und CI/CD Best Practices als wiederverwendbare Referenz für andere Teams
 ]
 
 #entry(
@@ -125,14 +130,14 @@
   location: "Frankfurt, Deutschland",
   date: "Jan 2025 - Jul 2026",
 )[
-  - Leitung von zwei Workstreams mit insgesamt 6 Consultants unterschiedlicher Senioritätsstufen
-  - Technischer Lead und Platform Engineer für das DevOps Enabling Team von Volkswagen im ART FSS
-  - Entwicklung einer Self-Service-CDK-Bibliothek, die vollständig dem AWS Vanguard Framework von Volkswagen entspricht
-  - Automatisierung von CI/CD-Pipelines und Entwicklung skalierbarer EKS-basierter Deployment-Architekturen
-  - Leitung der End-to-End-Implementierung der ART-weiten Observability-Strategie (Metriken, Logs, Traces, Business-KPIs)
-  - Integration des Elastic Stack als zentrale Monitoring-Plattform mit OTLP-Pipelines und Helm-Chart-Erweiterungen
-  - Implementierung von SonarQube-Scanning und SBOM-Generierung in CI-Pipelines für Microservices
-  - Aufbau von FOSS-Lizenz-Compliance-Pipelines mit Black Duck Hub
+  - Leitete zwei Workstreams mit insgesamt 6 Consultants unterschiedlicher Senioritätsstufen
+  - War technischer Lead und Platform Engineer für das DevOps Enabling Team von Volkswagen im ART FSS
+  - Entwickelte eine Self Service CDK Bibliothek nach dem AWS Vanguard Framework von Volkswagen
+  - Automatisierte CI/CD Pipelines und entwarf skalierbare Deployment Architekturen auf EKS
+  - Verantwortete die durchgängige Umsetzung der ART weiten Observability Strategie (Metriken, Logs, Traces, Business KPIs)
+  - Integrierte den Elastic Stack als zentrale Monitoring Plattform, inklusive OTLP Pipelines und Erweiterungen für Helm Charts
+  - Implementierte SonarQube Scanning und SBOM Generierung in den CI Pipelines der Microservices
+  - Baute Compliance Pipelines für FOSS Lizenzen mit Black Duck Hub auf
 ]
 
 #entry(
@@ -141,11 +146,11 @@
   location: "Frankfurt, Deutschland",
   date: "Apr 2024 - Dez 2024",
 )[
-  - Leitung von Infrastruktur-Automatisierungsinitiativen und CI/CD-Pipeline-Entwicklung für Volkswagen und Audi
-  - Mentoring und technische Führung eines Teams von drei Deloitte-Ingenieuren
-  - Entwicklung und Implementierung von Release-Konzepten für Workloads auf OpenShift-Edge-Clustern
-  - Entwicklung von Cloud-Native-System- und Lasttest-Automatisierung für die Data Capture Application (DCA)
-  - Integration von Tekton-Pipelines mit XRAY und Jira zur Optimierung von Test-Workflows
+  - Leitete Automatisierungsinitiativen für die Infrastruktur sowie die Entwicklung von CI/CD Pipelines für Volkswagen und Audi
+  - Betreute und führte fachlich ein Team von drei Deloitte-Ingenieuren
+  - Entwickelte Release Konzepte für Workloads auf Edge Clustern unter OpenShift
+  - Baute automatisierte System- und Lasttests für Cloud Native Anwendungen der Data Capture Application (DCA)
+  - Integrierte Tekton Pipelines mit XRAY und Jira zur Optimierung von Test Workflows
 ]
 
 #entry(
@@ -154,10 +159,10 @@
   location: "Frankfurt, Deutschland",
   date: "Dez 2023 - Apr 2024",
 )[
-  - Leitung der Entwicklung eines PoC für Google Cloud's Manufacturing Data Engine für die Deloitte-Google-Allianz
-  - Anwendung von FinOps-Prinzipien und GCP Well-Architected Framework Best Practices
-  - Entwicklung fortschrittlicher Pipelines für Kubernetes-Node-Scheduling und On-Demand-Infrastrukturbereitstellung
-  - Technische Präsentationen für potenzielle Deloitte-Kunden
+  - Leitete die Entwicklung eines PoC für Google Cloud's Manufacturing Data Engine im Rahmen der Deloitte-Google-Allianz
+  - Wendete FinOps Prinzipien und Best Practices aus dem GCP Well-Architected Framework an
+  - Entwickelte fortschrittliche Pipelines für Node Scheduling in Kubernetes und bedarfsgesteuerte Infrastrukturbereitstellung
+  - Hielt technische Präsentationen für potenzielle Deloitte Kunden
 ]
 
 #entry(
@@ -166,20 +171,20 @@
   location: "Rhein-Main-Gebiet Frankfurt",
   date: "Feb 2025 - Heute",
 )[
-  - Organisation von Cloud Native Community-Events und Meetups in der Region Frankfurt
-  - Aufbau einer lokalen CNCF-Community und Förderung des Wissensaustauschs
-  - Vernetzung von Cloud-Native-Praktikern und -Enthusiasten
+  - Organisiert Cloud Native Community Events und Meetups in der Region Frankfurt
+  - Baut eine lokale CNCF Community auf und fördert den Wissensaustausch
+  - Vernetzt Cloud Native Praktiker und Enthusiasten in der Region
 ]
 
 #entry(
-  title: "Content Creator - Cloud-Native-Technologien",
+  title: "Content Creator - Cloud Native Technologien",
   institution: "Selbständig",
   location: "Remote",
   date: "Apr 2024 - Heute",
 )[
-  - Entwicklung von praktischen Schulungsmaterialien und interaktiven Szenarien auf killercoda.com/aghilish
-  - Erstellung und Verwaltung eines YouTube-Kanals mit Tutorials und praktischen Anleitungen
-  - Themen umfassen Kubernetes, Containerisierung, Cloud-Plattformen und DevOps Best Practices
+  - Entwickelt praktische Schulungsmaterialien und interaktive Szenarien auf killercoda.com/aghilish
+  - Erstellt und verwaltet einen YouTube Kanal mit Tutorials und praktischen Anleitungen
+  - Deckt Themen wie Kubernetes, Containerisierung, Cloud Plattformen und DevOps Best Practices ab
 ]
 
 #entry(
@@ -188,7 +193,7 @@
   location: "Remote",
   date: "Okt 2023 - Nov 2023",
 )[
-  - Erfolgreiche Migration der Infotainment-Software-Build-Pipeline von CARIAD DevStack zu GitHub Enterprise CI/CD
+  - Migrierte die Build Pipeline für die Infotainment Software von CARIAD DevStack zu GitHub Enterprise CI/CD
 ]
 
 #entry(
@@ -197,10 +202,10 @@
   location: "Frankfurt, Deutschland",
   date: "Feb 2023 - Sep 2023",
 )[
-  - Leitung des Engineering Backlogs zur Sicherstellung der kontinuierlichen Plattformentwicklung
-  - Mentoring und Führung eines Teams von Junior Cloud-Native Engineers
-  - Leitung der Migration von Microservices zu einem multi-regionalen Google Anthos Setup mit mTLS-Durchsetzung
-  - Beratung des CCoE zu CVE-Behebung, Image-Härtung, OPA-Policies und Absicherung der Service-Grenzen
+  - Verantwortete den Engineering Backlog und sicherte die kontinuierliche Weiterentwicklung der Plattform
+  - Betreute und führte ein Team von Junior Cloud Native Engineers
+  - Leitete die Migration von Microservices auf ein multiregionales Google Anthos Setup mit mTLS Durchsetzung
+  - Beriet das CCoE bei CVE Behebung und Image Härtung sowie beim Absichern von Service Grenzen mit OPA Policies
 ]
 
 #entry(
@@ -209,10 +214,10 @@
   location: "Frankfurt, Deutschland",
   date: "Mär 2021 - Feb 2023",
 )[
-  - Entwicklung einer robusten Deployment-Pipeline für den KYC ETL-Prozess
-  - Implementierung und Pflege von Infrastructure as Code (IaC)-Praktiken
-  - Design und Verwaltung von CI/CD-Pipelines zur Optimierung von Entwicklungs-Workflows
-  - Mitwirkung am Design und der Implementierung skalierbarer Microservices-basierter Lösungen
+  - Entwickelte eine robuste Deployment Pipeline für den KYC ETL Prozess
+  - Implementierte und pflegte Praktiken für Infrastructure as Code (IaC)
+  - Entwarf und verwaltete CI/CD Pipelines zur Optimierung der Entwicklungsworkflows
+  - Wirkte am Design und der Umsetzung skalierbarer, Microservices basierter Lösungen mit
 ]
 
 #entry(
@@ -221,9 +226,9 @@
   location: "Frankfurt, Deutschland",
   date: "Jun 2019 - Feb 2021",
 )[
-  - Mitarbeit in einem kleinen agilen Inkubator-Team zur Entwicklung von Cloud-Native-Anwendungen auf GCP
-  - Doppelrolle in Backend-Entwicklung und DevOps
-  - Nutzung von Firebase, Node.js mit TypeScript und React.js
+  - Arbeitete in einem kleinen agilen Inkubator-Team an der Entwicklung von Cloud Native Anwendungen auf GCP
+  - Übernahm eine Doppelrolle in Backend-Entwicklung und DevOps
+  - Nutzte Firebase, Node.js mit TypeScript und React.js
 ]
 
 #entry(
@@ -232,8 +237,8 @@
   location: "Darmstadt, Deutschland",
   date: "Dez 2016 - Dez 2018",
 )[
-  - Mitarbeit an der Entwicklung und Optimierung von 5G-Millimeterwellen-Netzwerktechnologien
-  - Einsatz von Python, C++ und MATLAB für Netzwerkdesign, Simulation und Implementierung
+  - Arbeitete an Entwicklung und Optimierung von Netzwerktechnologien für 5G im Millimeterwellenbereich
+  - Nutzte Python, C++ und MATLAB für Netzwerkdesign, Simulation und Implementierung
 ]
 
 #entry(
@@ -242,7 +247,7 @@
   location: "Teheran, Iran",
   date: "Okt 2015 - Okt 2016",
 )[
-  - Bereitstellung umfassender Full-Stack-Lösungen mit Expertise in Front-End- und Back-End-Entwicklung
+  - Lieferte umfassende Full Stack Lösungen mit Expertise in Frontend- und Backend-Entwicklung
 ]
 
 #entry(
@@ -251,7 +256,7 @@
   location: "Teheran, Iran",
   date: "Sep 2014 - Sep 2015",
 )[
-  - Fokus auf Software Defined Networks (SDN) mit innovativen Netzwerkarchitekturen
+  - Fokussierte auf Software Defined Networks (SDN) mit innovativen Netzwerkarchitekturen
   - Masterarbeit: "Distributed Publisher-Subscriber Pattern for Content-Based Routing in SDN"
 ]
 
@@ -261,7 +266,7 @@
   location: "Teheran, Iran",
   date: "Mär 2012 - Nov 2014",
 )[
-  - Spezialisierung auf robuste und skalierbare Back-End-Lösungen für Unternehmensanwendungen
+  - Spezialisierte sich auf robuste, skalierbare Backend-Lösungen für Unternehmensanwendungen
 ]
 
 #entry(
@@ -270,7 +275,7 @@
   location: "Teheran, Iran",
   date: "Okt 2011 - Feb 2012",
 )[
-  - Design und Entwicklung eines Simulationstools für Routing und Bündelung in optischen Netzwerken
+  - Entwarf und entwickelte ein Simulationstool für Routing und Bündelung in optischen Netzwerken
   - Im Auftrag des Iranian Telecommunication Research Center (ITRC)
 ]
 
@@ -282,7 +287,7 @@
   location: "Deutschland",
   date: "2016 - 2018",
 )[
-  Forschungsschwerpunkt auf 5G-Millimeterwellen-Netzwerktechnologien
+  Forschungsschwerpunkt auf Netzwerktechnologien für 5G im Millimeterwellenbereich
 ]
 
 #entry(

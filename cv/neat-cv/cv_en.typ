@@ -7,6 +7,7 @@
     email: "info@aghili.dev",
     phone: "+49 162 733 54 09",
     position: "DevOps Team Lead & CNCF Community Group Organizer",
+    address: "Frankfurt, Germany",
     github: "aghilish",
     linkedin: "aghilish",
     website: "https://aghili.dev",
@@ -19,7 +20,7 @@
 #side[
   == About Me
 
-  Multi-Domain Software Engineer with 16+ years of experience in software engineering. Expertise in Cloud-Native Technologies, Technical Leadership, and Mentorship. Passionate Educator and Innovation Enthusiast.
+  Multi-Domain Software Engineer with 16+ years of experience in software engineering. Focus on cloud native platforms, technical leadership, and mentoring. German citizen, based in Frankfurt. Regularly shares what he works on through workshops, talks, and video tutorials.
 
   == Contact
 
@@ -36,6 +37,7 @@
   #item-with-level("AWS", 4)
   #item-with-level("Anthos/Istio", 5)
   #item-with-level("EKS", 4)
+  #item-with-level("RKE2 / Rancher", 4)
 
   *DevOps & CI/CD*
   #item-with-level("Helm", 5)
@@ -110,13 +112,16 @@
   location: "Frankfurt, Germany / Remote",
   date: "Aug 2026 - Present",
 )[
-  - Engaged as an independent contractor supporting an Energy Data Platform for a critical-infrastructure client in the energy sector
+  - Working as an independent contractor supporting an Energy Data Platform for a critical-infrastructure client in the energy sector
   - Driving developer enablement for an internal developer platform (IDP), lowering cognitive load and accelerating team onboarding across the platform
-  - Designing and producing end-to-end technical enablement content, including video tutorials, hands-on labs, storyboards, and workshops, following the Diátaxis documentation framework
-  - Defining and tracking enablement KPIs to measure adoption, self-service usage, and developer productivity across platform teams
+  - Working closely with the Customer Success team and the Cloud Native Application Governance team
+  - Creating technical educational content for the developer organization according to the operating model defined by Cloud Native Application Governance
+  - Supporting tenants through their onboarding journey to the platform
+  - Producing enablement content from concept to publication, including video tutorials, hands-on labs, storyboards, and workshops, following the Diátaxis documentation framework
+  - Defining and tracking enablement KPIs such as adoption, self-service usage, and developer productivity across platform teams
   - Building golden-path templates and self-service workflows on Backstage to standardize service scaffolding and deployment
-  - Establishing GitOps-based delivery patterns (ArgoCD, Helm) and CI/CD best practices as reusable, teachable reference implementations
-  - Managing the full content lifecycle, from needs analysis and scripting through production, publishing, and iteration based on developer feedback
+  - Operating the open-source training platform Educates on a Rancher RKE2 cluster, using Kyverno policies to isolate workshop participants, and monitoring the infrastructure with Prometheus and Grafana
+  - Establishing GitOps-based delivery patterns (ArgoCD, Helm) and CI/CD best practices as reusable reference implementations for other teams
 ]
 
 #entry(
@@ -125,14 +130,14 @@
   location: "Frankfurt, Germany",
   date: "Jan 2025 - Jul 2026",
 )[
-  - Leading two workstreams with a combined team of 6 consultants across multiple seniority levels
-  - Technical lead and platform engineer for Volkswagen's DevOps Enabling Team within ART FSS
-  - Developing self-service CDK library fully compliant with Volkswagen's AWS Vanguard framework
-  - Automating CI/CD pipelines and designing scalable EKS-based deployment architectures
-  - Driving end-to-end implementation of ART-wide observability strategy covering metrics, logs, traces, and business KPIs
-  - Integrating Elastic Stack as central monitoring platform with OTLP pipelines and Helm chart extensions
-  - Implementing SonarQube scanning and SBOM generation in CI pipelines for microservices
-  - Building FOSS license compliance pipelines with Black Duck Hub
+  - Led two workstreams with a combined team of 6 consultants across multiple seniority levels
+  - Was technical lead and platform engineer for Volkswagen's DevOps Enabling Team within ART FSS
+  - Developed a self-service CDK library fully compliant with Volkswagen's AWS Vanguard framework
+  - Automated CI/CD pipelines and designed scalable EKS-based deployment architectures
+  - Drove end-to-end implementation of the ART-wide observability strategy covering metrics, logs, traces, and business KPIs
+  - Integrated Elastic Stack as the central monitoring platform, including OTLP pipelines and Helm chart extensions
+  - Implemented SonarQube scanning and SBOM generation in CI pipelines for microservices
+  - Built FOSS license compliance pipelines with Black Duck Hub
 ]
 
 #entry(
@@ -177,8 +182,8 @@
   location: "Remote",
   date: "Apr 2024 - Present",
 )[
-  - Developed hands-on training materials and interactive scenarios on killercoda.com/aghilish
-  - Created and managed YouTube channel with tutorials and practical guides
+  - Developing hands-on training materials and interactive scenarios on killercoda.com/aghilish
+  - Creating and managing a YouTube channel with tutorials and practical guides
   - Topics include Kubernetes, containerization, cloud platforms, and DevOps best practices
 ]
 
