@@ -43,7 +43,7 @@
       },
       {
         "company": "Commerzbank",
-        "title": "Multiregionale Anthos-Migration",
+        "title": "Multiregionale Anthos Migration",
         "description": "Leitung der Migration von Microservices zu multiregionalem Google Anthos Setup, Verbesserung der Skalierbarkeit und Zuverlässigkeit der Banking Infrastruktur.",
         "tags": ["Anthos", "GKE", "Multi-Region", "Plattform"],
         "href": "/portfolio#commerzbank"
@@ -71,7 +71,7 @@
       {
         "id": "operator-tutorial",
         "title": "Operator Tutorial",
-        "description": "Kubebuilder Beispiel-Operator",
+        "description": "Kubebuilder Beispieloperator",
         "url": "https://github.com/aghilish/operator-tutorial"
       },
       {
@@ -84,15 +84,15 @@
   },
   "about": {
     "title": "Über mich",
-    "subtitle": "Vom Forschungslabor zur Unternehmens-Cloud: eine Reise des kontinuierlichen Lernens und der technischen Führung.",
+    "subtitle": "Vom Forschungslabor zur Unternehmenscloud: eine Reise des kontinuierlichen Lernens und der technischen Führung.",
     "storyTitle": "Die Geschichte",
     "paragraph1": "Ich bin <strong>Shahrooz Aghili</strong>, freiberuflicher Developer Advocate und Platform Engineer mit Sitz in Frankfurt am Main. Mit über 16 Jahren Erfahrung in der Softwareentwicklung habe ich mich von der akademischen Forschung in der Telekommunikation zu einem vertrauenswürdigen Berater für Fortune 500 Unternehmen bei deren Cloud Native Transformationen entwickelt.",
     "paragraph2": "Meine Reise begann an der <strong>Sharif University of Technology</strong>, wo ich Software Defined Networks erforschte. Nach einem Promotionsstudium an der <strong>TU Darmstadt</strong> mit Fokus auf 5G Netzwerktechnologien im Millimeterwellenbereich wechselte ich in die Industrie und brachte wissenschaftliche Genauigkeit in praktische Engineering Herausforderungen ein.",
-    "paragraph3": "Heute arbeite ich als Freelance Developer Advocate für eine souveräne digitale Plattform und baue Hands-on Labs, Tutorials und Workshops, die Engineering Teams den Einstieg in Cloud Native Praktiken erleichtern. Davor leitete ich DevOps Workstreams bei <strong>Deloitte Consulting</strong> und entwickelte Plattformen für Automobilriesen wie Volkswagen und Audi. Mir ist wichtig, komplexe Cloud Native Technologien zugänglich zu machen, durch meine Beratungsarbeit, Community-Organisation und Bildungsinhalte.",
+    "paragraph3": "Heute arbeite ich als Freelance Developer Advocate für eine souveräne digitale Plattform und baue Hands-on Labs, Tutorials und Workshops, die Engineering Teams den Einstieg in Cloud Native Praktiken erleichtern. Davor leitete ich DevOps Workstreams bei <strong>Deloitte Consulting</strong> und entwickelte Plattformen für Automobilriesen wie Volkswagen und Audi. Mir ist wichtig, komplexe Cloud Native Technologien zugänglich zu machen, durch meine Beratungsarbeit, Community Organisation und Bildungsinhalte.",
     "whatIDo": "Was ich mache",
     "platformEngineering": "Platform Engineering",
     "platformEngineeringDesc": "Design und Implementierung von Kubernetes-basierten Plattformen, die Teams ermöglichen, schneller und mit mehr Vertrauen zu liefern. Fokus auf Developer Experience und Operational Excellence.",
-    "observabilityStrategy": "Observability-Strategie",
+    "observabilityStrategy": "Observability Strategie",
     "observabilityStrategyDesc": "Durchgängige Observability Implementierungen mit Metriken, Logs, Traces und Business KPIs. Experte für OpenTelemetry und Elastic Stack Integrationen.",
     "educationContent": "Bildung & Inhalte",
     "educationContentDesc": "Erstellung praktischer Lernerfahrungen durch YouTube Tutorials und interaktive KillerCoda Labs. Cloud Native für alle zugänglich machen.",
@@ -132,7 +132,7 @@
         "date": "2019 — 2021",
         "title": "Backend Engineer / DevOps",
         "company": "Main Incubator GmbH",
-        "description": "War Mitglied des agilen Inkubator-Teams zur Entwicklung von Cloud Native Apps auf GCP. Übernahm eine Doppelrolle in Backend-Entwicklung und DevOps mit Firebase, Node.js und React.js."
+        "description": "War Mitglied des agilen Inkubatorteams zur Entwicklung von Cloud Native Apps auf GCP. Übernahm eine Doppelrolle in Backend Entwicklung und DevOps mit Firebase, Node.js und React.js."
       },
       {
         "date": "2016 — 2018",
@@ -143,7 +143,7 @@
     ],
     "skillsCertifications": "Fähigkeiten & Zertifizierungen",
     "certificationsTitle": "Zertifizierungen",
-    "coreTechnologies": "Kern-Technologien",
+    "coreTechnologies": "Kerntechnologien",
     "languagesTitle": "Sprachen",
     "educationTitle": "Ausbildung",
     "educationItems": [
@@ -174,9 +174,9 @@
     "serviceItems": [
       {
         "title": "Kubernetes Infrastruktur Design",
-        "description": "Design und Implementierung produktionsreifer Kubernetes-Cluster, zugeschnitten auf die Bedürfnisse Ihres Unternehmens.",
+        "description": "Design und Implementierung produktionsreifer Kubernetes Cluster, zugeschnitten auf die Bedürfnisse Ihres Unternehmens.",
         "offerings": [
-          "Cluster-Architektur und Dimensionierung",
+          "Cluster Architektur und Dimensionierung",
           "Multi-Cluster Strategien",
           "Sicherheitshärtung (PSP, OPA, Network Policies)",
           "Hochverfügbarkeit und Disaster Recovery",
@@ -185,7 +185,7 @@
       },
       {
         "title": "DevOps- & CI/CD-Strategie",
-        "description": "Transformieren Sie Ihre Software-Bereitstellung mit modernen DevOps-Praktiken und automatisierten Pipelines.",
+        "description": "Transformieren Sie Ihre Software Bereitstellung mit modernen DevOps Praktiken und automatisierten Pipelines.",
         "offerings": [
           "CI/CD Pipeline Design (Tekton, GitHub Actions, GitLab)",
           "GitOps Implementierung mit ArgoCD/Flux",
@@ -195,19 +195,19 @@
         ]
       },
       {
-        "title": "Observability-Implementierung",
-        "description": "Gewinnen Sie vollständige Einblicke in Ihre Systeme mit umfassenden Observability-Lösungen.",
+        "title": "Observability Implementierung",
+        "description": "Gewinnen Sie vollständige Einblicke in Ihre Systeme mit umfassenden Observability Lösungen.",
         "offerings": [
-          "OpenTelemetry-Instrumentierung",
+          "OpenTelemetry Instrumentierung",
           "Bereitstellung und Optimierung von Elastic Stack",
-          "Benutzerdefinierte Metriken und KPI-Dashboards",
+          "Benutzerdefinierte Metriken und KPI Dashboards",
           "Setup für Distributed Tracing",
           "Alerting und Automatisierung der Incident Response"
         ]
       },
       {
-        "title": "Cloud-Architektur & Migration",
-        "description": "Navigieren Sie Ihre Cloud-Reise mit Expertenberatung zu Architektur und Migration.",
+        "title": "Cloud Architektur & Migration",
+        "description": "Navigieren Sie Ihre Cloud Reise mit Expertenberatung zu Architektur und Migration.",
         "offerings": [
           "Cloud Native Architektur Design",
           "GCP/AWS Migrationsplanung",
@@ -218,10 +218,10 @@
       },
       {
         "title": "Google Cloud Manufacturing Data Engine",
-        "description": "Nutzen Sie Googles Manufacturing-Lösungen für die Industrie-4.0-Transformation.",
+        "description": "Nutzen Sie Googles Manufacturing Lösungen für die Transformation nach Industrie 4.0.",
         "offerings": [
           "MDE-Architektur und -Implementierung",
-          "Datenpipeline-Design",
+          "Datenpipeline Design",
           "Integration mit bestehenden Systemen",
           "PoC-Entwicklung und -Validierung",
           "Produktionsbereitstellung und -optimierung"
@@ -229,10 +229,10 @@
       },
       {
         "title": "FinOps & Kostenoptimierung",
-        "description": "Optimieren Sie Ihre Cloud-Ausgaben bei gleichzeitiger Aufrechterhaltung von Performance und Zuverlässigkeit.",
+        "description": "Optimieren Sie Ihre Cloud Ausgaben bei gleichzeitiger Aufrechterhaltung von Performance und Zuverlässigkeit.",
         "offerings": [
-          "Cloud-Kostenanalyse und -Berichterstattung",
-          "Ressourcen-Rightsizing",
+          "Analyse und Berichterstattung der Cloud Kosten",
+          "Rightsizing von Ressourcen",
           "Planung reservierter Kapazitäten",
           "Strategien für Spot/Preemptible Instances",
           "Chargeback- und Showback-Implementierung"
@@ -243,17 +243,17 @@
     "viewPortfolio": "Portfolio ansehen",
     "connectLinkedIn": "Auf LinkedIn verbinden",
     "whyWorkWithMe": "Warum mit mir arbeiten",
-    "enterpriseExperience": "Unternehmens-Erfahrung:",
+    "enterpriseExperience": "Unternehmenserfahrung:",
     "enterpriseExperienceDesc": "Nachgewiesene Erfolge mit Fortune 500 Unternehmen wie Volkswagen, Audi und Commerzbank.",
     "certifiedExpertise": "Zertifizierte Expertise:",
     "certifiedExpertiseDesc": "CKA-, CKS- und GCP Professional Cloud Architect-Zertifizierungen belegen tiefgreifendes technisches Wissen.",
     "endToEndCapability": "End-to-End Fähigkeit:",
-    "endToEndCapabilityDesc": "Vom Architektur-Design über die Implementierung bis zur Team-Befähigung kann ich die gesamte Reise unterstützen.",
-    "communityLeadership": "Community-Leadership:",
+    "endToEndCapabilityDesc": "Vom Architektur Design über die Implementierung bis zur Team Befähigung kann ich die gesamte Reise unterstützen.",
+    "communityLeadership": "Community Leadership:",
     "communityLeadershipDesc": "Als CNCF Community Group Organizer bleibe ich an der Spitze der Cloud Native Innovationen.",
     "educationFocus": "Bildungsfokus:",
     "educationFocusDesc": "Ich implementiere nicht nur, ich übertrage auch Wissen, damit Ihr Team die Lösungen warten und weiterentwickeln kann.",
-    "freelanceAvailability": "Freelance-Verfügbarkeit",
+    "freelanceAvailability": "Freelance Verfügbarkeit",
     "freelanceAvailabilityDesc": "Aktuell als Freelance Developer Advocate tätig, offen für neue Projekte. Remote oder Hybrid (Raum Frankfurt). Über freelancermap, GULP oder direkt.",
     "freelanceKeySkills": "Gefragte Skills, die ich anbiete",
     "freelanceKeySkillItems": [
@@ -267,11 +267,11 @@
       "FinOps & Kostenoptimierung",
       "AI/MCP Integration für Kubernetes"
     ],
-    "engagementModels": "Engagement-Modelle",
+    "engagementModels": "Engagement Modelle",
     "engagementItems": [
       {
-        "title": "Beratungs-Retainer",
-        "description": "Laufende strategische Beratung für Ihre Cloud Native Initiativen. Regelmäßige Check-ins, Architektur-Reviews und Beratung auf Abruf.",
+        "title": "Beratungsretainer",
+        "description": "Laufende strategische Beratung für Ihre Cloud Native Initiativen. Regelmäßige Check-ins, Architektur Reviews und Beratung auf Abruf.",
         "duration": "Monatlich"
       },
       {
@@ -281,7 +281,7 @@
       },
       {
         "title": "Projektbasierte Beratung",
-        "description": "Fokussiertes Engagement für spezifische Initiativen wie Migrationen, neue Plattform-Builds oder Observability-Implementierungen.",
+        "description": "Fokussiertes Engagement für spezifische Initiativen wie Migrationen, neue Plattform Builds oder Observability Implementierungen.",
         "duration": "2-6 Monate"
       },
       {
@@ -322,14 +322,14 @@
       {
         "id": "terraform-gcp",
         "title": "Terraform GCP Platform",
-        "description": "Modulares Terraform für GCP-Infrastruktur: GKE, Cloud SQL, BigTable, BigQuery und VPC-Netzwerke.",
+        "description": "Modulares Terraform für GCP Infrastruktur: GKE, Cloud SQL, BigTable, BigQuery und VPC Netzwerke.",
         "url": "https://github.com/aghilish/terraform-gcp-platform",
         "technologies": ["Terraform", "GKE", "Cloud SQL", "BigQuery"]
       },
       {
         "id": "elasticsearch-tf",
         "title": "Elasticsearch TF Module",
-        "description": "Terraform-Module für Elasticsearch: Kibana Spaces, Security-Rollen, ILM-Policies und Index-Templates.",
+        "description": "Terraform Module für Elasticsearch: Kibana Spaces, Security Rollen, ILM Policies und Index Templates.",
         "url": "https://github.com/aghilish/elasticsearch-terraform-modules",
         "technologies": ["Terraform", "Elasticsearch", "Kibana", "ILM"]
       },
@@ -343,7 +343,7 @@
       {
         "id": "k8s-mcp",
         "title": "Kubernetes MCP Operator",
-        "description": "Tutorial zum Erstellen eines Kubernetes-Operators für Model Context Protocol (MCP) Server für KI-Anwendungen.",
+        "description": "Tutorial zum Erstellen eines Kubernetes Operators für Model Context Protocol (MCP) Server für KI Anwendungen.",
         "url": "https://github.com/aghilish/k8s-mcp",
         "technologies": ["Go", "Kubernetes", "MCP", "Operators"]
       },
@@ -377,7 +377,7 @@
         "approach": "Zusammenarbeit mit dem Customer Success Team und dem Cloud Native Application Governance Team beim Aufbau eines Developer Enablement Programms: Golden Path Templates auf Backstage, GitOps Referenzimplementierungen und Hands-on Labs auf Basis der Open Source Plattform Educates.",
         "results": [
           "Reduzierte kognitive Last und schnelleres Onboarding neuer Teams auf der Plattform",
-          "Betrieb von Educates Trainingsumgebungen auf einem Rancher RKE2 Cluster mit Kyverno Policies zur Isolation der Workshop-Teilnehmer",
+          "Betrieb von Educates Trainingsumgebungen auf einem Rancher RKE2 Cluster mit Kyverno Policies zur Isolation der Workshop Teilnehmer",
           "Aufbau von Prometheus- und Grafana-Monitoring für Cluster- und Workshop-Infrastruktur",
           "Definition und Tracking von Enablement KPIs zu Adoption, Self Service Nutzung und Entwicklerproduktivität",
           "Aufbau wiederverwendbarer GitOps Delivery Patterns mit ArgoCD und Helm als lehrbare Referenzimplementierungen"
@@ -413,9 +413,9 @@
         "context": "Als Teil der Partnerschaft von Deloitte mit Google Cloud mussten wir die Fähigkeiten der Manufacturing Data Engine (MDE) für potenzielle Kunden im Fertigungssektor demonstrieren und zeigen, wie sie das Fabrikdatenmanagement transformieren kann.",
         "challenges": [
           "Komplexe Integrationsanforderungen mit bestehenden Fertigungssystemen",
-          "Bedarf, Wert zu demonstrieren bei gleichzeitiger Cloud-Kostenoptimierung",
-          "Knappe Zeitvorgabe für PoC-Entwicklung",
-          "Erfordernis nahtloser Koordination mit Google MDE-Entwicklungsteams"
+          "Bedarf, Wert zu demonstrieren bei gleichzeitiger Cloud Kostenoptimierung",
+          "Knappe Zeitvorgabe für PoC Entwicklung",
+          "Erfordernis nahtloser Koordination mit Google MDE Entwicklungsteams"
         ],
         "approach": "Leitung der gesamten PoC Entwicklung, Anwendung von FinOps Prinzipien von Anfang an und Sicherstellung der Ausrichtung am GCP Well-Architected Framework. Aufbau fortgeschrittener Pipelines für dynamisches Ressourcenmanagement.",
         "results": [
@@ -423,7 +423,7 @@
           "Implementierung kostenoptimierter Architektur unter Anwendung von FinOps Best Practices",
           "Aufbau von Pipelines für Node Scheduling in Kubernetes und bedarfsgesteuerte Bereitstellung",
           "Etablierung eines direkten Kollaborationskanals mit dem Google MDE Team",
-          "Erstellung wiederverwendbarer Muster für zukünftige MDE-Implementierungen"
+          "Erstellung wiederverwendbarer Muster für zukünftige MDE Implementierungen"
         ],
         "technologies": ["Google Cloud", "Manufacturing Data Engine", "GKE", "BigQuery", "Terraform", "FinOps"]
       },
@@ -433,18 +433,18 @@
         "title": "Multiregionale Google Anthos Migration",
         "context": "Die Knowledge Graph Plattform der Commerzbank benötigte verbesserte Skalierbarkeit und Zuverlässigkeit zur Unterstützung wachsender Microservices Workloads. Das bestehende Single Region Setup wurde zum Engpass für Anforderungen an die Business Continuity.",
         "challenges": [
-          "Komplexe Microservices-Abhängigkeiten über mehrere Teams hinweg",
-          "Strenge Banking-Compliance- und Sicherheitsanforderungen",
+          "Komplexe Microservices Abhängigkeiten über mehrere Teams hinweg",
+          "Strenge Anforderungen an Banking Compliance und Sicherheit",
           "Anforderung einer Migration ohne Ausfallzeit",
           "Notwendigkeit, Teamproduktivität während des Übergangs aufrechtzuerhalten"
         ],
-        "approach": "Leitung des Engineering-Backlogs als Senior Platform Engineer, Koordination mit mehreren Teams bei Design und Durchführung der Migration. Durchführung von Workshops zur Sicherstellung des Wissenstransfers in der Organisation.",
+        "approach": "Leitung des Engineering Backlogs als Senior Platform Engineer, Koordination mit mehreren Teams bei Design und Durchführung der Migration. Durchführung von Workshops zur Sicherstellung des Wissenstransfers in der Organisation.",
         "results": [
           "Erfolgreiche Migration zu multiregionalem Google Anthos Setup mit mTLS Durchsetzung über Managed Istio Service Mesh",
-          "Verbesserte Skalierbarkeit mit Unterstützung für 3x Workload-Wachstum",
-          "Verbesserte Zuverlässigkeit mit regionsübergreifenden Failover-Fähigkeiten",
+          "Verbesserte Skalierbarkeit mit Unterstützung für 3-fach höheres Workload Wachstum",
+          "Verbesserte Zuverlässigkeit mit regionsübergreifenden Failover Fähigkeiten",
           "Design und Durchführung von Kubernetes Plattform Workshops",
-          "CVE Behebung, Image Härtung und Absicherung der Service-Grenzen auf Netzwerk- und Anwendungsebene",
+          "CVE Behebung, Image Härtung und Absicherung der Service Grenzen auf Netzwerk- und Anwendungsebene",
           "Erstellung praktischer Lernressourcen auf KillerCoda"
         ],
         "technologies": ["Google Anthos", "GKE", "Kubernetes", "Istio", "Cloud SQL", "Terraform", "Security Command Center"]
@@ -452,20 +452,20 @@
       {
         "id": "cariad",
         "company": "CARIAD (Volkswagen Group)",
-        "title": "CI/CD-Migration zu GitHub Enterprise",
+        "title": "CI/CD Migration zu GitHub Enterprise",
         "context": "CARIADs Build Pipeline für die Infotainment Software lief auf der internen DevStack Plattform. Das Team musste zu GitHub Enterprise migrieren, um die Zusammenarbeit zu verbessern und fortgeschrittene CI/CD Fähigkeiten zu nutzen.",
         "challenges": [
           "Komplexe Build Abhängigkeiten für die Infotainment Software",
-          "Notwendigkeit, Build-Reproduzierbarkeit während Migration aufrechtzuerhalten",
+          "Notwendigkeit, Build Reproduzierbarkeit während Migration aufrechtzuerhalten",
           "Integration mit bestehenden Tools und Workflows",
           "Knappe Projektzeitvorgabe (2 Monate)"
         ],
         "approach": "Arbeit als freiberuflicher Berater zur Analyse bestehender Pipelines, Design der Zielarchitektur und Durchführung der Migration mit minimaler Störung für Entwicklungsteams.",
         "results": [
-          "Migration innerhalb der 2-Monats-Zeitvorgabe abgeschlossen",
-          "Verbesserte Pipeline-Wartbarkeit und Dokumentation",
+          "Migration innerhalb der Zeitvorgabe von 2 Monaten abgeschlossen",
+          "Verbesserte Pipeline Wartbarkeit und Dokumentation",
           "Verbesserte Zusammenarbeit durch GitHub Enterprise Features",
-          "Reduzierte Build-Zeiten durch optimierte Workflows"
+          "Reduzierte Build Zeiten durch optimierte Workflows"
         ],
         "technologies": ["GitHub Enterprise", "GitHub Actions", "Docker", "CI/CD"]
       },
@@ -473,16 +473,16 @@
         "id": "k8s-mcp",
         "company": "Open Source",
         "title": "Kubernetes MCP Server Operator",
-        "context": "KI-Tools (Claude, Copilot, ChatGPT) brauchen standardisierten Zugriff auf Kubernetes-Cluster. MCP liefert das Protokoll, aber ein Kubernetes nativer Operator fehlte.",
+        "context": "KI Tools (Claude, Copilot, ChatGPT) brauchen standardisierten Zugriff auf Kubernetes Cluster. MCP liefert das Protokoll, aber ein Kubernetes nativer Operator fehlte.",
         "challenges": [
           "Kein Operator für MCP Server als Kubernetes Workloads",
-          "KI-Agenten brauchen sicheren, strukturierten Cluster-Zugriff",
-          "Enterprise-Einsatz erfordert Lifecycle-Management und RBAC"
+          "KI Agenten brauchen sicheren, strukturierten Cluster Zugriff",
+          "Enterprise Einsatz erfordert Lifecycle Management und RBAC"
         ],
         "approach": "Open Source Kubernetes Operator mit Kubebuilder und Go. Verwaltet MCP Server Deployments als Custom Resources mit Lifecycle und Service Exposition.",
         "results": [
           "Open Source Operator mit CRDs für deklaratives MCP Server Deployment",
-          "KillerCoda-Lab und YouTube-Tutorial für die Community",
+          "KillerCoda Lab und YouTube Tutorial für die Community",
           "Verbindet Agentic AI und Platform Engineering"
         ],
         "technologies": ["Golang", "Kubernetes", "Kubebuilder", "MCP", "Custom Operators"]
@@ -491,19 +491,19 @@
         "id": "main-incubator",
         "company": "Main Incubator GmbH",
         "title": "Cloud Native Anwendungsentwicklung auf GCP",
-        "context": "Als Teil des Innovationsarms der Commerzbank baut Main Incubator hochmoderne Fintech-Anwendungen. Das Team benötigte Full Stack Engineering Fähigkeiten mit starken DevOps Praktiken für schnelle Iteration.",
+        "context": "Als Teil des Innovationsarms der Commerzbank baut Main Incubator hochmoderne Fintech Anwendungen. Das Team benötigte Full Stack Engineering Fähigkeiten mit starken DevOps Praktiken für schnelle Iteration.",
         "challenges": [
-          "Schnelllebige Startup-Umgebung mit Bedarf an schnellen Iterationen",
-          "Bedarf an Backend-Entwicklung und Infrastruktur Expertise",
+          "Schnelllebige Startup Umgebung mit Bedarf an schnellen Iterationen",
+          "Bedarf an Backend Entwicklung und Infrastruktur Expertise",
           "Aufbau für Skalierung bei überschaubaren Kosten",
-          "Compliance-Anforderungen der Mutterbank-Organisation"
+          "Compliance Anforderungen der Mutterbank Organisation"
         ],
         "approach": "Doppelrolle als Backend Engineer und DevOps Spezialist, Implementierung Cloud Native Architektur bei Aufrechterhaltung der Entwicklungsgeschwindigkeit. Fokus auf Automatisierung und Developer Experience.",
         "results": [
           "Aufbau und Deployment mehrerer Cloud Native Anwendungen",
-          "Implementierung skalierbarer Serverless-Architektur auf GCP",
-          "Etablierung von DevOps-Praktiken für kleine Team-Effizienz",
-          "Erstellung wiederverwendbarer Infrastruktur-Muster mit Terraform"
+          "Implementierung skalierbarer Serverless Architektur auf GCP",
+          "Etablierung von DevOps Praktiken für kleine Team Effizienz",
+          "Erstellung wiederverwendbarer Infrastruktur Muster mit Terraform"
         ],
         "technologies": ["Google Cloud", "Firebase", "Node.js", "TypeScript", "React", "Cloud Functions"]
       }
@@ -539,22 +539,22 @@
     "discoveryCallDesc": "Für Beratungsanfragen vereinbaren wir ein kostenloses 30-minütiges Gespräch, um Ihre Bedürfnisse zu besprechen und wie ich helfen kann.",
     "proposal": "Angebot",
     "proposalDesc": "Basierend auf unserem Gespräch erstelle ich ein detailliertes Angebot mit Umfang, Zeitplan und Investitionsoptionen.",
-    "currentlyAvailable": "Verfügbar für Freelance-Projekte",
-    "currentlyAvailableDesc": "Aktuell als Freelance Developer Advocate tätig. Offen für neue Projekte in Kubernetes, Platform Engineering und Observability. Standort Frankfurt, remote-freundlich.",
+    "currentlyAvailable": "Verfügbar für Freelance Projekte",
+    "currentlyAvailableDesc": "Aktuell als Freelance Developer Advocate tätig. Offen für neue Projekte in Kubernetes, Platform Engineering und Observability. Standort Frankfurt, remote freundlich.",
     "emailMe": "E-Mail an mich",
     "connectLinkedIn": "Auf LinkedIn verbinden"
   },
   "speaking": {
     "title": "Vorträge & Community",
     "subtitle": "Wissen teilen und die Cloud Native Community aufbauen.",
-    "communityLeadership": "Community-Leadership",
+    "communityLeadership": "Community Leadership",
     "communityRole": {
       "role": "Community Group Organizer",
       "title": "Cloud Native Frankfurt",
-      "description": "Als CNCF Community Group Organizer helfe ich, das Cloud Native Ökosystem in der Metropolregion Frankfurt Rhein-Main zu fördern. Wir organisieren Meetups, Workshops und Networking-Events für Cloud Native Praktiker.",
+      "description": "Als CNCF Community Group Organizer helfe ich, das Cloud Native Ökosystem in der Metropolregion Frankfurt Rhein-Main zu fördern. Wir organisieren Meetups, Workshops und Networking Events für Cloud Native Praktiker.",
       "activities": [
         "Organisation monatlicher Meetups und technischer Vorträge",
-        "Koordination mit der CNCF für Community-Initiativen",
+        "Koordination mit der CNCF für Community Initiativen",
         "Förderung des Wissensaustauschs unter Praktikern",
         "Verbindung lokaler Talente mit Cloud Native Möglichkeiten"
       ]
@@ -565,18 +565,18 @@
         "title": "Crossplane Composition Functions, Step by Step",
         "event": "Cloud Native Frankfurt Meetup",
         "date": "Juli 2024",
-        "description": "Tiefgehende Betrachtung von Crossplane Composition Functions und Erkundung des Aufbaus benutzerdefinierter Kompositionen für Infrastruktur-Provisioning.",
+        "description": "Tiefgehende Betrachtung von Crossplane Composition Functions und Erkundung des Aufbaus benutzerdefinierter Kompositionen für Infrastruktur Provisioning.",
         "tags": ["Crossplane", "Kubernetes", "IaC"]
       },
       {
         "title": "Power Up Your Kubernetes Clusters with AI",
         "event": "Grafana Friends Frankfurt",
         "date": "November 2024",
-        "description": "AI + Kubernetes: Erkundung von K8SGPT für intelligente Kubernetes-Fehlersuche und Schednex AI-gestützter Scheduler.",
+        "description": "AI + Kubernetes: Erkundung von K8SGPT für intelligente Kubernetes Fehlersuche und Schednex, einem KI gestützten Scheduler.",
         "tags": ["K8SGPT", "Grafana", "Kubernetes", "Observability"]
       }
     ],
-    "speakingTopics": "Vortrag-Themen",
+    "speakingTopics": "Vortragsthemen",
     "topicItems": [
       {
         "title": "Kubernetes Platform Engineering",
@@ -589,8 +589,8 @@
         "tags": ["OpenTelemetry", "Observability", "Elastic Stack"]
       },
       {
-        "title": "DevOps-Transformation",
-        "description": "Praktische Strategien zur Einführung von DevOps-Praktiken in Unternehmensumgebungen.",
+        "title": "DevOps Transformation",
+        "description": "Praktische Strategien zur Einführung von DevOps Praktiken in Unternehmensumgebungen.",
         "tags": ["DevOps", "CI/CD", "Culture"]
       },
       {
@@ -600,35 +600,35 @@
       },
       {
         "title": "FinOps für Cloud Native",
-        "description": "Optimierung der Cloud-Kosten bei gleichzeitiger Aufrechterhaltung von Performance und Zuverlässigkeit.",
+        "description": "Optimierung der Cloud Kosten bei gleichzeitiger Aufrechterhaltung von Performance und Zuverlässigkeit.",
         "tags": ["FinOps", "Cost Optimization", "GCP"]
       }
     ],
     "workshopsTraining": "Workshops & Schulungen",
     "workshopItems": [
       {
-        "title": "Kubernetes-Grundlagen",
+        "title": "Kubernetes Grundlagen",
         "duration": "Ganztägig",
         "description": "Praktische Einführung in Kubernetes für Entwickler und Operators. Behandelt Kernkonzepte, Deployments, Services und grundlegende Fehlersuche.",
-        "format": "Interaktiver Workshop mit Live-Übungen"
+        "format": "Interaktiver Workshop mit Live Übungen"
       },
       {
-        "title": "Fortgeschrittene Kubernetes-Operationen",
+        "title": "Fortgeschrittene Kubernetes Operationen",
         "duration": "2 Tage",
-        "description": "Tiefgehende Betrachtung von Produktions-Kubernetes: Sicherheitshärtung, Observability-Setup, GitOps-Workflows und Disaster Recovery.",
+        "description": "Tiefgehende Betrachtung von Kubernetes in Produktion: Sicherheitshärtung, Observability Setup, GitOps Workflows und Disaster Recovery.",
         "format": "Workshop mit realen Szenarien"
       },
       {
-        "title": "OpenTelemetry-Implementierung",
+        "title": "OpenTelemetry Implementierung",
         "duration": "Halbtägig",
-        "description": "Praktischer Leitfaden zur Instrumentierung von Anwendungen mit OpenTelemetry und Einrichtung von Observability-Backends.",
-        "format": "Hands-on Lab-Session"
+        "description": "Praktischer Leitfaden zur Instrumentierung von Anwendungen mit OpenTelemetry und Einrichtung von Observability Backends.",
+        "format": "Hands-on Lab Session"
       },
       {
         "title": "CI/CD mit Tekton",
         "duration": "Ganztägig",
         "description": "Aufbau von Cloud Native CI/CD Pipelines mit Tekton. Von den Grundlagen bis zu fortgeschrittenen Mustern für den Unternehmenseinsatz.",
-        "format": "Workshop mit praktischen Pipeline-Übungen"
+        "format": "Workshop mit praktischen Pipeline Übungen"
       }
     ],
     "inviteToSpeak": "Laden Sie mich zum Vortrag ein",
@@ -641,7 +641,7 @@
   "content": {
     "title": "Content Hub",
     "subtitle": "Kostenlose Tutorials, interaktive Labs und tiefe Einblicke in Cloud Native Technologien.",
-    "youtubePlaylists": "YouTube-Playlists",
+    "youtubePlaylists": "YouTube Playlists",
     "latestVideos": "Neueste Videos",
     "video": "Video",
     "videos": "Videos",
@@ -680,8 +680,8 @@
     "certificationsDesc": "CKA, CKS, GCP Professional Cloud Architect, CNCF Community Organizer.",
     "keyHighlights": "Wichtige Highlights",
     "currentRole": "Aktuelle Rolle:",
-    "currentRoleDesc": "Freelance Developer Advocate für eine souveräne digitale Plattform, Developer Enablement und Plattform-Onboarding",
-    "cloudExpertise": "Cloud-Expertise:",
+    "currentRoleDesc": "Freelance Developer Advocate für eine souveräne digitale Plattform, Developer Enablement und Plattform Onboarding",
+    "cloudExpertise": "Cloud Expertise:",
     "cloudExpertiseDesc": "Google Cloud Platform, AWS, mit Fokus auf Kubernetes und Platform Engineering",
     "observability": "Observability:",
     "observabilityDesc": "Durchgängige Implementierung von Monitoring Strategien mit OpenTelemetry, Elastic Stack und Prometheus",
@@ -690,6 +690,6 @@
     "community": "Community:",
     "communityDesc": "CNCF Community Group Organizer für Cloud Native Frankfurt",
     "education": "Bildung:",
-    "educationDesc": "Content Creator auf YouTube und Killercoda, Cloud-Native zugänglich machen"
+    "educationDesc": "Content Creator auf YouTube und Killercoda, Cloud Native zugänglich machen"
   }
 }
