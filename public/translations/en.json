@@ -14,16 +14,23 @@
     "copyright": "© Shahrooz Aghili"
   },
   "home": {
-    "hero": "Moin, I'm Shahrooz — the Cloud and Kubernetes architect!",
+    "hero": "Moin, I'm Shahrooz, the Cloud and Kubernetes architect!",
     "heroSubtitle": "Kubernetes, AWS & GCP platforms for enterprises. Available for freelance.",
-    "bio": "16+ years software engineering. Kubernetes, AWS EKS, GCP, OpenTelemetry, DevOps. Currently DevOps Squad Lead at Deloitte for Volkswagen. Open for freelance.",
+    "bio": "16+ years software engineering. Kubernetes, AWS EKS, GCP, OpenTelemetry, DevOps. Currently freelance Developer Advocate for a sovereign digital platform. Open for freelance.",
     "trustedBy": "Trusted by leading enterprises",
     "featuredWork": "Featured Work",
     "featuredWorkItems": [
       {
+        "company": "Independent",
+        "title": "Freelance Developer Advocate",
+        "description": "Driving developer enablement for a sovereign digital platform, building hands-on labs, tutorials, and workshops that help engineering teams onboard with confidence.",
+        "tags": ["Kubernetes", "Rancher RKE2", "Backstage", "ArgoCD"],
+        "href": "/portfolio#developer-advocate"
+      },
+      {
         "company": "Deloitte × Volkswagen",
         "title": "DevOps Squad Lead",
-        "description": "Leading DevOps enabling team for Volkswagen's Agile Release Train, implementing observability strategy and self-service CDK library.",
+        "description": "Led the DevOps enabling team for Volkswagen's Agile Release Train, implementing observability strategy and self-service CDK library.",
         "tags": ["Kubernetes", "AWS", "Tekton", "Elastic Stack"],
         "href": "/portfolio#deloitte-vw"
       },
@@ -77,11 +84,11 @@
   },
   "about": {
     "title": "About Me",
-    "subtitle": "From research labs to enterprise cloud — a journey of continuous learning and technical leadership.",
+    "subtitle": "From research labs to enterprise cloud: a journey of continuous learning and technical leadership.",
     "storyTitle": "The Story",
-    "paragraph1": "I'm <strong>Shahrooz Aghili</strong>, a Senior Solutions Architect and DevOps Technical Lead based in Frankfurt, Germany. With over 16 years in software engineering, I've evolved from academic research in telecommunications to becoming a trusted advisor for Fortune 500 companies on their cloud-native transformations.",
+    "paragraph1": "I'm <strong>Shahrooz Aghili</strong>, a freelance Developer Advocate and Platform Engineer based in Frankfurt, Germany. With over 16 years in software engineering, I've evolved from academic research in telecommunications to becoming a trusted advisor for Fortune 500 companies on their cloud-native transformations.",
     "paragraph2": "My journey began at <strong>Sharif University of Technology</strong>, where I researched Software Defined Networks. After pursuing a PhD at <strong>TU Darmstadt</strong> (focusing on 5G mm-wave technologies), I pivoted to the industry, bringing research rigor to practical engineering challenges.",
-    "paragraph3": "Today, I lead DevOps workstreams at <strong>Deloitte Consulting</strong>, architecting platforms for automotive giants like Volkswagen and Audi. I'm passionate about making complex cloud-native technologies accessible — through my consulting work, community organizing, and educational content.",
+    "paragraph3": "Today, I work as a freelance Developer Advocate for a sovereign digital platform, building hands-on labs, tutorials, and workshops that help engineering teams adopt cloud-native practices with confidence. Before that, I led DevOps workstreams at <strong>Deloitte Consulting</strong>, architecting platforms for automotive giants like Volkswagen and Audi. I'm passionate about making complex cloud-native technologies accessible through my consulting work, community organizing, and educational content.",
     "whatIDo": "What I Do",
     "platformEngineering": "Platform Engineering",
     "platformEngineeringDesc": "Designing and implementing Kubernetes-based platforms that enable teams to ship faster with confidence. Focus on developer experience and operational excellence.",
@@ -92,10 +99,16 @@
     "experience": "Experience",
     "experienceItems": [
       {
-        "date": "2025 — Present",
+        "date": "2026 — Present",
+        "title": "Freelance Developer Advocate",
+        "company": "Independent",
+        "description": "Driving developer enablement for a sovereign digital platform. Building hands-on labs, video tutorials, and workshops, operating training infrastructure on Rancher RKE2 with policy-enforced tenant isolation, and partnering with Customer Success and Platform Governance teams on onboarding."
+      },
+      {
+        "date": "2025 — 2026",
         "title": "DevOps Squad Lead",
         "company": "Deloitte Consulting",
-        "description": "Leading two workstreams with 6+ consultants. Technical lead for VW's Agile Release Train. Developing self-service CDK library and driving ART-wide observability strategy."
+        "description": "Led two workstreams with 6+ consultants. Technical lead for VW's Agile Release Train. Developed self-service CDK library and drove ART-wide observability strategy."
       },
       {
         "date": "2024",
@@ -235,13 +248,13 @@
     "certifiedExpertise": "Certified Expertise:",
     "certifiedExpertiseDesc": "CKA, CKS, and GCP Professional Cloud Architect certifications demonstrate deep technical knowledge.",
     "endToEndCapability": "End-to-End Capability:",
-    "endToEndCapabilityDesc": "From architecture design to implementation to team enablement — I can support the entire journey.",
+    "endToEndCapabilityDesc": "From architecture design to implementation to team enablement, I can support the entire journey.",
     "communityLeadership": "Community Leadership:",
     "communityLeadershipDesc": "As a CNCF Community Group Organizer, I stay at the forefront of cloud-native innovations.",
     "educationFocus": "Education Focus:",
-    "educationFocusDesc": "I don't just implement — I transfer knowledge to ensure your team can maintain and evolve the solutions.",
+    "educationFocusDesc": "I don't just implement. I transfer knowledge to ensure your team can maintain and evolve the solutions.",
     "freelanceAvailability": "Freelance Availability",
-    "freelanceAvailabilityDesc": "Available from Q2/Q3 2026. Remote or hybrid (Frankfurt). Open via freelancermap, GULP, or direct.",
+    "freelanceAvailabilityDesc": "Currently working as a freelance Developer Advocate, open to new projects. Remote or hybrid (Frankfurt). Open via freelancermap, GULP, or direct.",
     "freelanceKeySkills": "In-Demand Skills I Offer",
     "freelanceKeySkillItems": [
       "Kubernetes Platform Engineering (EKS, GKE, Anthos, OpenShift)",
@@ -351,6 +364,27 @@
     ],
     "caseStudies": [
       {
+        "id": "developer-advocate",
+        "company": "Independent",
+        "title": "Developer Advocacy for a Sovereign Digital Platform",
+        "context": "A sovereign digital platform needed to accelerate adoption of its internal developer platform across engineering teams, while meeting strict governance and tenant isolation requirements.",
+        "challenges": [
+          "High cognitive load was slowing team onboarding onto the platform",
+          "No standardized, hands-on way to teach the platform's golden paths",
+          "Workshop and training environments needed strict tenant isolation",
+          "Content had to align with a formal operating model defined by platform governance"
+        ],
+        "approach": "Partnered with the Customer Success and Cloud Native Application Governance teams to design a developer enablement program: golden path templates on Backstage, GitOps reference implementations, and hands-on labs built on the open-source Educates platform.",
+        "results": [
+          "Lowered cognitive load and accelerated team onboarding across the platform",
+          "Operated Educates training environments on a Rancher RKE2 cluster with Kyverno policies isolating workshop participants",
+          "Set up Prometheus and Grafana monitoring for cluster and workshop infrastructure",
+          "Defined and tracked enablement KPIs covering adoption, self-service usage, and developer productivity",
+          "Built reusable GitOps delivery patterns with ArgoCD and Helm as teachable reference implementations"
+        ],
+        "technologies": ["Kubernetes", "Rancher RKE2", "Backstage", "ArgoCD", "Helm", "Kyverno", "Educates", "Prometheus", "Grafana"]
+      },
+      {
         "id": "deloitte-vw",
         "company": "Deloitte × Volkswagen",
         "title": "DevOps Enabling Team for Future Shopfloor Services",
@@ -439,7 +473,7 @@
         "id": "k8s-mcp",
         "company": "Open Source",
         "title": "Kubernetes MCP Server Operator",
-        "context": "AI tools (Claude, Copilot, ChatGPT) need standardized access to Kubernetes clusters. MCP provides the protocol — but no Kubernetes-native operator existed.",
+        "context": "AI tools (Claude, Copilot, ChatGPT) need standardized access to Kubernetes clusters. MCP provides the protocol, but no Kubernetes-native operator existed.",
         "challenges": [
           "No operator for managing MCP servers as Kubernetes workloads",
           "AI agents need secure, structured cluster access",
@@ -506,7 +540,7 @@
     "proposal": "Proposal",
     "proposalDesc": "Based on our discussion, I'll provide a detailed proposal with scope, timeline, and investment options.",
     "currentlyAvailable": "Available for Freelance Projects",
-    "currentlyAvailableDesc": "Taking on freelance engagements from Q2/Q3 2026. Kubernetes, AWS/GCP, Observability, DevOps. Frankfurt-based, remote-friendly.",
+    "currentlyAvailableDesc": "Currently working as a freelance Developer Advocate. Open to new engagements in Kubernetes, Platform Engineering, and Observability. Frankfurt-based, remote-friendly.",
     "emailMe": "Email Me",
     "connectLinkedIn": "Connect on LinkedIn"
   },
@@ -646,9 +680,9 @@
     "certificationsDesc": "CKA, CKS, GCP Professional Cloud Architect, CNCF Community Organizer.",
     "keyHighlights": "Key Highlights",
     "currentRole": "Current Role:",
-    "currentRoleDesc": "DevOps Squad Lead at Deloitte Consulting, leading 6+ consultants across two workstreams",
+    "currentRoleDesc": "Freelance Developer Advocate for a sovereign digital platform, driving developer enablement and platform onboarding",
     "cloudExpertise": "Cloud Expertise:",
-    "cloudExpertiseDesc": "Google Cloud Platform, AWS - with focus on Kubernetes and platform engineering",
+    "cloudExpertiseDesc": "Google Cloud Platform, AWS, with a focus on Kubernetes and platform engineering",
     "observability": "Observability:",
     "observabilityDesc": "End-to-end implementation of monitoring strategies using OpenTelemetry, Elastic Stack, and Prometheus",
     "automation": "Automation:",
