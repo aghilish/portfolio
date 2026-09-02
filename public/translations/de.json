@@ -16,14 +16,14 @@
   "home": {
     "hero": "Moin, ich bin Shahrooz, der Cloud- und Kubernetes-Architekt!",
     "heroSubtitle": "Kubernetes, AWS & GCP Plattformen für Unternehmen. Verfügbar als Freelancer.",
-    "bio": "16+ Jahre Softwareentwicklung. Kubernetes, AWS EKS, GCP, OpenTelemetry, DevOps. Aktuell Freelance Developer Advocate für eine souveräne digitale Plattform. Offen für Freelance.",
+    "bio": "16+ Jahre Softwareentwicklung. Kubernetes, AWS EKS, GCP, OpenTelemetry, DevOps. Aktuell Freelance Developer Advocate für eine souveräne Cloud Plattform. Offen für Freelance.",
     "trustedBy": "Vertrauen von führenden Unternehmen",
     "featuredWork": "Ausgewählte Projekte",
     "featuredWorkItems": [
       {
         "company": "Selbständig",
         "title": "Freelance Developer Advocate",
-        "description": "Treibt Developer Enablement für eine souveräne digitale Plattform voran, mit Hands-on Labs, Tutorials und Workshops für einen sicheren Einstieg der Engineering Teams.",
+        "description": "Treibt Developer Enablement für eine souveräne Cloud Plattform voran, mit Hands-on Labs, Tutorials und Workshops für einen sicheren Einstieg der Engineering Teams.",
         "tags": ["Kubernetes", "Rancher RKE2", "Backstage", "ArgoCD"],
         "href": "/portfolio#developer-advocate"
       },
@@ -88,7 +88,7 @@
     "storyTitle": "Die Geschichte",
     "paragraph1": "Ich bin <strong>Shahrooz Aghili</strong>, freiberuflicher Developer Advocate und Platform Engineer mit Sitz in Frankfurt am Main. Mit über 16 Jahren Erfahrung in der Softwareentwicklung habe ich mich von der akademischen Forschung in der Telekommunikation zu einem vertrauenswürdigen Berater für Fortune 500 Unternehmen bei deren Cloud Native Transformationen entwickelt.",
     "paragraph2": "Meine Reise begann an der <strong>Sharif University of Technology</strong>, wo ich Software Defined Networks erforschte. Nach einem Promotionsstudium an der <strong>TU Darmstadt</strong> mit Fokus auf 5G Netzwerktechnologien im Millimeterwellenbereich wechselte ich in die Industrie und brachte wissenschaftliche Genauigkeit in praktische Engineering Herausforderungen ein.",
-    "paragraph3": "Heute arbeite ich als Freelance Developer Advocate für eine souveräne digitale Plattform und baue Hands-on Labs, Tutorials und Workshops, die Engineering Teams den Einstieg in Cloud Native Praktiken erleichtern. Davor leitete ich DevOps Workstreams bei <strong>Deloitte Consulting</strong> und entwickelte Plattformen für Automobilriesen wie Volkswagen und Audi. Mir ist wichtig, komplexe Cloud Native Technologien zugänglich zu machen, durch meine Beratungsarbeit, Community Organisation und Bildungsinhalte.",
+    "paragraph3": "Heute arbeite ich als Freelance Developer Advocate für eine souveräne Cloud Plattform und baue Hands-on Labs, Tutorials und Workshops, die Engineering Teams den Einstieg in Cloud Native Praktiken erleichtern. Davor leitete ich DevOps Workstreams bei <strong>Deloitte Consulting</strong> und entwickelte Plattformen für Automobilriesen wie Volkswagen und Audi. Mir ist wichtig, komplexe Cloud Native Technologien zugänglich zu machen, durch meine Beratungsarbeit, Community Organisation und Bildungsinhalte.",
     "whatIDo": "Was ich mache",
     "platformEngineering": "Platform Engineering",
     "platformEngineeringDesc": "Design und Implementierung von Kubernetes-basierten Plattformen, die Teams ermöglichen, schneller und mit mehr Vertrauen zu liefern. Fokus auf Developer Experience und Operational Excellence.",
@@ -102,7 +102,7 @@
         "date": "2026 — Heute",
         "title": "Freelance Developer Advocate",
         "company": "Selbständig",
-        "description": "Treibt Developer Enablement für eine souveräne digitale Plattform voran. Baut Hands-on Labs, Video Tutorials und Workshops, betreibt Trainingsinfrastruktur auf Rancher RKE2 mit richtliniengestützter Mandantentrennung und arbeitet eng mit Customer Success und Platform Governance Teams beim Onboarding zusammen."
+        "description": "Treibt Developer Enablement für eine souveräne Cloud Plattform voran. Baut Hands-on Labs, Video Tutorials und Workshops, betreibt Trainingsinfrastruktur auf Rancher RKE2 mit richtliniengestützter Mandantentrennung und arbeitet eng mit Customer Success und Platform Governance Teams beim Onboarding zusammen."
       },
       {
         "date": "2025 — 2026",
@@ -366,8 +366,8 @@
       {
         "id": "developer-advocate",
         "company": "Selbständig",
-        "title": "Developer Advocacy für eine souveräne digitale Plattform",
-        "context": "Eine souveräne digitale Plattform wollte die Nutzung ihrer internen Developer Plattform in den Engineering Teams beschleunigen, bei gleichzeitig strengen Vorgaben für Governance und Mandantentrennung.",
+        "title": "Developer Advocacy für eine souveräne Cloud Plattform",
+        "context": "Eine souveräne Cloud Plattform wollte die Nutzung ihrer internen Developer Plattform in den Engineering Teams beschleunigen, bei gleichzeitig strengen Vorgaben für Governance und Mandantentrennung.",
         "challenges": [
           "Hohe kognitive Last verlangsamte das Onboarding neuer Teams auf der Plattform",
           "Kein standardisierter, praxisnaher Weg, um die Golden Paths der Plattform zu vermitteln",
@@ -680,7 +680,7 @@
     "certificationsDesc": "CKA, CKS, GCP Professional Cloud Architect, CNCF Community Organizer.",
     "keyHighlights": "Wichtige Highlights",
     "currentRole": "Aktuelle Rolle:",
-    "currentRoleDesc": "Freelance Developer Advocate für eine souveräne digitale Plattform, Developer Enablement und Plattform Onboarding",
+    "currentRoleDesc": "Freelance Developer Advocate für eine souveräne Cloud Plattform, Developer Enablement und Plattform Onboarding",
     "cloudExpertise": "Cloud Expertise:",
     "cloudExpertiseDesc": "Google Cloud Platform, AWS, mit Fokus auf Kubernetes und Platform Engineering",
     "observability": "Observability:",

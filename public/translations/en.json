@@ -16,14 +16,14 @@
   "home": {
     "hero": "Moin, I'm Shahrooz, the Cloud and Kubernetes architect!",
     "heroSubtitle": "Kubernetes, AWS & GCP platforms for enterprises. Available for freelance.",
-    "bio": "16+ years software engineering. Kubernetes, AWS EKS, GCP, OpenTelemetry, DevOps. Currently freelance Developer Advocate for a sovereign digital platform. Open for freelance.",
+    "bio": "16+ years software engineering. Kubernetes, AWS EKS, GCP, OpenTelemetry, DevOps. Currently freelance Developer Advocate for a sovereign cloud platform. Open for freelance.",
     "trustedBy": "Trusted by leading enterprises",
     "featuredWork": "Featured Work",
     "featuredWorkItems": [
       {
         "company": "Independent",
         "title": "Freelance Developer Advocate",
-        "description": "Driving developer enablement for a sovereign digital platform, building hands-on labs, tutorials, and workshops that help engineering teams onboard with confidence.",
+        "description": "Driving developer enablement for a sovereign cloud platform, building hands-on labs, tutorials, and workshops that help engineering teams onboard with confidence.",
         "tags": ["Kubernetes", "Rancher RKE2", "Backstage", "ArgoCD"],
         "href": "/portfolio#developer-advocate"
       },
@@ -88,7 +88,7 @@
     "storyTitle": "The Story",
     "paragraph1": "I'm <strong>Shahrooz Aghili</strong>, a freelance Developer Advocate and Platform Engineer based in Frankfurt, Germany. With over 16 years in software engineering, I've evolved from academic research in telecommunications to becoming a trusted advisor for Fortune 500 companies on their cloud-native transformations.",
     "paragraph2": "My journey began at <strong>Sharif University of Technology</strong>, where I researched Software Defined Networks. After pursuing a PhD at <strong>TU Darmstadt</strong> (focusing on 5G mm-wave technologies), I pivoted to the industry, bringing research rigor to practical engineering challenges.",
-    "paragraph3": "Today, I work as a freelance Developer Advocate for a sovereign digital platform, building hands-on labs, tutorials, and workshops that help engineering teams adopt cloud-native practices with confidence. Before that, I led DevOps workstreams at <strong>Deloitte Consulting</strong>, architecting platforms for automotive giants like Volkswagen and Audi. I'm passionate about making complex cloud-native technologies accessible through my consulting work, community organizing, and educational content.",
+    "paragraph3": "Today, I work as a freelance Developer Advocate for a sovereign cloud platform, building hands-on labs, tutorials, and workshops that help engineering teams adopt cloud-native practices with confidence. Before that, I led DevOps workstreams at <strong>Deloitte Consulting</strong>, architecting platforms for automotive giants like Volkswagen and Audi. I'm passionate about making complex cloud-native technologies accessible through my consulting work, community organizing, and educational content.",
     "whatIDo": "What I Do",
     "platformEngineering": "Platform Engineering",
     "platformEngineeringDesc": "Designing and implementing Kubernetes-based platforms that enable teams to ship faster with confidence. Focus on developer experience and operational excellence.",
@@ -102,7 +102,7 @@
         "date": "2026 — Present",
         "title": "Freelance Developer Advocate",
         "company": "Independent",
-        "description": "Driving developer enablement for a sovereign digital platform. Building hands-on labs, video tutorials, and workshops, operating training infrastructure on Rancher RKE2 with policy-enforced tenant isolation, and partnering with Customer Success and Platform Governance teams on onboarding."
+        "description": "Driving developer enablement for a sovereign cloud platform. Building hands-on labs, video tutorials, and workshops, operating training infrastructure on Rancher RKE2 with policy-enforced tenant isolation, and partnering with Customer Success and Platform Governance teams on onboarding."
       },
       {
         "date": "2025 — 2026",
@@ -366,8 +366,8 @@
       {
         "id": "developer-advocate",
         "company": "Independent",
-        "title": "Developer Advocacy for a Sovereign Digital Platform",
-        "context": "A sovereign digital platform needed to accelerate adoption of its internal developer platform across engineering teams, while meeting strict governance and tenant isolation requirements.",
+        "title": "Developer Advocacy for a Sovereign Cloud Platform",
+        "context": "A sovereign cloud platform needed to accelerate adoption of its internal developer platform across engineering teams, while meeting strict governance and tenant isolation requirements.",
         "challenges": [
           "High cognitive load was slowing team onboarding onto the platform",
           "No standardized, hands-on way to teach the platform's golden paths",
@@ -680,7 +680,7 @@
     "certificationsDesc": "CKA, CKS, GCP Professional Cloud Architect, CNCF Community Organizer.",
     "keyHighlights": "Key Highlights",
     "currentRole": "Current Role:",
-    "currentRoleDesc": "Freelance Developer Advocate for a sovereign digital platform, driving developer enablement and platform onboarding",
+    "currentRoleDesc": "Freelance Developer Advocate for a sovereign cloud platform, driving developer enablement and platform onboarding",
     "cloudExpertise": "Cloud Expertise:",
     "cloudExpertiseDesc": "Google Cloud Platform, AWS, with a focus on Kubernetes and platform engineering",
     "observability": "Observability:",
