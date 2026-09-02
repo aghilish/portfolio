@@ -1,10 +1,11 @@
 'use client';
 
 import { useLanguage } from '@/contexts/LanguageContext';
-import { DeloitteLogo, VolkswagenLogo, GoogleCloudLogo, CommerzbankLogo, CariadLogo, GitHubLogo, KubernetesLogo, MCPLogo } from '@/components/CompanyLogos';
+import { DeloitteLogo, VolkswagenLogo, GoogleCloudLogo, CommerzbankLogo, CariadLogo, GitHubLogo, KubernetesLogo, MCPLogo, SovereignPlatformLogo } from '@/components/CompanyLogos';
 
 // Logo mapping for case studies (logos can't be stored in JSON)
 const logoMap: Record<string, any[]> = {
+  'developer-advocate': [SovereignPlatformLogo],
   'deloitte-vw': [DeloitteLogo, VolkswagenLogo],
   'gcp-mde': [DeloitteLogo, GoogleCloudLogo],
   'commerzbank': [CommerzbankLogo, GoogleCloudLogo],

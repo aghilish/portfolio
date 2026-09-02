@@ -13,7 +13,8 @@ import {
   LinkedInLogo,
   YouTubeLogo,
   ContactIcon,
-  CalendlyIcon
+  CalendlyIcon,
+  SovereignPlatformLogo
 } from '@/components/CompanyLogos';
 
 const trustedCompanies = [
@@ -32,11 +33,13 @@ const certifications = [
   { name: 'CNCF Organizer', url: 'https://www.credly.com/badges/9e8f0200-9ade-4389-a70c-c6fa2e02deaa' },
 ];
 
-// Logo mapping for featured work (logos can't be stored in JSON)
-const featuredWorkLogos: Record<number, any[]> = {
-  0: [VolkswagenLogo],      // Deloitte × Volkswagen
-  1: [GoogleCloudLogo],     // Deloitte × Google Cloud
-  2: [CommerzbankLogo],     // Commerzbank
+// Logo mapping for featured work, keyed by the case study id in each item's href
+// (not array index — index shifts whenever the order of home.featuredWorkItems changes)
+const featuredWorkLogos: Record<string, any[]> = {
+  'developer-advocate': [SovereignPlatformLogo],
+  'deloitte-vw': [VolkswagenLogo],
+  'gcp-mde': [GoogleCloudLogo],
+  'commerzbank': [CommerzbankLogo],
 };
 
 export default function Home() {
@@ -160,7 +163,10 @@ export default function Home() {
       {/* Featured Work */}
       <h2 className="section-title">{t('home.featuredWork')}</h2>
       <section className="cards-grid">
-        {featuredWork.map((work: any, index: number) => (
+        {featuredWork.map((work: any) => {
+          const workId = work.href?.split('#')[1];
+          const logos = featuredWorkLogos[workId] ?? [];
+          return (
           <article key={work.title} className="card">
             <span className="card__date">{work.company}</span>
             <div className="card__thumbnail" style={{
@@ -172,11 +178,11 @@ export default function Home() {
               height: '200px',
               background: 'linear-gradient(135deg, rgba(0,212,170,0.1) 0%, rgba(77,175,230,0.1) 100%)'
             }}>
-              {featuredWorkLogos[index]?.map((Logo, logoIndex) => (
+              {logos.map((Logo, logoIndex) => (
                 <div
                   key={logoIndex}
                   style={{
-                    width: featuredWorkLogos[index].length > 1 ? '45%' : '60%',
+                    width: logos.length > 1 ? '45%' : '60%',
                     height: 'auto',
                     maxHeight: '80px',
                     display: 'flex',
@@ -199,7 +205,8 @@ export default function Home() {
               {t('home.viewCaseStudy')}
             </Link>
           </article>
-        ))}
+          );
+        })}
       </section>
 
       {/* Leader Section */}

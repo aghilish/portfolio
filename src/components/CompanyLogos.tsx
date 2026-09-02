@@ -123,3 +123,14 @@ export const MCPLogo = ({ className = "" }: { className?: string }) => (
     quality={100}
   />
 );
+
+export const SovereignPlatformLogo = ({ className = "" }: { className?: string }) => (
+  <Image
+    src="/logos/sovereign-platform.svg"
+    alt="Sovereign Digital Platform"
+    width={80}
+    height={80}
+    className={className}
+    quality={100}
+  />
+);
