@@ -119,9 +119,6 @@
   - Unterstützt Tenants auf ihrer Onboarding Journey zur Plattform
   - Produziert Enablement Content von der Idee bis zur Veröffentlichung, darunter Video Tutorials, Hands-on Labs, Storyboards und Workshops nach dem Diátaxis Framework
   - Definiert und trackt Enablement KPIs wie Adoption, Self Service Nutzung und Entwicklerproduktivität über mehrere Plattform Teams hinweg
-  - Baut Golden Path Templates und Self Service Workflows auf Backstage, um Service Scaffolding und Deployment zu standardisieren
-  - Betreibt die Open Source Plattform Educates für Trainings auf einem Rancher RKE2 Cluster, mit Kyverno Policies zur Isolation der Workshop Teilnehmer, und überwacht die Infrastruktur mit Prometheus und Grafana
-  - Etabliert GitOps basierte Delivery Patterns (ArgoCD, Helm) und CI/CD Best Practices als wiederverwendbare Referenz für andere Teams
 ]
 
 #entry(

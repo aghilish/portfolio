@@ -119,9 +119,6 @@
   - Supporting tenants through their onboarding journey to the platform
   - Producing enablement content from concept to publication, including video tutorials, hands-on labs, storyboards, and workshops, following the Diátaxis documentation framework
   - Defining and tracking enablement KPIs such as adoption, self-service usage, and developer productivity across platform teams
-  - Building golden-path templates and self-service workflows on Backstage to standardize service scaffolding and deployment
-  - Operating the open-source training platform Educates on a Rancher RKE2 cluster, using Kyverno policies to isolate workshop participants, and monitoring the infrastructure with Prometheus and Grafana
-  - Establishing GitOps-based delivery patterns (ArgoCD, Helm) and CI/CD best practices as reusable reference implementations for other teams
 ]
 
 #entry(
