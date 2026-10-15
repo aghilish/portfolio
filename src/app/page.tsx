@@ -52,6 +52,7 @@ export default function Home() {
     <>
       {/* Hero Section */}
       <section className="intro intro--large">
+        <div className="hero-banner" role="img" aria-label="Kubernetes terminal themed cover graphic" />
         <div className="hero-photo">
           <Image
             src="/shahrooz.jpeg"
